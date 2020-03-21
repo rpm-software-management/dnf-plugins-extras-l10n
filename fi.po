@@ -1,19 +1,20 @@
-# Jiri Grönroos <jiri.gronroos@iki.fi>, 2017. #zanata
-# Jiri Grönroos <jiri.gronroos@iki.fi>, 2018. #zanata
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2017. #zanata, 2020.
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2018. #zanata, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-19 15:27+0100\n"
-"PO-Revision-Date: 2018-05-12 01:58+0000\n"
+"PO-Revision-Date: 2020-03-22 07:00+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
-"Language-Team: Finnish\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.11.3\n"
 
 #. Translators: This string is only used in unit tests.
 #: ../plugins/system_upgrade.py:46
@@ -31,6 +32,10 @@ msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
 "To remove cached metadata and transaction use 'dnf {command} clean'"
 msgstr ""
+"Lataus valmistui! Suorita 'dnf {command} reboot' aloittaaksesi "
+"versiopäivityksen.\n"
+"Poista välimuistissa olevat metatiedot ja transaktio suorittamalla 'dnf "
+"{command} clean'"
 
 #: ../plugins/system_upgrade.py:67
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
@@ -125,7 +130,7 @@ msgstr "muu järjestelmäpäivitystyökalu on käynnissä. poistutaan hiljaa."
 #: ../plugins/system_upgrade.py:552
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
-msgstr ""
+msgstr "suorita 'dnf {command} reboot' aloittaaksesi versiopäivityksen"
 
 #: ../plugins/system_upgrade.py:570
 msgid "Rebooting to perform upgrade."
@@ -133,7 +138,7 @@ msgstr "Käynnistetään uudelleen järjestelmäpäivityksen suorittamiseksi."
 
 #: ../plugins/system_upgrade.py:594
 msgid "Starting offline upgrade. This will take a while."
-msgstr ""
+msgstr "Käynnistetään offline-versiopäivitystä. Tämä saattaa kestää hetken."
 
 #: ../plugins/system_upgrade.py:596
 msgid "Starting offline distrosync. This will take a while."
@@ -252,7 +257,7 @@ msgstr ""
 
 #: ../plugins/kickstart.py:60
 msgid "Install packages defined in a kickstart file on your system"
-msgstr ""
+msgstr "Asenna järjestelmäsi kickstart-tiedostossa määritetyt paketit"
 
 #: ../plugins/kickstart.py:65
 msgid "kickstart file"
