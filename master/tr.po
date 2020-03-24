@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-19 15:27+0100\n"
-"PO-Revision-Date: 2020-03-22 07:00+0000\n"
+"PO-Revision-Date: 2020-03-24 09:48+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-extras/tr/>\n"
@@ -64,7 +64,7 @@ msgstr "-- günlük kaydı bulunamadı --"
 
 #: ../plugins/system_upgrade.py:320
 msgid "Cannot find logs with this index."
-msgstr "Bu indekse sahip günlük bulunamıyor."
+msgstr "Bu indekse sahip günlük kaydı bulunamıyor."
 
 #: ../plugins/system_upgrade.py:329
 msgid "Unable to match systemd journal entry"
