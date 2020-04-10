@@ -6,10 +6,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-29 09:18-0400\n"
-"PO-Revision-Date: 2020-03-24 09:48+0000\n"
+"PO-Revision-Date: 2020-04-11 15:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-extras/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: plugins/kickstart.py:60
 msgid "Install packages defined in a kickstart file on your system"
-msgstr "Kickstart dosyasında tanımlanan paketleri sisteminize yükleyin"
+msgstr "Kickstart dosyasında tanımlanan paketleri sisteminize kurun"
 
 #: plugins/kickstart.py:65
 msgid "kickstart file"
