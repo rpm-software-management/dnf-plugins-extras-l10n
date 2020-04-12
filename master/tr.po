@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-29 09:18-0400\n"
-"PO-Revision-Date: 2020-04-11 15:40+0000\n"
+"PO-Revision-Date: 2020-04-14 05:29+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-extras/tr/>\n"
@@ -105,7 +105,7 @@ msgid ""
 msgstr ""
 "İndirme tamamlandı! Yükseltmeyi başlatmak için 'dnf {command} reboot' "
 "komutunu kullanın.\n"
-"Önbelleğe alınmış meta verileri ve işlemi kaldırmak için 'dnf {command} "
+"Önbelleğe alınmış üst verileri ve işlemi kaldırmak için 'dnf {command} "
 "clean' komutunu kullanın"
 
 #: plugins/system_upgrade.py:67
@@ -221,8 +221,7 @@ msgstr "Çevrim dışı yükseltme başlatılıyor. Bu biraz zaman alacak."
 
 #: plugins/system_upgrade.py:596
 msgid "Starting offline distrosync. This will take a while."
-msgstr ""
-"Çevrim dışı dağıtım senkronizasyonu başlatılıyor. Bu biraz zaman alacak."
+msgstr "Çevrim dışı dağıtım eşzamanlaması başlatılıyor. Bu biraz zaman alacak."
 
 #: plugins/system_upgrade.py:598
 msgid "Starting system upgrade. This will take a while."
@@ -255,7 +254,7 @@ msgstr "Sistemi çevrim dışı yükseltmeye hazırla"
 
 #: plugins/system_upgrade.py:744
 msgid "Prepare offline distrosync of the system"
-msgstr "Sistemi çevrim dışı dağıtım senkronizasyonuna hazırla"
+msgstr "Sistemi çevrim dışı dağıtım eşzamanlamasına hazırla"
 
 #: plugins/torproxy.py:31
 msgid "Disabling torproxy plugin: cannot connect to the Tor network"
