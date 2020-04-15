@@ -1,5 +1,5 @@
-# scootergrisen <scootergrisen@gmail.com>, 2018. #zanata
-# scootergrisen <scootergrisen@gmail.com>, 2019. #zanata
+# scootergrisen <scootergrisen@gmail.com>, 2018. #zanata, 2020.
+# scootergrisen <scootergrisen@gmail.com>, 2019. #zanata, 2020.
 # Anonymous <noreply@weblate.org>, 2020.
 msgid ""
 msgstr ""
@@ -7,7 +7,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-29 09:18-0400\n"
 "PO-Revision-Date: 2020-04-15 12:02+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-extras/da/>\n"
 "Language: da\n"
@@ -206,7 +206,7 @@ msgstr "Genstart for at udføre opgraderingen."
 
 #: plugins/system_upgrade.py:594
 msgid "Starting offline upgrade. This will take a while."
-msgstr "Starter systemopgradering - det kan tage noget tid."
+msgstr "Starter offlineopgradering. Det vil tage noget tid."
 
 #: plugins/system_upgrade.py:596
 msgid "Starting offline distrosync. This will take a while."
