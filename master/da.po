@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-29 09:18-0400\n"
-"PO-Revision-Date: 2020-04-15 12:02+0000\n"
+"PO-Revision-Date: 2020-04-17 10:40+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-extras/da/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 4.0.1\n"
 
 #: plugins/kickstart.py:60
 msgid "Install packages defined in a kickstart file on your system"
@@ -103,6 +103,9 @@ msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
 "To remove cached metadata and transaction use 'dnf {command} clean'"
 msgstr ""
+"Download færdig! Brug 'dnf {command} reboot' til at starte opgraderingen.\n"
+"For at fjerne den mellemlagret metadata og transaktion bruges 'dnf {command} "
+"clean'"
 
 #: plugins/system_upgrade.py:67
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
@@ -151,10 +154,12 @@ msgstr "hvilke logge som skal vises"
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
 msgstr ""
+"Inkompatibel version af data. Kør 'dnf {command} download [TILVALG]' igen"
 
 #: plugins/system_upgrade.py:435
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
 msgstr ""
+"Kommandoen 'offline-distrosync' kan ikke bruges med tilvalget --no-downgrade"
 
 #: plugins/system_upgrade.py:457
 msgid "Additional information for System Upgrade: {}"
@@ -182,6 +187,8 @@ msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
 "download [OPTIONS]'"
 msgstr ""
+"transaktionen var ikke forberedt til '{command}'. Kør 'dnf {command} "
+"download [TILVALG]' igen"
 
 #: plugins/system_upgrade.py:534
 msgid "upgrade is already scheduled"
@@ -198,7 +205,7 @@ msgstr "der kører et andet opgraderingsvæktøj - afslutter stille."
 #: plugins/system_upgrade.py:552
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
-msgstr ""
+msgstr "brug 'dnf {command} reboot' for at begynde opgraderingen"
 
 #: plugins/system_upgrade.py:570
 msgid "Rebooting to perform upgrade."
@@ -210,7 +217,7 @@ msgstr "Starter offlineopgradering. Det vil tage noget tid."
 
 #: plugins/system_upgrade.py:596
 msgid "Starting offline distrosync. This will take a while."
-msgstr ""
+msgstr "Starter offlinedistrosync. Det vil tage noget tid."
 
 #: plugins/system_upgrade.py:598
 msgid "Starting system upgrade. This will take a while."
@@ -239,11 +246,11 @@ msgstr "Opgradering gennemført! Rydder op og genstarter..."
 
 #: plugins/system_upgrade.py:739
 msgid "Prepare offline upgrade of the system"
-msgstr ""
+msgstr "Forbered offlineopgradering af systemet"
 
 #: plugins/system_upgrade.py:744
 msgid "Prepare offline distrosync of the system"
-msgstr ""
+msgstr "Forbered offlinedistrosync af systemet"
 
 #: plugins/torproxy.py:31
 msgid "Disabling torproxy plugin: cannot connect to the Tor network"
