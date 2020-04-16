@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-29 09:18-0400\n"
-"PO-Revision-Date: 2020-04-14 05:29+0000\n"
+"PO-Revision-Date: 2020-04-17 10:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-extras/tr/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 4.0.1\n"
 
 #: plugins/kickstart.py:60
 msgid "Install packages defined in a kickstart file on your system"
@@ -125,8 +125,7 @@ msgstr "%s durum dosyası yüklenemedi, boş durumla devam ediliyor."
 
 #: plugins/system_upgrade.py:295
 msgid "The following boots appear to contain upgrade logs:"
-msgstr ""
-"Aşağıdaki sistem başlatmaları yükseltme günlükleri içeriyor gibi görünüyor:"
+msgstr "Aşağıdaki önyüklemeler, yükseltme günlükleri içeriyor gibi görünüyor:"
 
 #: plugins/system_upgrade.py:305
 msgid "-- no logs were found --"
@@ -183,7 +182,7 @@ msgstr "İşlem iptal edildi."
 
 #: plugins/system_upgrade.py:527
 msgid "system is not ready for upgrade"
-msgstr "sistem yükseltmeye hazır değil"
+msgstr "sistem yükseltmek için hazır değil"
 
 #: plugins/system_upgrade.py:530
 #, python-brace-format
@@ -196,11 +195,11 @@ msgstr ""
 
 #: plugins/system_upgrade.py:534
 msgid "upgrade is already scheduled"
-msgstr "yükseltme zaten planlanmış"
+msgstr "yükseltme zaten zamanlanmış"
 
 #: plugins/system_upgrade.py:540
 msgid "trigger file does not exist. exiting quietly."
-msgstr "tetikleyici dosyası yok. sessizce çıkılıyor."
+msgstr "tetikleyici dosyası mevcut değil. sessizce çıkılıyor."
 
 #: plugins/system_upgrade.py:543
 msgid "another upgrade tool is running. exiting quietly."
