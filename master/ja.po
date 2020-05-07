@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-01 09:18-0400\n"
+"POT-Creation-Date: 2020-05-06 09:18-0400\n"
 "PO-Revision-Date: 2020-05-07 08:40+0000\n"
 "Last-Translator: Casey Jones <nahareport@yahoo.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -105,12 +105,16 @@ msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
 "To remove cached metadata and transaction use 'dnf {command} clean'"
 msgstr ""
-"ダウンロード完了! アップグレード開始には 'dnf {command} reboot' を使ってください。\n"
-"キャッシュされた metadata と transaction の削除には 'dnf {command} clean' を使ってください"
+"ダウンロード完了! アップグレード開始には 'dnf {command} reboot' を使ってくだ"
+"さい。\n"
+"キャッシュされた metadata と transaction の削除には 'dnf {command} clean' を"
+"使ってください"
 
 #: plugins/system_upgrade.py:67
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
-msgstr "すみませんが '--network' の代わりに 'download --releasever' を使う必要があります"
+msgstr ""
+"すみませんが '--network' の代わりに 'download --releasever' を使う必要があり"
+"ます"
 
 #: plugins/system_upgrade.py:122
 #, python-format
@@ -144,7 +148,8 @@ msgstr "システムに新リリースにアップグレードするための準
 
 #: plugins/system_upgrade.py:360
 msgid "keep installed packages if the new release's version is older"
-msgstr "新しいリリースバージョンがインストール済パッケージより古い場合は維持する"
+msgstr ""
+"新しいリリースバージョンがインストール済パッケージより古い場合は維持する"
 
 #: plugins/system_upgrade.py:364
 msgid "which logs to show"
@@ -153,11 +158,14 @@ msgstr "どのログを表示"
 #: plugins/system_upgrade.py:398
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
-msgstr "データの非互換バージョン。 'dnf {command} download [OPTIONS]' を再実行してください"
+msgstr ""
+"データの非互換バージョン。 'dnf {command} download [OPTIONS]' を再実行してく"
+"ださい"
 
 #: plugins/system_upgrade.py:435
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
-msgstr "コマンド 'offline-distrosync' は --no-downgrade オプションと使用できません"
+msgstr ""
+"コマンド 'offline-distrosync' は --no-downgrade オプションと使用できません"
 
 #: plugins/system_upgrade.py:457
 msgid "Additional information for System Upgrade: {}"
@@ -168,7 +176,8 @@ msgid ""
 "Before you continue ensure that your system is fully upgraded by running "
 "\"dnf --refresh upgrade\". Do you want to continue"
 msgstr ""
-"継続する前にg \"dnf --refresh upgrade\" 実行によりシステム全体がアップグレードされることを確認してください。継続しますか"
+"継続する前にg \"dnf --refresh upgrade\" 実行によりシステム全体がアップグレー"
+"ドされることを確認してください。継続しますか"
 
 #: plugins/system_upgrade.py:464
 msgid "Operation aborted."
@@ -184,8 +193,8 @@ msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
 "download [OPTIONS]'"
 msgstr ""
-"トランザクションは '{command}' の準備ができていません。 'dnf {command} download [OPTIONS]' "
-"を再実行してください"
+"トランザクションは '{command}' の準備ができていません。 'dnf {command} "
+"download [OPTIONS]' を再実行してください"
 
 #: plugins/system_upgrade.py:534
 msgid "upgrade is already scheduled"
@@ -265,7 +274,9 @@ msgstr "Tracer API 呼び出しが予期せず終了しました:"
 msgid ""
 "Please visit https://github.com/FrostyX/tracer/issues and submit the issue. "
 "Thank you"
-msgstr "https://github.com/FrostyX/tracer/issues に行きこの問題を報告してください。ありがとうございます"
+msgstr ""
+"https://github.com/FrostyX/tracer/issues に行きこの問題を報告してください。あ"
+"りがとうございます"
 
 #: plugins/tracer.py:101
 msgid "We apologize for any inconvenience"
