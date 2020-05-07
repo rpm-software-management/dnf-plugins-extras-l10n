@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-07 09:18-0400\n"
-"PO-Revision-Date: 2020-05-07 14:48+0000\n"
+"PO-Revision-Date: 2020-05-08 15:40+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-extras/hu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0.3\n"
+"X-Generator: Weblate 4.0.4\n"
 
 #: plugins/kickstart.py:60
 msgid "Install packages defined in a kickstart file on your system"
@@ -220,11 +220,11 @@ msgstr "Újraindítás a frissítés végrehajtásához."
 
 #: plugins/system_upgrade.py:594
 msgid "Starting offline upgrade. This will take a while."
-msgstr "Offline rendszerfrissítés elkezdése. Ez eltart egy darabig."
+msgstr "Offline frissítés elkezdése. Ez eltart egy darabig."
 
 #: plugins/system_upgrade.py:596
 msgid "Starting offline distrosync. This will take a while."
-msgstr ""
+msgstr "Offline disztribúciószinkronizálás elkezdése. Ez eltart egy darabig."
 
 #: plugins/system_upgrade.py:598
 msgid "Starting system upgrade. This will take a while."
@@ -253,11 +253,11 @@ msgstr "Frissítés kész! Tisztítás és újraindítás…"
 
 #: plugins/system_upgrade.py:739
 msgid "Prepare offline upgrade of the system"
-msgstr ""
+msgstr "A rendszer offline frissítésének előkészítése"
 
 #: plugins/system_upgrade.py:744
 msgid "Prepare offline distrosync of the system"
-msgstr ""
+msgstr "A rendszer offline disztribúciófrissítésének előkészítése"
 
 #: plugins/torproxy.py:31
 msgid "Disabling torproxy plugin: cannot connect to the Tor network"
