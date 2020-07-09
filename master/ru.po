@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-26 09:18-0400\n"
+"POT-Creation-Date: 2020-07-08 09:18-0400\n"
 "PO-Revision-Date: 2020-03-29 20:38+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -16,15 +16,15 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.11.3\n"
 
-#: plugins/kickstart.py:60
+#: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
 msgstr "Установка пакетов, определенных в файле кикстарта, в систему "
 
-#: plugins/kickstart.py:65
+#: plugins/kickstart.py:62
 msgid "kickstart file"
 msgstr "файл кикстарта"
 
-#: plugins/kickstart.py:83
+#: plugins/kickstart.py:80
 #, python-format
 msgid "file cannot be parsed: %s"
 msgstr "не удается разобрать файл: %s"
@@ -89,16 +89,16 @@ msgid "creating post_snapshot failed: %s"
 msgstr "не удалось создать последующий снимок: %s"
 
 #. Translators: This string is only used in unit tests.
-#: plugins/system_upgrade.py:46
+#: plugins/system_upgrade.py:45
 msgid "the color of the sky"
 msgstr "цвет неба"
 
-#: plugins/system_upgrade.py:62
+#: plugins/system_upgrade.py:61
 msgid "Need a --releasever greater than the current system version."
 msgstr "--releasever должно быть больше текущей версии системы."
 
 #. Translators: do not change "reboot" here
-#: plugins/system_upgrade.py:64
+#: plugins/system_upgrade.py:63
 #, python-brace-format
 msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
@@ -109,68 +109,68 @@ msgstr ""
 "Для удаления кэшированных метаданных и транзакции используйте «dnf {command} "
 "clean»"
 
-#: plugins/system_upgrade.py:67
+#: plugins/system_upgrade.py:66
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
 msgstr ""
 "К сожалению, необходимо использовать «download --releasever» вместо «--"
 "network»"
 
-#: plugins/system_upgrade.py:122
+#: plugins/system_upgrade.py:121
 #, python-format
 msgid "Screen blanking can't be disabled: %s"
 msgstr "Гашение экрана не отключается: %s"
 
-#: plugins/system_upgrade.py:143
+#: plugins/system_upgrade.py:142
 #, python-format
 msgid "Failed loading state file: %s, continuing with empty state."
 msgstr ""
 "Не удалось загрузить файл состояния: %s, продолжение с пустым состоянием."
 
-#: plugins/system_upgrade.py:295
+#: plugins/system_upgrade.py:294
 msgid "The following boots appear to contain upgrade logs:"
 msgstr "Похоже, что в следующих загрузках есть журналы обновления:"
 
-#: plugins/system_upgrade.py:305
+#: plugins/system_upgrade.py:304
 msgid "-- no logs were found --"
 msgstr "-- журналы не найдены --"
 
-#: plugins/system_upgrade.py:320
+#: plugins/system_upgrade.py:319
 msgid "Cannot find logs with this index."
 msgstr "Не удается найти журналы с этим индексом."
 
-#: plugins/system_upgrade.py:329
+#: plugins/system_upgrade.py:328
 msgid "Unable to match systemd journal entry"
 msgstr "Не удалось найти соответствие записи в журнале systemd"
 
-#: plugins/system_upgrade.py:350
+#: plugins/system_upgrade.py:349
 msgid "Prepare system for upgrade to a new release"
 msgstr "Подготовка системы к обновлению до новой версии"
 
-#: plugins/system_upgrade.py:360
+#: plugins/system_upgrade.py:359
 msgid "keep installed packages if the new release's version is older"
 msgstr "оставить установленные пакеты, если версия нового выпуска старше"
 
-#: plugins/system_upgrade.py:364
+#: plugins/system_upgrade.py:363
 msgid "which logs to show"
 msgstr "какие журналы показать"
 
-#: plugins/system_upgrade.py:398
+#: plugins/system_upgrade.py:397
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
 msgstr ""
 "Несовместимая версия данных. Еще раз запустите «dnf {command} download "
 "[ПАРАМЕТРЫ]»"
 
-#: plugins/system_upgrade.py:435
+#: plugins/system_upgrade.py:434
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
 msgstr ""
 "Команду «offline-distrosync» нельзя использовать с параметром --no-downgrade"
 
-#: plugins/system_upgrade.py:457
+#: plugins/system_upgrade.py:456
 msgid "Additional information for System Upgrade: {}"
 msgstr "Дополнительная информация для обновления системы: {}"
 
-#: plugins/system_upgrade.py:460
+#: plugins/system_upgrade.py:459
 msgid ""
 "Before you continue ensure that your system is fully upgraded by running "
 "\"dnf --refresh upgrade\". Do you want to continue"
@@ -178,15 +178,15 @@ msgstr ""
 "Прежде, чем продолжить, убедитесь, что ваша система полностью обновлена, с "
 "помощью команды «dnf --refresh upgrade». Хотите продолжить"
 
-#: plugins/system_upgrade.py:464
+#: plugins/system_upgrade.py:463
 msgid "Operation aborted."
 msgstr "Операция прервана."
 
-#: plugins/system_upgrade.py:527
+#: plugins/system_upgrade.py:526
 msgid "system is not ready for upgrade"
 msgstr "система не готова к обновлению"
 
-#: plugins/system_upgrade.py:530
+#: plugins/system_upgrade.py:529
 #, python-brace-format
 msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
@@ -195,67 +195,67 @@ msgstr ""
 "транзакция не была подготовлена для «{command}». Еще раз запустите «dnf "
 "{command} download [ПАРАМЕТРЫ]»"
 
-#: plugins/system_upgrade.py:534
+#: plugins/system_upgrade.py:533
 msgid "upgrade is already scheduled"
 msgstr "обновление уже запланировано"
 
-#: plugins/system_upgrade.py:540
+#: plugins/system_upgrade.py:539
 msgid "trigger file does not exist. exiting quietly."
 msgstr "триггерный файл не существует, завершаем работу."
 
-#: plugins/system_upgrade.py:543
+#: plugins/system_upgrade.py:542
 msgid "another upgrade tool is running. exiting quietly."
 msgstr "работает еще одно средство обновления, завершаем работу."
 
-#: plugins/system_upgrade.py:552
+#: plugins/system_upgrade.py:551
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
 msgstr "используйте «dnf {command} reboot», чтобы начать обновление"
 
-#: plugins/system_upgrade.py:570
+#: plugins/system_upgrade.py:569
 msgid "Rebooting to perform upgrade."
 msgstr "Перезагрузка для выполнения обновления."
 
-#: plugins/system_upgrade.py:594
+#: plugins/system_upgrade.py:593
 msgid "Starting offline upgrade. This will take a while."
 msgstr "Начинается автономное обновление. На это понадобится некоторое время."
 
-#: plugins/system_upgrade.py:596
+#: plugins/system_upgrade.py:595
 msgid "Starting offline distrosync. This will take a while."
 msgstr ""
 "Начинается автономная синхронизация дистрибутива. На это понадобится "
 "некоторое время."
 
-#: plugins/system_upgrade.py:598
+#: plugins/system_upgrade.py:597
 msgid "Starting system upgrade. This will take a while."
 msgstr "Запуск обновления системы. На это потребуется какое-то время."
 
-#: plugins/system_upgrade.py:630 plugins/system_upgrade.py:639
+#: plugins/system_upgrade.py:629 plugins/system_upgrade.py:638
 #, python-format
 msgid "Unable to match package: %s"
 msgstr "Не удалось найти соответствие пакету: %s"
 
-#: plugins/system_upgrade.py:644
+#: plugins/system_upgrade.py:643
 msgid "Unable to match some of packages"
 msgstr "Не удалось найти соответствие некоторым пакетам"
 
-#: plugins/system_upgrade.py:647
+#: plugins/system_upgrade.py:646
 msgid "Cleaning up downloaded data..."
 msgstr "Очистка загруженных данных..."
 
-#: plugins/system_upgrade.py:725
+#: plugins/system_upgrade.py:724
 msgid "Download finished."
 msgstr "Загрузка закончена."
 
-#: plugins/system_upgrade.py:729 plugins/system_upgrade.py:730
+#: plugins/system_upgrade.py:728 plugins/system_upgrade.py:729
 msgid "Upgrade complete! Cleaning up and rebooting..."
 msgstr "Обновление завершилось! Очистка и перезагрузка..."
 
-#: plugins/system_upgrade.py:739
+#: plugins/system_upgrade.py:738
 msgid "Prepare offline upgrade of the system"
 msgstr "Подготовить автономное обновление системы"
 
-#: plugins/system_upgrade.py:744
+#: plugins/system_upgrade.py:743
 msgid "Prepare offline distrosync of the system"
 msgstr "Подготовить автономную синхронизацию дистрибутива системы"
 
@@ -263,15 +263,15 @@ msgstr "Подготовить автономную синхронизацию �
 msgid "Disabling torproxy plugin: cannot connect to the Tor network"
 msgstr "Отключение модуля torproxy: не удается подключиться к сети Tor"
 
-#: plugins/tracer.py:70
+#: plugins/tracer.py:69
 msgid "For more information run:"
 msgstr "Для подробной информации запустите:"
 
-#: plugins/tracer.py:97
+#: plugins/tracer.py:96
 msgid "Call to Tracer API ended unexpectedly:"
 msgstr "Вызов Tracer API завершился неожиданно:"
 
-#: plugins/tracer.py:99
+#: plugins/tracer.py:98
 msgid ""
 "Please visit https://github.com/FrostyX/tracer/issues and submit the issue. "
 "Thank you"
@@ -279,6 +279,6 @@ msgstr ""
 "Посетите https://github.com/FrostyX/tracer/issues и отправьте сообщение о "
 "проблеме. Спасибо"
 
-#: plugins/tracer.py:101
+#: plugins/tracer.py:100
 msgid "We apologize for any inconvenience"
 msgstr "Приносим извинения за неудобства"
