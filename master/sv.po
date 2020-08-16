@@ -1,21 +1,22 @@
-# Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata
-# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata
-# Göran Uddeborg <goeran@uddeborg.se>, 2019. #zanata
+# Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata, 2020.
+# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020.
+# Göran Uddeborg <goeran@uddeborg.se>, 2019. #zanata, 2020.
 # Göran Uddeborg <goeran@uddeborg.se>, 2020. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-18 09:18-0400\n"
-"PO-Revision-Date: 2020-03-07 10:25+0000\n"
+"PO-Revision-Date: 2020-08-17 21:29+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
-"Language-Team: Swedish\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -105,7 +106,7 @@ msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
 "To remove cached metadata and transaction use 'dnf {command} clean'"
 msgstr ""
-"Hämtningen färdig!  Använd ”dnf {command} reboot” för att starta "
+"Hämtningen färdig! Använd ”dnf {command} reboot” för att starta "
 "uppgraderingen.\n"
 "För att ta bort cachade metadata och transaktioner, använd ”dnf {command} "
 "clean”"
@@ -158,13 +159,12 @@ msgstr "vilka loggar som skall visas"
 #: plugins/system_upgrade.py:397
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
-msgstr ""
-"Ofullständig version av data.  Kör om ”dnf {command} download [FLAGGOR]”"
+msgstr "Ofullständig version av data. Kör om ”dnf {command} download [FLAGGOR]”"
 
 #: plugins/system_upgrade.py:434
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
 msgstr ""
-"Kommandot  ”offline-distrosync” kan inte användas med flaggan --no-downgrade"
+"Kommandot ”offline-distrosync” kan inte användas med flaggan --no-downgrade"
 
 #: plugins/system_upgrade.py:456
 msgid "Additional information for System Upgrade: {}"
@@ -176,7 +176,7 @@ msgid ""
 "\"dnf --refresh upgrade\". Do you want to continue"
 msgstr ""
 "Före du fortsätter, förvissa dig om att ditt system är helt uppgraderat "
-"genom att köra ”dnf --refresh upgrade”.  Vill du fortsätta"
+"genom att köra ”dnf --refresh upgrade”. Vill du fortsätta"
 
 #: plugins/system_upgrade.py:463
 msgid "Operation aborted."
@@ -192,7 +192,7 @@ msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
 "download [OPTIONS]'"
 msgstr ""
-"transaktionen förbereddes inte för ”{command}”.  Kör om ”dnf {command} "
+"transaktionen förbereddes inte för ”{command}”. Kör om ”dnf {command} "
 "download [FLAGGOR]”"
 
 #: plugins/system_upgrade.py:533
@@ -205,7 +205,7 @@ msgstr "triggerfilen finns inte. avslutar tyst."
 
 #: plugins/system_upgrade.py:542
 msgid "another upgrade tool is running. exiting quietly."
-msgstr "ett annat uppgraderingsverktyg kör.  avslutar tyst."
+msgstr "ett annat uppgraderingsverktyg kör. avslutar tyst."
 
 #: plugins/system_upgrade.py:551
 #, python-brace-format
@@ -218,15 +218,15 @@ msgstr "Startar om för att utföra uppgraderingen."
 
 #: plugins/system_upgrade.py:593
 msgid "Starting offline upgrade. This will take a while."
-msgstr "Påbörjar frånkopplad uppgradering.  Detta kommer ta en stund."
+msgstr "Påbörjar frånkopplad uppgradering. Detta kommer ta en stund."
 
 #: plugins/system_upgrade.py:595
 msgid "Starting offline distrosync. This will take a while."
-msgstr "Påbörjar frånkopplad distrosync.  Detta kommer ta en stund."
+msgstr "Påbörjar frånkopplad distrosync. Detta kommer ta en stund."
 
 #: plugins/system_upgrade.py:597
 msgid "Starting system upgrade. This will take a while."
-msgstr "Påbörjar systemuppgraderingen.  Detta kommer ta en stund."
+msgstr "Påbörjar systemuppgraderingen. Detta kommer ta en stund."
 
 #: plugins/system_upgrade.py:629 plugins/system_upgrade.py:638
 #, python-format
@@ -247,7 +247,7 @@ msgstr "Hämtningen klar."
 
 #: plugins/system_upgrade.py:728 plugins/system_upgrade.py:729
 msgid "Upgrade complete! Cleaning up and rebooting..."
-msgstr "Uppgraderingen är klar!  Rensar upp och startar om …"
+msgstr "Uppgraderingen är klar! Rensar upp och startar om …"
 
 #: plugins/system_upgrade.py:738
 msgid "Prepare offline upgrade of the system"
@@ -275,7 +275,7 @@ msgid ""
 "Please visit https://github.com/FrostyX/tracer/issues and submit the issue. "
 "Thank you"
 msgstr ""
-"Besök https://github.com/FrostyX/tracer/issues och skicka in problemet.  Tack"
+"Besök https://github.com/FrostyX/tracer/issues och skicka in problemet. Tack"
 
 #: plugins/tracer.py:100
 msgid "We apologize for any inconvenience"
