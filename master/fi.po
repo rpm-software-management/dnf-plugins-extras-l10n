@@ -1,20 +1,21 @@
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2017. #zanata, 2020.
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2018. #zanata, 2020.
+# Ricky Tigg <ricky.tigg@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-17 09:18-0400\n"
-"PO-Revision-Date: 2020-03-22 07:00+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-extras/fi/>\n"
+"PO-Revision-Date: 2020-11-11 18:35+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -31,15 +32,15 @@ msgstr "tiedostoa ei voi jäsentää: %s"
 
 #: plugins/rpm_conf.py:65
 msgid "Adding '{}' to list of handling packages for rpmconf"
-msgstr ""
+msgstr "Lisätään '{}' käsittelypakettien luetteloon rpmconf:a varten"
 
 #: plugins/rpm_conf.py:71
 msgid "rpmconf plugin will not run in non-interactive mode"
-msgstr ""
+msgstr "rpmconf-liitännäinen ei toimi ei-vuorovaikutteisessa tilassa"
 
 #: plugins/rpm_conf.py:84
 msgid "ignoring sys.exit from rpmconf due to missing MERGE variable"
-msgstr ""
+msgstr "ohitetaan sys.exit rpmconf:sta MERGE-muuttujan puuttuessa"
 
 #: plugins/rpm_conf.py:88
 msgid "ignoring sys.exit from rpmconf due to missing file"
