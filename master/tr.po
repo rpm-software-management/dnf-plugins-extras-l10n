@@ -6,16 +6,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-17 09:18-0500\n"
-"PO-Revision-Date: 2020-09-18 19:29+0000\n"
+"PO-Revision-Date: 2020-11-19 14:35+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-extras/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -236,11 +236,11 @@ msgstr "İndirilen veriler temizleniyor..."
 
 #: plugins/system_upgrade.py:648
 msgid "Transaction saved to {}."
-msgstr ""
+msgstr "İşlem {} dosyasına kaydedildi."
 
 #: plugins/system_upgrade.py:651
 msgid "Error storing transaction: {}"
-msgstr ""
+msgstr "İşlem kaydedilirken hata oluştu: {}"
 
 #: plugins/system_upgrade.py:673
 msgid "Download finished."
