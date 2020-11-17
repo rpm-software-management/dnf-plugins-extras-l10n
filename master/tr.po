@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-11 09:18-0500\n"
+"POT-Creation-Date: 2020-11-17 09:18-0500\n"
 "PO-Revision-Date: 2020-09-18 19:29+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -88,16 +88,16 @@ msgid "creating post_snapshot failed: %s"
 msgstr "post_snapshot oluşturulamadı: %s"
 
 #. Translators: This string is only used in unit tests.
-#: plugins/system_upgrade.py:45
+#: plugins/system_upgrade.py:46
 msgid "the color of the sky"
 msgstr "gökyüzünün rengi"
 
-#: plugins/system_upgrade.py:61
+#: plugins/system_upgrade.py:60
 msgid "Need a --releasever greater than the current system version."
 msgstr "Mevcut sistem sürümünden daha büyük bir --releasever belirtilmelidir."
 
 #. Translators: do not change "reboot" here
-#: plugins/system_upgrade.py:63
+#: plugins/system_upgrade.py:62
 #, python-brace-format
 msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
@@ -108,70 +108,70 @@ msgstr ""
 "Önbelleğe alınmış üst verileri ve işlemi kaldırmak için 'dnf {command} "
 "clean' komutunu kullanın"
 
-#: plugins/system_upgrade.py:66
+#: plugins/system_upgrade.py:65
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
 msgstr ""
 "Maalesef, '--network' yerine 'download --releasever' kullanmanız gerekiyor"
 
-#: plugins/system_upgrade.py:75
+#: plugins/system_upgrade.py:74
 msgid "Reboot turned off, not rebooting."
 msgstr "Yeniden başlatma kapalı, yeniden başlatılmıyor."
 
-#: plugins/system_upgrade.py:124
+#: plugins/system_upgrade.py:123
 #, python-format
 msgid "Screen blanking can't be disabled: %s"
 msgstr "Ekran karartma devre dışı bırakılamıyor: %s"
 
-#: plugins/system_upgrade.py:145
+#: plugins/system_upgrade.py:143
 #, python-format
 msgid "Failed loading state file: %s, continuing with empty state."
 msgstr "%s durum dosyası yüklenemedi, boş durumla devam ediliyor."
 
-#: plugins/system_upgrade.py:297
+#: plugins/system_upgrade.py:289
 msgid "The following boots appear to contain upgrade logs:"
 msgstr "Aşağıdaki önyüklemeler, yükseltme günlükleri içeriyor gibi görünüyor:"
 
-#: plugins/system_upgrade.py:307
+#: plugins/system_upgrade.py:299
 msgid "-- no logs were found --"
 msgstr "-- günlük kaydı bulunamadı --"
 
-#: plugins/system_upgrade.py:322
+#: plugins/system_upgrade.py:314
 msgid "Cannot find logs with this index."
 msgstr "Bu indekse sahip günlük kaydı bulunamıyor."
 
-#: plugins/system_upgrade.py:331
+#: plugins/system_upgrade.py:323
 msgid "Unable to match systemd journal entry"
 msgstr "systemd günlük girdisi eşleştirilemedi"
 
-#: plugins/system_upgrade.py:352
+#: plugins/system_upgrade.py:344
 msgid "Prepare system for upgrade to a new release"
 msgstr "Sistemi yeni bir sürüme yükseltmek için hazırla"
 
-#: plugins/system_upgrade.py:362
+#: plugins/system_upgrade.py:358
 msgid "keep installed packages if the new release's version is older"
 msgstr "yükseltilen sistemdeki sürüm eskiyse mevcut kurulu paketleri tut"
 
-#: plugins/system_upgrade.py:366
+#: plugins/system_upgrade.py:362
 msgid "which logs to show"
 msgstr "gösterilecek günlük kayıtları"
 
-#: plugins/system_upgrade.py:400
+#: plugins/system_upgrade.py:396
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
 msgstr ""
 "Uyumsuz veri sürümü. 'dnf {command} download [SEÇENEKLER]' komutunu yeniden "
 "çalıştırın"
 
-#: plugins/system_upgrade.py:437
+#: plugins/system_upgrade.py:433
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
 msgstr ""
 "'offline-distrosync' komutu --no-downgrade seçeneği ile birlikte kullanılamaz"
 
-#: plugins/system_upgrade.py:459
+#: plugins/system_upgrade.py:455
 msgid "Additional information for System Upgrade: {}"
 msgstr "Sistem Yükseltme için ek bilgiler: {}"
 
-#: plugins/system_upgrade.py:462
+#: plugins/system_upgrade.py:458
 msgid ""
 "Before you continue ensure that your system is fully upgraded by running "
 "\"dnf --refresh upgrade\". Do you want to continue"
@@ -180,15 +180,15 @@ msgstr ""
 "sisteminizin tamamen güncellendiğinden emin olun. Devam etmek istiyor "
 "musunuz?"
 
-#: plugins/system_upgrade.py:466
+#: plugins/system_upgrade.py:462
 msgid "Operation aborted."
 msgstr "İşlem iptal edildi."
 
-#: plugins/system_upgrade.py:529
+#: plugins/system_upgrade.py:520
 msgid "system is not ready for upgrade"
 msgstr "sistem yükseltmek için hazır değil"
 
-#: plugins/system_upgrade.py:532
+#: plugins/system_upgrade.py:523
 #, python-brace-format
 msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
@@ -197,65 +197,64 @@ msgstr ""
 "işlem '{command}' için hazırlanmadı. 'dnf {command} download [SEÇENEKLER]' "
 "komutunu yeniden çalıştırın"
 
-#: plugins/system_upgrade.py:536
+#: plugins/system_upgrade.py:527
 msgid "upgrade is already scheduled"
 msgstr "yükseltme zaten zamanlanmış"
 
-#: plugins/system_upgrade.py:542
+#: plugins/system_upgrade.py:533
 msgid "trigger file does not exist. exiting quietly."
 msgstr "tetikleyici dosyası yok. sessizce çıkılıyor."
 
-#: plugins/system_upgrade.py:545
+#: plugins/system_upgrade.py:536
 msgid "another upgrade tool is running. exiting quietly."
 msgstr "başka bir yükseltme aracı çalışıyor. sessizce çıkılıyor."
 
-#: plugins/system_upgrade.py:554
+#: plugins/system_upgrade.py:545
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
 msgstr "yükseltmeye başlamak için 'dnf {command} reboot' komutunu kullanın"
 
-#: plugins/system_upgrade.py:572
+#: plugins/system_upgrade.py:563
 msgid "Rebooting to perform upgrade."
 msgstr "Yükseltmeyi gerçekleştirmek için yeniden başlatılıyor."
 
-#: plugins/system_upgrade.py:606
+#: plugins/system_upgrade.py:596
 msgid "Starting offline upgrade. This will take a while."
 msgstr "Çevrim dışı yükseltme başlatılıyor. Bu biraz zaman alacak."
 
-#: plugins/system_upgrade.py:608
+#: plugins/system_upgrade.py:598
 msgid "Starting offline distrosync. This will take a while."
 msgstr "Çevrim dışı dağıtım eşzamanlaması başlatılıyor. Bu biraz zaman alacak."
 
-#: plugins/system_upgrade.py:610
+#: plugins/system_upgrade.py:600
 msgid "Starting system upgrade. This will take a while."
 msgstr "Sistem yükseltme başlatılıyor. Bu biraz zaman alacak."
 
-#: plugins/system_upgrade.py:642 plugins/system_upgrade.py:651
-#, python-format
-msgid "Unable to match package: %s"
-msgstr "Paket eşleştirilemedi: %s"
-
-#: plugins/system_upgrade.py:656
-msgid "Unable to match some of packages"
-msgstr "Bazı paketler eşleştirilemedi"
-
-#: plugins/system_upgrade.py:659
+#: plugins/system_upgrade.py:616
 msgid "Cleaning up downloaded data..."
 msgstr "İndirilen veriler temizleniyor..."
 
-#: plugins/system_upgrade.py:737
+#: plugins/system_upgrade.py:648
+msgid "Transaction saved to {}."
+msgstr ""
+
+#: plugins/system_upgrade.py:651
+msgid "Error storing transaction: {}"
+msgstr ""
+
+#: plugins/system_upgrade.py:673
 msgid "Download finished."
 msgstr "İndirme tamamlandı."
 
-#: plugins/system_upgrade.py:741 plugins/system_upgrade.py:742
+#: plugins/system_upgrade.py:676 plugins/system_upgrade.py:677
 msgid "Upgrade complete! Cleaning up and rebooting..."
 msgstr "Yükseltme tamamlandı! Temizlik yapılıyor ve yeniden başlatılıyor..."
 
-#: plugins/system_upgrade.py:751
+#: plugins/system_upgrade.py:686
 msgid "Prepare offline upgrade of the system"
 msgstr "Sistemi çevrim dışı yükseltmeye hazırla"
 
-#: plugins/system_upgrade.py:756
+#: plugins/system_upgrade.py:691
 msgid "Prepare offline distrosync of the system"
 msgstr "Sistemi çevrim dışı dağıtım eşzamanlamasına hazırla"
 
@@ -282,3 +281,9 @@ msgstr ""
 #: plugins/tracer.py:100
 msgid "We apologize for any inconvenience"
 msgstr "Verdiğimiz rahatsızlıktan dolayı özür dileriz"
+
+#~ msgid "Unable to match package: %s"
+#~ msgstr "Paket eşleştirilemedi: %s"
+
+#~ msgid "Unable to match some of packages"
+#~ msgstr "Bazı paketler eşleştirilemedi"

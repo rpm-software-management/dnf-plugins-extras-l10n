@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-11 09:18-0500\n"
+"POT-Creation-Date: 2020-11-17 09:18-0500\n"
 "PO-Revision-Date: 2020-09-15 14:34+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
@@ -91,18 +91,18 @@ msgid "creating post_snapshot failed: %s"
 msgstr "спроба створення post_snapshot зазнала невдачі: %s"
 
 #. Translators: This string is only used in unit tests.
-#: plugins/system_upgrade.py:45
+#: plugins/system_upgrade.py:46
 msgid "the color of the sky"
 msgstr "колір неба"
 
-#: plugins/system_upgrade.py:61
+#: plugins/system_upgrade.py:60
 msgid "Need a --releasever greater than the current system version."
 msgstr ""
 "Слід вказати параметр --releasever із версією, що перевищує поточну версію "
 "системи."
 
 #. Translators: do not change "reboot" here
-#: plugins/system_upgrade.py:63
+#: plugins/system_upgrade.py:62
 #, python-brace-format
 msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
@@ -113,71 +113,71 @@ msgstr ""
 "Щоб вилучити кешовані метадані та запис операції, скористайтеся командою "
 "«dnf {command} clean»"
 
-#: plugins/system_upgrade.py:66
+#: plugins/system_upgrade.py:65
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
 msgstr ""
 "Вибачте, слід використовувати «download --releasever», а не «--network»"
 
-#: plugins/system_upgrade.py:75
+#: plugins/system_upgrade.py:74
 msgid "Reboot turned off, not rebooting."
 msgstr "Перезавантаження вимкнено, не перезавантажуємо."
 
-#: plugins/system_upgrade.py:124
+#: plugins/system_upgrade.py:123
 #, python-format
 msgid "Screen blanking can't be disabled: %s"
 msgstr "Очищення екрана не може бути вимкнено: %s"
 
-#: plugins/system_upgrade.py:145
+#: plugins/system_upgrade.py:143
 #, python-format
 msgid "Failed loading state file: %s, continuing with empty state."
 msgstr "Не вдалося завантажити файл стану: %s, продовжуємо із порожнім станом."
 
-#: plugins/system_upgrade.py:297
+#: plugins/system_upgrade.py:289
 msgid "The following boots appear to contain upgrade logs:"
 msgstr "Здається, журнали оновлення містяться у записах таких завантажень:"
 
-#: plugins/system_upgrade.py:307
+#: plugins/system_upgrade.py:299
 msgid "-- no logs were found --"
 msgstr "-- журналів не знайдено --"
 
-#: plugins/system_upgrade.py:322
+#: plugins/system_upgrade.py:314
 msgid "Cannot find logs with this index."
 msgstr "Не вдалося знайти журнал із цим покажчиком."
 
-#: plugins/system_upgrade.py:331
+#: plugins/system_upgrade.py:323
 msgid "Unable to match systemd journal entry"
 msgstr "Не вдалося встановити відповідність запису журналу systemd"
 
-#: plugins/system_upgrade.py:352
+#: plugins/system_upgrade.py:344
 msgid "Prepare system for upgrade to a new release"
 msgstr "Приготувати систему до оновлення до нового випуску"
 
-#: plugins/system_upgrade.py:362
+#: plugins/system_upgrade.py:358
 msgid "keep installed packages if the new release's version is older"
 msgstr "зберігати встановлені пакунки, якщо версія нового випуску є старішою"
 
-#: plugins/system_upgrade.py:366
+#: plugins/system_upgrade.py:362
 msgid "which logs to show"
 msgstr "які журнали слід показувати"
 
-#: plugins/system_upgrade.py:400
+#: plugins/system_upgrade.py:396
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
 msgstr ""
 "Несумісна версія даних. Віддайте команду «dnf {command} download [OPTIONS]» "
 "ще раз"
 
-#: plugins/system_upgrade.py:437
+#: plugins/system_upgrade.py:433
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
 msgstr ""
 "У команді «offline-distrosync» не можна використовувати параметр --no-"
 "downgrade"
 
-#: plugins/system_upgrade.py:459
+#: plugins/system_upgrade.py:455
 msgid "Additional information for System Upgrade: {}"
 msgstr "Додаткові відомості щодо оновлення системи: {}"
 
-#: plugins/system_upgrade.py:462
+#: plugins/system_upgrade.py:458
 msgid ""
 "Before you continue ensure that your system is fully upgraded by running "
 "\"dnf --refresh upgrade\". Do you want to continue"
@@ -185,15 +185,15 @@ msgstr ""
 "Перш ніж продовжувати, переконайтеся, що вашу систему повністю оновлено. "
 "Скористайтеся для цього командою «dnf --refresh upgrade». Хочете продовжувати"
 
-#: plugins/system_upgrade.py:466
+#: plugins/system_upgrade.py:462
 msgid "Operation aborted."
 msgstr "Виконання дії перервано."
 
-#: plugins/system_upgrade.py:529
+#: plugins/system_upgrade.py:520
 msgid "system is not ready for upgrade"
 msgstr "система не готова до оновлення"
 
-#: plugins/system_upgrade.py:532
+#: plugins/system_upgrade.py:523
 #, python-brace-format
 msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
@@ -202,69 +202,68 @@ msgstr ""
 "дію для «{command}» не вдалося приготувати. Віддайте команду «dnf {command} "
 "download [OPTIONS]» ще раз"
 
-#: plugins/system_upgrade.py:536
+#: plugins/system_upgrade.py:527
 msgid "upgrade is already scheduled"
 msgstr "оновлення вже заплановано"
 
-#: plugins/system_upgrade.py:542
+#: plugins/system_upgrade.py:533
 msgid "trigger file does not exist. exiting quietly."
 msgstr "Не знайдено файла-перемикача. Завершуємо роботу без повідомлень."
 
-#: plugins/system_upgrade.py:545
+#: plugins/system_upgrade.py:536
 msgid "another upgrade tool is running. exiting quietly."
 msgstr ""
 "працює інший інструмент із оновлення системи, завершуємо роботу без "
 "додаткових повідомлень."
 
-#: plugins/system_upgrade.py:554
+#: plugins/system_upgrade.py:545
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
 msgstr "скористайтеся командою «dnf {command} reboot», щоб розпочати оновлення"
 
-#: plugins/system_upgrade.py:572
+#: plugins/system_upgrade.py:563
 msgid "Rebooting to perform upgrade."
 msgstr "Перезавантажуємо систему для завершення оновлення."
 
-#: plugins/system_upgrade.py:606
+#: plugins/system_upgrade.py:596
 msgid "Starting offline upgrade. This will take a while."
 msgstr "Розпочинаємо автономне оновлення. Процедура може бути доволі тривалою."
 
-#: plugins/system_upgrade.py:608
+#: plugins/system_upgrade.py:598
 msgid "Starting offline distrosync. This will take a while."
 msgstr ""
 "Розпочинаємо автономну синхронізацію дистрибутивів. Процедура може бути "
 "доволі тривалою."
 
-#: plugins/system_upgrade.py:610
+#: plugins/system_upgrade.py:600
 msgid "Starting system upgrade. This will take a while."
 msgstr "Починаємо оновлення системи. Будь ласка, зачекайте."
 
-#: plugins/system_upgrade.py:642 plugins/system_upgrade.py:651
-#, python-format
-msgid "Unable to match package: %s"
-msgstr "Не вдалося встановити відповідність пакунка: %s"
-
-#: plugins/system_upgrade.py:656
-msgid "Unable to match some of packages"
-msgstr "Не вдалося встановити відповідність декількох пакунків"
-
-#: plugins/system_upgrade.py:659
+#: plugins/system_upgrade.py:616
 msgid "Cleaning up downloaded data..."
 msgstr "Вилучаємо зайві отримані дані…"
 
-#: plugins/system_upgrade.py:737
+#: plugins/system_upgrade.py:648
+msgid "Transaction saved to {}."
+msgstr ""
+
+#: plugins/system_upgrade.py:651
+msgid "Error storing transaction: {}"
+msgstr ""
+
+#: plugins/system_upgrade.py:673
 msgid "Download finished."
 msgstr "Отримання даних завершено."
 
-#: plugins/system_upgrade.py:741 plugins/system_upgrade.py:742
+#: plugins/system_upgrade.py:676 plugins/system_upgrade.py:677
 msgid "Upgrade complete! Cleaning up and rebooting..."
 msgstr "Оновлення завершено! Вилучаємо зайві дані і перезавантажуємо системи…"
 
-#: plugins/system_upgrade.py:751
+#: plugins/system_upgrade.py:686
 msgid "Prepare offline upgrade of the system"
 msgstr "Приготувати автономне оновлення системи"
 
-#: plugins/system_upgrade.py:756
+#: plugins/system_upgrade.py:691
 msgid "Prepare offline distrosync of the system"
 msgstr "Приготувати автономну синхронізацію дистрибутива системи"
 
@@ -292,3 +291,9 @@ msgstr ""
 #: plugins/tracer.py:100
 msgid "We apologize for any inconvenience"
 msgstr "Вибачте за незручності"
+
+#~ msgid "Unable to match package: %s"
+#~ msgstr "Не вдалося встановити відповідність пакунка: %s"
+
+#~ msgid "Unable to match some of packages"
+#~ msgstr "Не вдалося встановити відповідність декількох пакунків"
