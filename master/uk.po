@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-17 09:18-0500\n"
-"PO-Revision-Date: 2020-09-15 14:34+0000\n"
+"PO-Revision-Date: 2020-11-19 14:35+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-extras/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -245,11 +245,11 @@ msgstr "Вилучаємо зайві отримані дані…"
 
 #: plugins/system_upgrade.py:648
 msgid "Transaction saved to {}."
-msgstr ""
+msgstr "Операцію збережено до {}."
 
 #: plugins/system_upgrade.py:651
 msgid "Error storing transaction: {}"
-msgstr ""
+msgstr "Помилка під час спроби зберегти операцію: {}"
 
 #: plugins/system_upgrade.py:673
 msgid "Download finished."
