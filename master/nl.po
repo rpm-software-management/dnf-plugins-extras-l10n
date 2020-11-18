@@ -4,16 +4,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-17 09:18-0500\n"
-"PO-Revision-Date: 2020-09-18 19:29+0000\n"
+"PO-Revision-Date: 2020-11-19 14:35+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
-"Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-extras/nl/>\n"
+"Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -237,11 +237,11 @@ msgstr "Gedownloade data opschonen ..."
 
 #: plugins/system_upgrade.py:648
 msgid "Transaction saved to {}."
-msgstr ""
+msgstr "Transactie opgeslagen naar {}."
 
 #: plugins/system_upgrade.py:651
 msgid "Error storing transaction: {}"
-msgstr ""
+msgstr "Fout tijdens het opslaan van transactie: {}"
 
 #: plugins/system_upgrade.py:673
 msgid "Download finished."
