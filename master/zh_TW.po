@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-17 09:18-0500\n"
+"POT-Creation-Date: 2020-11-19 09:18-0500\n"
 "PO-Revision-Date: 2020-05-24 14:31+0000\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -145,28 +145,28 @@ msgstr "無法符合 systemd 的記錄檔項目"
 msgid "Prepare system for upgrade to a new release"
 msgstr "準備系統以升級至新的發行版本"
 
-#: plugins/system_upgrade.py:358
+#: plugins/system_upgrade.py:360
 msgid "keep installed packages if the new release's version is older"
 msgstr "假如新的釋出版本比較舊，保留已安裝的軟體包。"
 
-#: plugins/system_upgrade.py:362
+#: plugins/system_upgrade.py:364
 msgid "which logs to show"
 msgstr "要顯示哪個記錄檔"
 
-#: plugins/system_upgrade.py:396
+#: plugins/system_upgrade.py:398
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
 msgstr "資料版本不相容。請重新執行「dnf {command} download [OPTIONS]」"
 
-#: plugins/system_upgrade.py:433
+#: plugins/system_upgrade.py:435
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
 msgstr "「offline-distrosync」命令不可與 --no-downgrade 選項配合使用"
 
-#: plugins/system_upgrade.py:455
+#: plugins/system_upgrade.py:457
 msgid "Additional information for System Upgrade: {}"
 msgstr "系統升級的額外資訊：{}"
 
-#: plugins/system_upgrade.py:458
+#: plugins/system_upgrade.py:460
 msgid ""
 "Before you continue ensure that your system is fully upgraded by running "
 "\"dnf --refresh upgrade\". Do you want to continue"
@@ -174,15 +174,15 @@ msgstr ""
 "在您繼續前，請確保您的系統已經透過執行「dnf --refresh upgrade」完全升級。想要"
 "繼續嗎？"
 
-#: plugins/system_upgrade.py:462
+#: plugins/system_upgrade.py:464
 msgid "Operation aborted."
 msgstr "取消作業。"
 
-#: plugins/system_upgrade.py:520
+#: plugins/system_upgrade.py:522
 msgid "system is not ready for upgrade"
 msgstr "系統尚未準備好升級"
 
-#: plugins/system_upgrade.py:523
+#: plugins/system_upgrade.py:525
 #, python-brace-format
 msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
@@ -191,64 +191,64 @@ msgstr ""
 "未準備好「{command}」的處理事項。請重新執行「dnf {command} download "
 "[OPTIONS]」"
 
-#: plugins/system_upgrade.py:527
+#: plugins/system_upgrade.py:529
 msgid "upgrade is already scheduled"
 msgstr "已經排程升級"
 
-#: plugins/system_upgrade.py:533
+#: plugins/system_upgrade.py:535
 msgid "trigger file does not exist. exiting quietly."
 msgstr "觸發檔案不存在。安靜離開。"
 
-#: plugins/system_upgrade.py:536
+#: plugins/system_upgrade.py:538
 msgid "another upgrade tool is running. exiting quietly."
 msgstr "另外一個升級工具正在執行中。安靜離開。"
 
-#: plugins/system_upgrade.py:545
+#: plugins/system_upgrade.py:547
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
 msgstr "請使用「dnf {command} reboot」開始升級"
 
-#: plugins/system_upgrade.py:563
+#: plugins/system_upgrade.py:565
 msgid "Rebooting to perform upgrade."
 msgstr "重新開機以執行升級。"
 
-#: plugins/system_upgrade.py:596
+#: plugins/system_upgrade.py:598
 msgid "Starting offline upgrade. This will take a while."
 msgstr "開始系統升級。這需要一段時間。"
 
-#: plugins/system_upgrade.py:598
+#: plugins/system_upgrade.py:600
 msgid "Starting offline distrosync. This will take a while."
 msgstr "開始離線 distrosync。這需要一段時間。"
 
-#: plugins/system_upgrade.py:600
+#: plugins/system_upgrade.py:602
 msgid "Starting system upgrade. This will take a while."
 msgstr "開始系統升級。這需要一段時間。"
 
-#: plugins/system_upgrade.py:616
+#: plugins/system_upgrade.py:618
 msgid "Cleaning up downloaded data..."
 msgstr "正在清理已下載的資料…"
 
-#: plugins/system_upgrade.py:648
+#: plugins/system_upgrade.py:650
 msgid "Transaction saved to {}."
 msgstr ""
 
-#: plugins/system_upgrade.py:651
+#: plugins/system_upgrade.py:653
 msgid "Error storing transaction: {}"
 msgstr ""
 
-#: plugins/system_upgrade.py:673
+#: plugins/system_upgrade.py:675
 msgid "Download finished."
 msgstr "下載完成。"
 
-#: plugins/system_upgrade.py:676 plugins/system_upgrade.py:677
+#: plugins/system_upgrade.py:678 plugins/system_upgrade.py:679
 msgid "Upgrade complete! Cleaning up and rebooting..."
 msgstr "升級完成！正在清理並重新啟動…"
 
-#: plugins/system_upgrade.py:686
+#: plugins/system_upgrade.py:688
 msgid "Prepare offline upgrade of the system"
 msgstr "準備系統的離線更新"
 
-#: plugins/system_upgrade.py:691
+#: plugins/system_upgrade.py:693
 msgid "Prepare offline distrosync of the system"
 msgstr "準備系統的離線 distrosync"
 
