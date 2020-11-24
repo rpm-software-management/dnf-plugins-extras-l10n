@@ -1,15 +1,16 @@
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2017. #zanata, 2020.
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2018. #zanata, 2020.
 # Ricky Tigg <ricky.tigg@gmail.com>, 2020.
+# Jan Kuparinen <copper_fin@hotmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-20 09:18-0500\n"
-"PO-Revision-Date: 2020-11-17 14:35+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-extras/fi/>\n"
+"PO-Revision-Date: 2020-11-25 17:35+0000\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -237,11 +238,11 @@ msgstr "Siivotaan ladattuja tietoja..."
 
 #: plugins/system_upgrade.py:650
 msgid "Transaction saved to {}."
-msgstr ""
+msgstr "Transaktio tallennettu {}:een."
 
 #: plugins/system_upgrade.py:653
 msgid "Error storing transaction: {}"
-msgstr ""
+msgstr "Transaktion tallennuksessa tapahtui virhe: {}"
 
 #: plugins/system_upgrade.py:675
 msgid "Download finished."
