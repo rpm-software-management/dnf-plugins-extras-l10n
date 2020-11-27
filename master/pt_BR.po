@@ -4,13 +4,15 @@
 # Luiz Fernando Pereira <luizfernandopereira@outlook.com.br>, 2018. #zanata
 # Cássio Rodrigo Honorato Rodrigues <cassiorhr@outlook.com>, 2019. #zanata
 # Gustavo Costa <gusta@null.net>, 2020.
+# Henrique Roberto Gattermann Mittelstaedt <henrique.roberto97@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 09:18-0500\n"
-"PO-Revision-Date: 2020-11-21 00:48+0000\n"
-"Last-Translator: Gustavo Costa <gusta@null.net>\n"
+"PO-Revision-Date: 2020-11-28 23:35+0000\n"
+"Last-Translator: Henrique Roberto Gattermann Mittelstaedt <henrique."
+"roberto97@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-extras/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -107,6 +109,8 @@ msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
 "To remove cached metadata and transaction use 'dnf {command} clean'"
 msgstr ""
+"Download completo! Use 'dnf {command} reboot' para iniciar a atualização.\n"
+"Para remover metadados e transações em cache use 'dnf {command} clean'"
 
 #: plugins/system_upgrade.py:65
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
@@ -116,7 +120,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:74
 msgid "Reboot turned off, not rebooting."
-msgstr ""
+msgstr "Reinicialização desativada, não reinicializando."
 
 #: plugins/system_upgrade.py:123
 #, python-format
@@ -127,6 +131,7 @@ msgstr ""
 #, python-format
 msgid "Failed loading state file: %s, continuing with empty state."
 msgstr ""
+"Falha ao carregar o estado do arquivo: %s, continuando com estado vazio."
 
 #: plugins/system_upgrade.py:289
 msgid "The following boots appear to contain upgrade logs:"
@@ -164,10 +169,11 @@ msgstr ""
 #: plugins/system_upgrade.py:435
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
 msgstr ""
+"O comando 'offline-distrosync' não pode ser usado com a opção --no-downgrade"
 
 #: plugins/system_upgrade.py:457
 msgid "Additional information for System Upgrade: {}"
-msgstr ""
+msgstr "Informação adicional para Atualização do Sistema: {}"
 
 #: plugins/system_upgrade.py:460
 msgid ""
@@ -191,6 +197,8 @@ msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
 "download [OPTIONS]'"
 msgstr ""
+"a transação não estava preparada para '{command}'. Execute novamente 'dnf "
+"{command} download [OPÇÕES]'"
 
 #: plugins/system_upgrade.py:529
 msgid "upgrade is already scheduled"
@@ -207,7 +215,7 @@ msgstr "outra ferramenta de atualização em execução. saindo silenciosamente.
 #: plugins/system_upgrade.py:547
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
-msgstr ""
+msgstr "use 'dnf {command} reboot' para iniciar a atualização"
 
 #: plugins/system_upgrade.py:565
 msgid "Rebooting to perform upgrade."
@@ -215,7 +223,7 @@ msgstr "Reiniciando para realizar a atualização."
 
 #: plugins/system_upgrade.py:598
 msgid "Starting offline upgrade. This will take a while."
-msgstr ""
+msgstr "Iniciando a atualização do sistema. Isso vai levar algum tempo."
 
 #: plugins/system_upgrade.py:600
 msgid "Starting offline distrosync. This will take a while."
