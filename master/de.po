@@ -3,20 +3,22 @@
 # Mario Blättermann <mario.blaettermann@gmail.com>, 2015. #zanata
 # Mario Blättermann <mario.blaettermann@gmail.com>, 2016. #zanata
 # Marek Blaha <mblaha@redhat.com>, 2018. #zanata
+# Fabian Affolter <mail@fabian-affolter.ch>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-02 09:18-0500\n"
-"PO-Revision-Date: 2018-04-06 02:05+0000\n"
-"Last-Translator: Marek Blaha <mblaha@redhat.com>\n"
-"Language-Team: German <debian-l10n-german@lists.debian.org>\n"
+"PO-Revision-Date: 2020-12-13 14:35+0000\n"
+"Last-Translator: Fabian Affolter <mail@fabian-affolter.ch>\n"
+"Language-Team: German <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -25,7 +27,7 @@ msgstr ""
 
 #: plugins/kickstart.py:62
 msgid "kickstart file"
-msgstr ""
+msgstr "*kickstart Datei"
 
 #: plugins/kickstart.py:80
 #, python-format
@@ -39,10 +41,11 @@ msgstr "»{}« wird zur Liste der Pakete für rpmconf hinzugefügt"
 #: plugins/rpm_conf.py:71
 msgid "rpmconf plugin will not run in non-interactive mode"
 msgstr ""
+"*rpmconf #Plugin wird nicht funktionieren in nicht-interaktives Verfahren"
 
 #: plugins/rpm_conf.py:84
 msgid "ignoring sys.exit from rpmconf due to missing MERGE variable"
-msgstr ""
+msgstr "Überhören *sys.Ausgang von *rpmconf dank fehlend #EINVERLEIBEN Variable"
 
 #: plugins/rpm_conf.py:88
 msgid "ignoring sys.exit from rpmconf due to missing file"
@@ -92,7 +95,7 @@ msgstr ""
 #. Translators: This string is only used in unit tests.
 #: plugins/system_upgrade.py:46
 msgid "the color of the sky"
-msgstr ""
+msgstr "die Farbe des Himmels"
 
 #: plugins/system_upgrade.py:60
 msgid "Need a --releasever greater than the current system version."
@@ -130,7 +133,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:299
 msgid "-- no logs were found --"
-msgstr ""
+msgstr "-- Keine Logs gefunden --"
 
 #: plugins/system_upgrade.py:314
 msgid "Cannot find logs with this index."
@@ -176,7 +179,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:464
 msgid "Operation aborted."
-msgstr ""
+msgstr "Operation abgebrochen."
 
 #: plugins/system_upgrade.py:522
 msgid "system is not ready for upgrade"
