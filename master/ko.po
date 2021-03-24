@@ -7,10 +7,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-18 09:18-0400\n"
-"PO-Revision-Date: 2021-03-19 03:01+0000\n"
+"PO-Revision-Date: 2021-03-25 04:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-extras/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
-msgstr "시스템에 킥스타트 파일에서 정의 된 꾸러미를 설치합니다"
+msgstr "시스템에 킥스타트 파일에서 정의 된 꾸러미(package)를 설치합니다"
 
 #: plugins/kickstart.py:62
 msgid "kickstart file"
@@ -33,7 +33,7 @@ msgstr "파일을 구문분석 할 수 없습니다: %s"
 
 #: plugins/rpm_conf.py:65
 msgid "Adding '{}' to list of handling packages for rpmconf"
-msgstr "rpmconf를 위해 관리하는 꾸러미 목록에 '{}' 추가하기"
+msgstr "rpmconf를 위해 관리하는 꾸러미(package) 목록에 '{}' 추가하기"
 
 #: plugins/rpm_conf.py:71
 msgid "rpmconf plugin will not run in non-interactive mode"
@@ -149,7 +149,7 @@ msgstr "새로운 출시에 업그레이드를 위해 시스템을 준비합니�
 
 #: plugins/system_upgrade.py:360
 msgid "keep installed packages if the new release's version is older"
-msgstr "새로운 출시 버전이 오래된 것이면 설치된 꾸러미를 유지합니다"
+msgstr "새로운 출시 버전이 오래된 것이면 설치된 꾸러미(package)를 유지합니다"
 
 #: plugins/system_upgrade.py:364
 msgid "which logs to show"
