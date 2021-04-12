@@ -7,10 +7,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-05 09:18-0400\n"
-"PO-Revision-Date: 2021-04-06 08:39+0000\n"
+"PO-Revision-Date: 2021-04-13 06:02+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-extras/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
-msgstr "시스템에 킥스타트 파일에서 정의 된 꾸러미(package)를 설치합니다"
+msgstr "시스템에 킥스타트 파일에서 정의 된 꾸러미를 설치합니다"
 
 #: plugins/kickstart.py:62
 msgid "kickstart file"
@@ -33,7 +33,7 @@ msgstr "파일을 구문분석 할 수 없습니다: %s"
 
 #: plugins/rpm_conf.py:65
 msgid "Adding '{}' to list of handling packages for rpmconf"
-msgstr "rpmconf를 위해 관리하는 꾸러미(package) 목록에 '{}' 추가하기"
+msgstr "rpmconf를 위해 관리하는 꾸러미 목록에 '{}' 추가하기"
 
 #: plugins/rpm_conf.py:71
 msgid "rpmconf plugin will not run in non-interactive mode"
@@ -96,7 +96,7 @@ msgstr "하늘 색상"
 
 #: plugins/system_upgrade.py:60
 msgid "Need a --releasever greater than the current system version."
-msgstr "현재 시스템 상태번호 보다 더 큰 --releasever 가 필요합니다."
+msgstr "현재 시스템 버전 보다 더 큰 --releasever 가 필요합니다."
 
 #. Translators: do not change "reboot" here
 #: plugins/system_upgrade.py:62
@@ -149,7 +149,7 @@ msgstr "새로운 출시 향상을 위해 시스템을 준비합니다"
 
 #: plugins/system_upgrade.py:360
 msgid "keep installed packages if the new release's version is older"
-msgstr "새로운 출시 상태번호가 오래된 것이면 설치된 꾸러미를 유지합니다"
+msgstr "새로운 출시 버전이 오래된 것이면 설치된 꾸러미를 유지합니다"
 
 #: plugins/system_upgrade.py:364
 msgid "which logs to show"
@@ -158,8 +158,7 @@ msgstr "표시할 기록"
 #: plugins/system_upgrade.py:398
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
-msgstr ""
-"비호환성 자료 상태번호. 'dnf {command} 내려받기 [선택]' 을 재시작합니다"
+msgstr "비호환성 자료 버전. 'dnf {command} 내려받기 [선택]' 을 재시작합니다"
 
 #: plugins/system_upgrade.py:435
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
