@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-18 09:18-0400\n"
+"POT-Creation-Date: 2021-05-13 09:18-0400\n"
 "PO-Revision-Date: 2021-05-14 09:02+0000\n"
 "Last-Translator: Aditya Rahman <adityarahman032@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf/"
@@ -92,16 +92,16 @@ msgid "creating post_snapshot failed: %s"
 msgstr "pembuatan post_snapshot gagal: %s"
 
 #. Translators: This string is only used in unit tests.
-#: plugins/system_upgrade.py:46
+#: plugins/system_upgrade.py:45
 msgid "the color of the sky"
 msgstr "warna langit"
 
-#: plugins/system_upgrade.py:60
+#: plugins/system_upgrade.py:57
 msgid "Need a --releasever greater than the current system version."
 msgstr "Perlu suatu --releasever yang lebih besar dari versi sistem saat ini."
 
 #. Translators: do not change "reboot" here
-#: plugins/system_upgrade.py:62
+#: plugins/system_upgrade.py:59
 #, python-brace-format
 msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
@@ -111,74 +111,74 @@ msgstr ""
 "Untuk menghapus metadata dan transaksi yang di-cache gunakan 'dnf {command} "
 "clean'"
 
-#: plugins/system_upgrade.py:65
+#: plugins/system_upgrade.py:62
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
 msgstr ""
 "Maaf, Anda perlu memakai 'download --releasever' sebagai pengganti '--"
 "network'."
 
-#: plugins/system_upgrade.py:74
+#: plugins/system_upgrade.py:71
 msgid "Reboot turned off, not rebooting."
 msgstr ""
 
-#: plugins/system_upgrade.py:123
+#: plugins/system_upgrade.py:120
 #, python-format
 msgid "Screen blanking can't be disabled: %s"
 msgstr "Pemadaman layar tidak bisa dinonaktifkan: %s"
 
-#: plugins/system_upgrade.py:143
+#: plugins/system_upgrade.py:140
 #, python-format
 msgid "Failed loading state file: %s, continuing with empty state."
 msgstr ""
 "Gagal saat memuat berkas keadaan: %s, melanjutkan dengan keadaan kosong."
 
-#: plugins/system_upgrade.py:289
+#: plugins/system_upgrade.py:286
 msgid "The following boots appear to contain upgrade logs:"
 msgstr "Boot berikut tampaknya memuat log peningkatan:"
 
-#: plugins/system_upgrade.py:299
+#: plugins/system_upgrade.py:296
 msgid "-- no logs were found --"
 msgstr "-- tidak ada log yang ditemukan --"
 
-#: plugins/system_upgrade.py:314
+#: plugins/system_upgrade.py:311
 msgid "Cannot find logs with this index."
 msgstr "Tidak bisa menemukan log dengan indeks ini."
 
-#: plugins/system_upgrade.py:323
+#: plugins/system_upgrade.py:320
 msgid "Unable to match systemd journal entry"
 msgstr "Tidak bisa mencari entri jurnal systemd yang cocok"
 
-#: plugins/system_upgrade.py:344
+#: plugins/system_upgrade.py:341
 msgid "Prepare system for upgrade to a new release"
 msgstr "Menyiapkan sistem untuk peningkatan ke suatu rilis baru"
 
-#: plugins/system_upgrade.py:360
+#: plugins/system_upgrade.py:357
 msgid "keep installed packages if the new release's version is older"
 msgstr ""
 "pertahankan paket-paket yang terpasang bila versi dari rilis baru lebih tua"
 
-#: plugins/system_upgrade.py:364
+#: plugins/system_upgrade.py:361
 msgid "which logs to show"
 msgstr "log mana yang akan ditampilkan"
 
-#: plugins/system_upgrade.py:398
+#: plugins/system_upgrade.py:395
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
 msgstr ""
 "Versi data tidak kompatibel. Jalankan kembali 'dnf {command} download "
 "[OPTIONS]'"
 
-#: plugins/system_upgrade.py:435
+#: plugins/system_upgrade.py:432
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
 msgstr ""
 "Perintah 'offline-distrosync' tidak dapat digunakan bersama opsi --no-"
 "downgrade"
 
-#: plugins/system_upgrade.py:457
+#: plugins/system_upgrade.py:454
 msgid "Additional information for System Upgrade: {}"
 msgstr "Informasi tambahan untuk Upgrade Sistem: {}"
 
-#: plugins/system_upgrade.py:460
+#: plugins/system_upgrade.py:457
 msgid ""
 "Before you continue ensure that your system is fully upgraded by running "
 "\"dnf --refresh upgrade\". Do you want to continue"
@@ -187,15 +187,15 @@ msgstr ""
 "secara penuh dengan menjalankan \"dnf --refresh upgrade\". Apakah Anda "
 "hendak melanjutkan"
 
-#: plugins/system_upgrade.py:464
+#: plugins/system_upgrade.py:461
 msgid "Operation aborted."
 msgstr "Operasi dibatalkan."
 
-#: plugins/system_upgrade.py:522
+#: plugins/system_upgrade.py:519
 msgid "system is not ready for upgrade"
 msgstr "sistem tidak siap untuk ditingkatkan"
 
-#: plugins/system_upgrade.py:525
+#: plugins/system_upgrade.py:522
 #, python-brace-format
 msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
@@ -204,65 +204,65 @@ msgstr ""
 "transaksi tidak siap untuk '{command}'. Jalankan kembali 'dnf {command} "
 "download [OPTIONS]'"
 
-#: plugins/system_upgrade.py:529
+#: plugins/system_upgrade.py:526
 msgid "upgrade is already scheduled"
 msgstr "peningkatan telah dijadwalkan"
 
-#: plugins/system_upgrade.py:535
+#: plugins/system_upgrade.py:532
 msgid "trigger file does not exist. exiting quietly."
 msgstr "berkas pemicu tidak ada. keluar diam-diam."
 
-#: plugins/system_upgrade.py:538
+#: plugins/system_upgrade.py:535
 msgid "another upgrade tool is running. exiting quietly."
 msgstr "alat peningkatan lain sedang berjalan. keluar diam-diam."
 
-#: plugins/system_upgrade.py:547
+#: plugins/system_upgrade.py:544
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
 msgstr "gunakan 'dnf {command} reboot' untuk memulai upgrade"
 
-#: plugins/system_upgrade.py:565
+#: plugins/system_upgrade.py:562
 msgid "Rebooting to perform upgrade."
 msgstr "Reboot untuk melakukan peningkatan."
 
-#: plugins/system_upgrade.py:598
+#: plugins/system_upgrade.py:595
 msgid "Starting offline upgrade. This will take a while."
 msgstr "Memulai peningkatan sistem. Ini akan makan waktu."
 
-#: plugins/system_upgrade.py:600
+#: plugins/system_upgrade.py:597
 msgid "Starting offline distrosync. This will take a while."
 msgstr ""
 "Memulai distrosync secara offline. Ini akan memakan waktu beberapa saat."
 
-#: plugins/system_upgrade.py:602
+#: plugins/system_upgrade.py:599
 msgid "Starting system upgrade. This will take a while."
 msgstr "Memulai peningkatan sistem. Ini akan makan waktu."
 
-#: plugins/system_upgrade.py:618
+#: plugins/system_upgrade.py:615
 msgid "Cleaning up downloaded data..."
 msgstr "Membersihkan data yang diunduh..."
 
-#: plugins/system_upgrade.py:650
+#: plugins/system_upgrade.py:647
 msgid "Transaction saved to {}."
 msgstr "Transaksi tersimpan ke {}."
 
-#: plugins/system_upgrade.py:653
+#: plugins/system_upgrade.py:650
 msgid "Error storing transaction: {}"
 msgstr "Gagal menyimpan transaksi: {}"
 
-#: plugins/system_upgrade.py:675
+#: plugins/system_upgrade.py:672
 msgid "Download finished."
 msgstr "Pengunduhan selesai."
 
-#: plugins/system_upgrade.py:678 plugins/system_upgrade.py:679
+#: plugins/system_upgrade.py:675 plugins/system_upgrade.py:676
 msgid "Upgrade complete! Cleaning up and rebooting..."
 msgstr "Peningkatan selesai! Membersihkan dan reboot..."
 
-#: plugins/system_upgrade.py:688
+#: plugins/system_upgrade.py:685
 msgid "Prepare offline upgrade of the system"
 msgstr "Mempersiapkan upgrade sistem secara offline"
 
-#: plugins/system_upgrade.py:693
+#: plugins/system_upgrade.py:690
 msgid "Prepare offline distrosync of the system"
 msgstr "Mempersiapkan distrosync sistem secara offline"
 

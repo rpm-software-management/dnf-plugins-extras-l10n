@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-18 09:18-0400\n"
+"POT-Creation-Date: 2021-05-13 09:18-0400\n"
 "PO-Revision-Date: 2021-03-28 06:01+0000\n"
 "Last-Translator: Марко Костић (Marko Kostić) <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -91,85 +91,85 @@ msgid "creating post_snapshot failed: %s"
 msgstr "стварање позног _снимка стања није успело: %s"
 
 #. Translators: This string is only used in unit tests.
-#: plugins/system_upgrade.py:46
+#: plugins/system_upgrade.py:45
 msgid "the color of the sky"
 msgstr "боја неба"
 
-#: plugins/system_upgrade.py:60
+#: plugins/system_upgrade.py:57
 msgid "Need a --releasever greater than the current system version."
 msgstr "Потребан ми је --releasever већи од тренутног издања система."
 
 #. Translators: do not change "reboot" here
-#: plugins/system_upgrade.py:62
+#: plugins/system_upgrade.py:59
 #, python-brace-format
 msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
 "To remove cached metadata and transaction use 'dnf {command} clean'"
 msgstr ""
 
-#: plugins/system_upgrade.py:65
+#: plugins/system_upgrade.py:62
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
 msgstr ""
 "Нажалост, морате користити „download --releasever“ уместо параметра „--"
 "network“"
 
-#: plugins/system_upgrade.py:74
+#: plugins/system_upgrade.py:71
 msgid "Reboot turned off, not rebooting."
 msgstr ""
 
-#: plugins/system_upgrade.py:123
+#: plugins/system_upgrade.py:120
 #, python-format
 msgid "Screen blanking can't be disabled: %s"
 msgstr ""
 
-#: plugins/system_upgrade.py:143
+#: plugins/system_upgrade.py:140
 #, python-format
 msgid "Failed loading state file: %s, continuing with empty state."
 msgstr "Неуспех при учитавању датотеке стања: %s, настављам са празним стањем."
 
-#: plugins/system_upgrade.py:289
+#: plugins/system_upgrade.py:286
 msgid "The following boots appear to contain upgrade logs:"
 msgstr "Делује да следећа подизања система садрже записнике о надограђивању:"
 
-#: plugins/system_upgrade.py:299
+#: plugins/system_upgrade.py:296
 msgid "-- no logs were found --"
 msgstr "-- нема нађених записника --"
 
-#: plugins/system_upgrade.py:314
+#: plugins/system_upgrade.py:311
 msgid "Cannot find logs with this index."
 msgstr "Не могу наћи записнике са овим индексом."
 
-#: plugins/system_upgrade.py:323
+#: plugins/system_upgrade.py:320
 msgid "Unable to match systemd journal entry"
 msgstr "Не могу да нађем подударање у журналу за наведени унос"
 
-#: plugins/system_upgrade.py:344
+#: plugins/system_upgrade.py:341
 msgid "Prepare system for upgrade to a new release"
 msgstr "Припрема система за надоградњу на ново издање"
 
-#: plugins/system_upgrade.py:360
+#: plugins/system_upgrade.py:357
 msgid "keep installed packages if the new release's version is older"
 msgstr ""
 "задржи инсталиране пакете ако је издање пакета старије у новом издању система"
 
-#: plugins/system_upgrade.py:364
+#: plugins/system_upgrade.py:361
 msgid "which logs to show"
 msgstr "које записнике приказати"
 
-#: plugins/system_upgrade.py:398
+#: plugins/system_upgrade.py:395
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
 msgstr ""
 
-#: plugins/system_upgrade.py:435
+#: plugins/system_upgrade.py:432
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
 msgstr ""
 
-#: plugins/system_upgrade.py:457
+#: plugins/system_upgrade.py:454
 msgid "Additional information for System Upgrade: {}"
 msgstr ""
 
-#: plugins/system_upgrade.py:460
+#: plugins/system_upgrade.py:457
 msgid ""
 "Before you continue ensure that your system is fully upgraded by running "
 "\"dnf --refresh upgrade\". Do you want to continue"
@@ -178,79 +178,79 @@ msgstr ""
 "тако што ћете извршити наредбу „dnf --refresh upgrade“. Да ли желите да "
 "наставите"
 
-#: plugins/system_upgrade.py:464
+#: plugins/system_upgrade.py:461
 msgid "Operation aborted."
 msgstr "Радња је отказана."
 
-#: plugins/system_upgrade.py:522
+#: plugins/system_upgrade.py:519
 msgid "system is not ready for upgrade"
 msgstr "систем није спреман за надоградњу"
 
-#: plugins/system_upgrade.py:525
+#: plugins/system_upgrade.py:522
 #, python-brace-format
 msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
 "download [OPTIONS]'"
 msgstr ""
 
-#: plugins/system_upgrade.py:529
+#: plugins/system_upgrade.py:526
 msgid "upgrade is already scheduled"
 msgstr "надоградња је већ заказана"
 
-#: plugins/system_upgrade.py:535
+#: plugins/system_upgrade.py:532
 msgid "trigger file does not exist. exiting quietly."
 msgstr "окидачка датотека не постоји. излазим тихо."
 
-#: plugins/system_upgrade.py:538
+#: plugins/system_upgrade.py:535
 msgid "another upgrade tool is running. exiting quietly."
 msgstr "друга алатка за надограђивање већ ради. излазим тихо."
 
-#: plugins/system_upgrade.py:547
+#: plugins/system_upgrade.py:544
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
 msgstr ""
 
-#: plugins/system_upgrade.py:565
+#: plugins/system_upgrade.py:562
 msgid "Rebooting to perform upgrade."
 msgstr "Поново покрећем систем за извршавање надоградње."
 
-#: plugins/system_upgrade.py:598
+#: plugins/system_upgrade.py:595
 msgid "Starting offline upgrade. This will take a while."
 msgstr ""
 
-#: plugins/system_upgrade.py:600
+#: plugins/system_upgrade.py:597
 msgid "Starting offline distrosync. This will take a while."
 msgstr ""
 
-#: plugins/system_upgrade.py:602
+#: plugins/system_upgrade.py:599
 msgid "Starting system upgrade. This will take a while."
 msgstr "Започињем надоградњу система. Ово ће потрајати."
 
-#: plugins/system_upgrade.py:618
+#: plugins/system_upgrade.py:615
 msgid "Cleaning up downloaded data..."
 msgstr "Чистим преузете податке..."
 
-#: plugins/system_upgrade.py:650
+#: plugins/system_upgrade.py:647
 msgid "Transaction saved to {}."
 msgstr "Трансакција сачувана у путањи {}."
 
-#: plugins/system_upgrade.py:653
+#: plugins/system_upgrade.py:650
 msgid "Error storing transaction: {}"
 msgstr ""
 
-#: plugins/system_upgrade.py:675
+#: plugins/system_upgrade.py:672
 msgid "Download finished."
 msgstr "Преузимање је завршено."
 
-#: plugins/system_upgrade.py:678 plugins/system_upgrade.py:679
+#: plugins/system_upgrade.py:675 plugins/system_upgrade.py:676
 msgid "Upgrade complete! Cleaning up and rebooting..."
 msgstr "Надограђивање је обављено! Чистим и поново покрећем систем..."
 
-#: plugins/system_upgrade.py:688
+#: plugins/system_upgrade.py:685
 msgid "Prepare offline upgrade of the system"
 msgstr ""
 
-#: plugins/system_upgrade.py:693
+#: plugins/system_upgrade.py:690
 msgid "Prepare offline distrosync of the system"
 msgstr ""
 

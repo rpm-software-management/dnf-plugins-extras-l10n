@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-18 09:18-0400\n"
+"POT-Creation-Date: 2021-05-13 09:18-0400\n"
 "PO-Revision-Date: 2020-11-19 14:35+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -89,16 +89,16 @@ msgid "creating post_snapshot failed: %s"
 msgstr "aanmaken van post_snapshot mislukte: %s"
 
 #. Translators: This string is only used in unit tests.
-#: plugins/system_upgrade.py:46
+#: plugins/system_upgrade.py:45
 msgid "the color of the sky"
 msgstr "de kleur van de lucht"
 
-#: plugins/system_upgrade.py:60
+#: plugins/system_upgrade.py:57
 msgid "Need a --releasever greater than the current system version."
 msgstr "Er is een grotere --releasever nodig dan de huidige systeemversie."
 
 #. Translators: do not change "reboot" here
-#: plugins/system_upgrade.py:62
+#: plugins/system_upgrade.py:59
 #, python-brace-format
 msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
@@ -108,72 +108,72 @@ msgstr ""
 "Gebruik 'dnf {command} clean' om in de cache opgeslagen metadata en "
 "transacties te verwijderen"
 
-#: plugins/system_upgrade.py:65
+#: plugins/system_upgrade.py:62
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
 msgstr ""
 "Sorry, je moet 'download --releasever' gebruiken in plaats van '--network'"
 
-#: plugins/system_upgrade.py:74
+#: plugins/system_upgrade.py:71
 msgid "Reboot turned off, not rebooting."
 msgstr "Opnieuw opstarten is uitgeschakeld, niet opnieuw opstarten."
 
-#: plugins/system_upgrade.py:123
+#: plugins/system_upgrade.py:120
 #, python-format
 msgid "Screen blanking can't be disabled: %s"
 msgstr "Schermonderdrukking kan niet worden uitgeschakeld: %s"
 
-#: plugins/system_upgrade.py:143
+#: plugins/system_upgrade.py:140
 #, python-format
 msgid "Failed loading state file: %s, continuing with empty state."
 msgstr "Laden van statusbestand mislukt: %s, doorgaan met lege status."
 
-#: plugins/system_upgrade.py:289
+#: plugins/system_upgrade.py:286
 msgid "The following boots appear to contain upgrade logs:"
 msgstr "De volgende boots lijken upgrade-logboeken te bevatten:"
 
-#: plugins/system_upgrade.py:299
+#: plugins/system_upgrade.py:296
 msgid "-- no logs were found --"
 msgstr "-- geen logs gevonden --"
 
-#: plugins/system_upgrade.py:314
+#: plugins/system_upgrade.py:311
 msgid "Cannot find logs with this index."
 msgstr "Kan geen logs vinden met deze index."
 
-#: plugins/system_upgrade.py:323
+#: plugins/system_upgrade.py:320
 msgid "Unable to match systemd journal entry"
 msgstr "Kan systemd journaalingang niet matchen"
 
-#: plugins/system_upgrade.py:344
+#: plugins/system_upgrade.py:341
 msgid "Prepare system for upgrade to a new release"
 msgstr "Prepareer systeem voor upgrade naar een nieuwe release"
 
-#: plugins/system_upgrade.py:360
+#: plugins/system_upgrade.py:357
 msgid "keep installed packages if the new release's version is older"
 msgstr ""
 "behoud geïnstalleerde pakketten als de versie van de nieuwe release ouder is"
 
-#: plugins/system_upgrade.py:364
+#: plugins/system_upgrade.py:361
 msgid "which logs to show"
 msgstr "welke logboeken worden getoond"
 
-#: plugins/system_upgrade.py:398
+#: plugins/system_upgrade.py:395
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
 msgstr ""
 "Incompatibele versie van data. Voer 'dnf {command} download [OPTIONS]' "
 "opnieuw uit"
 
-#: plugins/system_upgrade.py:435
+#: plugins/system_upgrade.py:432
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
 msgstr ""
 "Commando 'offline-distrosync' kan niet worden gebruikt met de --no-downgrade "
 "optie"
 
-#: plugins/system_upgrade.py:457
+#: plugins/system_upgrade.py:454
 msgid "Additional information for System Upgrade: {}"
 msgstr "Extra informatie voor Systeem Upgrade: {}"
 
-#: plugins/system_upgrade.py:460
+#: plugins/system_upgrade.py:457
 msgid ""
 "Before you continue ensure that your system is fully upgraded by running "
 "\"dnf --refresh upgrade\". Do you want to continue"
@@ -181,15 +181,15 @@ msgstr ""
 "Controleer voordat je doorgaat of jouw systeem volledig is geüpgraded door "
 "\"dnf --refresh upgrade\" uit te voeren. Wil je doorgaan"
 
-#: plugins/system_upgrade.py:464
+#: plugins/system_upgrade.py:461
 msgid "Operation aborted."
 msgstr "Uitvoering afgebroken."
 
-#: plugins/system_upgrade.py:522
+#: plugins/system_upgrade.py:519
 msgid "system is not ready for upgrade"
 msgstr "systeem is niet klaar voor upgrade"
 
-#: plugins/system_upgrade.py:525
+#: plugins/system_upgrade.py:522
 #, python-brace-format
 msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
@@ -198,64 +198,64 @@ msgstr ""
 "de transactiie was niet voorbereid op '{command}'. Voer 'dnf {command} "
 "download [OPTIES]' opnieuw uit"
 
-#: plugins/system_upgrade.py:529
+#: plugins/system_upgrade.py:526
 msgid "upgrade is already scheduled"
 msgstr "upgrade is al gepland"
 
-#: plugins/system_upgrade.py:535
+#: plugins/system_upgrade.py:532
 msgid "trigger file does not exist. exiting quietly."
 msgstr "trigger-bestand bestaat niet. rustig afsluiten."
 
-#: plugins/system_upgrade.py:538
+#: plugins/system_upgrade.py:535
 msgid "another upgrade tool is running. exiting quietly."
 msgstr "er is een ander upgrade-tool actief. rustig afsluiten."
 
-#: plugins/system_upgrade.py:547
+#: plugins/system_upgrade.py:544
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
 msgstr "gebruik 'dnf {command} reboot' om te beginnen met de upgrade"
 
-#: plugins/system_upgrade.py:565
+#: plugins/system_upgrade.py:562
 msgid "Rebooting to perform upgrade."
 msgstr "Opnieuw opstarten om upgrade uit te voeren."
 
-#: plugins/system_upgrade.py:598
+#: plugins/system_upgrade.py:595
 msgid "Starting offline upgrade. This will take a while."
 msgstr "Offline upgrade starten. Dit gaat even duren."
 
-#: plugins/system_upgrade.py:600
+#: plugins/system_upgrade.py:597
 msgid "Starting offline distrosync. This will take a while."
 msgstr "Offline distrosync starten. Dit gaat even duren."
 
-#: plugins/system_upgrade.py:602
+#: plugins/system_upgrade.py:599
 msgid "Starting system upgrade. This will take a while."
 msgstr "Systeem upgrade starten. Dit gaat even duren."
 
-#: plugins/system_upgrade.py:618
+#: plugins/system_upgrade.py:615
 msgid "Cleaning up downloaded data..."
 msgstr "Gedownloade data opschonen ..."
 
-#: plugins/system_upgrade.py:650
+#: plugins/system_upgrade.py:647
 msgid "Transaction saved to {}."
 msgstr "Transactie opgeslagen naar {}."
 
-#: plugins/system_upgrade.py:653
+#: plugins/system_upgrade.py:650
 msgid "Error storing transaction: {}"
 msgstr "Fout tijdens het opslaan van transactie: {}"
 
-#: plugins/system_upgrade.py:675
+#: plugins/system_upgrade.py:672
 msgid "Download finished."
 msgstr "Download voltooid."
 
-#: plugins/system_upgrade.py:678 plugins/system_upgrade.py:679
+#: plugins/system_upgrade.py:675 plugins/system_upgrade.py:676
 msgid "Upgrade complete! Cleaning up and rebooting..."
 msgstr "Upgrade voltooid! Opschonen en opnieuw opstarten ..."
 
-#: plugins/system_upgrade.py:688
+#: plugins/system_upgrade.py:685
 msgid "Prepare offline upgrade of the system"
 msgstr "Offline upgrade van het systeem voorbereiden"
 
-#: plugins/system_upgrade.py:693
+#: plugins/system_upgrade.py:690
 msgid "Prepare offline distrosync of the system"
 msgstr "Offline distrosync van het systeem voorbereiden"
 

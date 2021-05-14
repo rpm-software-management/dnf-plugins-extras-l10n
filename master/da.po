@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-18 09:18-0400\n"
+"POT-Creation-Date: 2021-05-13 09:18-0400\n"
 "PO-Revision-Date: 2020-09-18 19:29+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -88,16 +88,16 @@ msgid "creating post_snapshot failed: %s"
 msgstr "kunne ikke oprette post_snapshot: %s"
 
 #. Translators: This string is only used in unit tests.
-#: plugins/system_upgrade.py:46
+#: plugins/system_upgrade.py:45
 msgid "the color of the sky"
 msgstr "himlens farve"
 
-#: plugins/system_upgrade.py:60
+#: plugins/system_upgrade.py:57
 msgid "Need a --releasever greater than the current system version."
 msgstr "Skal have en --releasever større end den nuværende systemversion."
 
 #. Translators: do not change "reboot" here
-#: plugins/system_upgrade.py:62
+#: plugins/system_upgrade.py:59
 #, python-brace-format
 msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
@@ -107,69 +107,69 @@ msgstr ""
 "For at fjerne den mellemlagret metadata og transaktion bruges 'dnf {command} "
 "clean'"
 
-#: plugins/system_upgrade.py:65
+#: plugins/system_upgrade.py:62
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
 msgstr ""
 "Beklager, du skal bruge 'download --releasever' i stedet for '--network'"
 
-#: plugins/system_upgrade.py:74
+#: plugins/system_upgrade.py:71
 msgid "Reboot turned off, not rebooting."
 msgstr "Genstart slået fra, genstarter ikke."
 
-#: plugins/system_upgrade.py:123
+#: plugins/system_upgrade.py:120
 #, python-format
 msgid "Screen blanking can't be disabled: %s"
 msgstr "Rydning af skærm kan ikke deaktiveres: %s"
 
-#: plugins/system_upgrade.py:143
+#: plugins/system_upgrade.py:140
 #, python-format
 msgid "Failed loading state file: %s, continuing with empty state."
 msgstr "Kunne ikke indlæse tilstandsfilen: %s, fortsætter med tom tilstand."
 
-#: plugins/system_upgrade.py:289
+#: plugins/system_upgrade.py:286
 msgid "The following boots appear to contain upgrade logs:"
 msgstr "Følgende opstarter ser ud til at indeholde opgraderingslogge:"
 
-#: plugins/system_upgrade.py:299
+#: plugins/system_upgrade.py:296
 msgid "-- no logs were found --"
 msgstr "-- der blev ikke fundet nogen logge --"
 
-#: plugins/system_upgrade.py:314
+#: plugins/system_upgrade.py:311
 msgid "Cannot find logs with this index."
 msgstr "Kan ikke finde logge med dette indeks."
 
-#: plugins/system_upgrade.py:323
+#: plugins/system_upgrade.py:320
 msgid "Unable to match systemd journal entry"
 msgstr "Kan ikke matche systemd-journalpost"
 
-#: plugins/system_upgrade.py:344
+#: plugins/system_upgrade.py:341
 msgid "Prepare system for upgrade to a new release"
 msgstr "Forbered systemet til opgradering til en ny udgivelse"
 
-#: plugins/system_upgrade.py:360
+#: plugins/system_upgrade.py:357
 msgid "keep installed packages if the new release's version is older"
 msgstr "bevar installerede pakker hvis den nye udgivelses version er ældre"
 
-#: plugins/system_upgrade.py:364
+#: plugins/system_upgrade.py:361
 msgid "which logs to show"
 msgstr "hvilke logge som skal vises"
 
-#: plugins/system_upgrade.py:398
+#: plugins/system_upgrade.py:395
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
 msgstr ""
 "Inkompatibel version af data. Kør 'dnf {command} download [TILVALG]' igen"
 
-#: plugins/system_upgrade.py:435
+#: plugins/system_upgrade.py:432
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
 msgstr ""
 "Kommandoen 'offline-distrosync' kan ikke bruges med tilvalget --no-downgrade"
 
-#: plugins/system_upgrade.py:457
+#: plugins/system_upgrade.py:454
 msgid "Additional information for System Upgrade: {}"
 msgstr "Yderligere information for systemopgradering: {}"
 
-#: plugins/system_upgrade.py:460
+#: plugins/system_upgrade.py:457
 msgid ""
 "Before you continue ensure that your system is fully upgraded by running "
 "\"dnf --refresh upgrade\". Do you want to continue"
@@ -177,15 +177,15 @@ msgstr ""
 "Inden du fortsætter, så sørg for at dit system er fuldt opgraderet ved at "
 "køre \"dnf --refresh upgrade\". Vil du fortsætte"
 
-#: plugins/system_upgrade.py:464
+#: plugins/system_upgrade.py:461
 msgid "Operation aborted."
 msgstr "Handling afbrudt."
 
-#: plugins/system_upgrade.py:522
+#: plugins/system_upgrade.py:519
 msgid "system is not ready for upgrade"
 msgstr "systemet er ikke klar til opgradering"
 
-#: plugins/system_upgrade.py:525
+#: plugins/system_upgrade.py:522
 #, python-brace-format
 msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
@@ -194,64 +194,64 @@ msgstr ""
 "transaktionen var ikke forberedt til '{command}'. Kør 'dnf {command} "
 "download [TILVALG]' igen"
 
-#: plugins/system_upgrade.py:529
+#: plugins/system_upgrade.py:526
 msgid "upgrade is already scheduled"
 msgstr "opgradering er allerede planlagt"
 
-#: plugins/system_upgrade.py:535
+#: plugins/system_upgrade.py:532
 msgid "trigger file does not exist. exiting quietly."
 msgstr "udløserfil findes ikke - afslutter stille."
 
-#: plugins/system_upgrade.py:538
+#: plugins/system_upgrade.py:535
 msgid "another upgrade tool is running. exiting quietly."
 msgstr "der kører et andet opgraderingsvæktøj - afslutter stille."
 
-#: plugins/system_upgrade.py:547
+#: plugins/system_upgrade.py:544
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
 msgstr "brug 'dnf {command} reboot' for at begynde opgraderingen"
 
-#: plugins/system_upgrade.py:565
+#: plugins/system_upgrade.py:562
 msgid "Rebooting to perform upgrade."
 msgstr "Genstart for at udføre opgraderingen."
 
-#: plugins/system_upgrade.py:598
+#: plugins/system_upgrade.py:595
 msgid "Starting offline upgrade. This will take a while."
 msgstr "Starter offlineopgradering. Det vil tage noget tid."
 
-#: plugins/system_upgrade.py:600
+#: plugins/system_upgrade.py:597
 msgid "Starting offline distrosync. This will take a while."
 msgstr "Starter offlinedistrosync. Det vil tage noget tid."
 
-#: plugins/system_upgrade.py:602
+#: plugins/system_upgrade.py:599
 msgid "Starting system upgrade. This will take a while."
 msgstr "Starter systemopgradering - det kan tage noget tid."
 
-#: plugins/system_upgrade.py:618
+#: plugins/system_upgrade.py:615
 msgid "Cleaning up downloaded data..."
 msgstr "Rydder op i downloadet data..."
 
-#: plugins/system_upgrade.py:650
+#: plugins/system_upgrade.py:647
 msgid "Transaction saved to {}."
 msgstr ""
 
-#: plugins/system_upgrade.py:653
+#: plugins/system_upgrade.py:650
 msgid "Error storing transaction: {}"
 msgstr ""
 
-#: plugins/system_upgrade.py:675
+#: plugins/system_upgrade.py:672
 msgid "Download finished."
 msgstr "Download færdig."
 
-#: plugins/system_upgrade.py:678 plugins/system_upgrade.py:679
+#: plugins/system_upgrade.py:675 plugins/system_upgrade.py:676
 msgid "Upgrade complete! Cleaning up and rebooting..."
 msgstr "Opgradering gennemført! Rydder op og genstarter..."
 
-#: plugins/system_upgrade.py:688
+#: plugins/system_upgrade.py:685
 msgid "Prepare offline upgrade of the system"
 msgstr "Forbered offlineopgradering af systemet"
 
-#: plugins/system_upgrade.py:693
+#: plugins/system_upgrade.py:690
 msgid "Prepare offline distrosync of the system"
 msgstr "Forbered offlinedistrosync af systemet"
 
