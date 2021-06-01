@@ -1,21 +1,21 @@
-# scootergrisen <scootergrisen@gmail.com>, 2018. #zanata, 2020.
-# scootergrisen <scootergrisen@gmail.com>, 2019. #zanata, 2020.
+# scootergrisen <scootergrisen@gmail.com>, 2018. #zanata, 2020, 2021.
+# scootergrisen <scootergrisen@gmail.com>, 2019. #zanata, 2020, 2021.
 # Anonymous <noreply@weblate.org>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-13 09:18-0400\n"
-"PO-Revision-Date: 2020-09-18 19:29+0000\n"
+"PO-Revision-Date: 2021-06-03 00:03+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
-"Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-extras/da/>\n"
+"Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.6.2\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -233,11 +233,11 @@ msgstr "Rydder op i downloadet data..."
 
 #: plugins/system_upgrade.py:647
 msgid "Transaction saved to {}."
-msgstr ""
+msgstr "Transaktion gemt til {}."
 
 #: plugins/system_upgrade.py:650
 msgid "Error storing transaction: {}"
-msgstr ""
+msgstr "Fejl ved gemning af transaktion: {}"
 
 #: plugins/system_upgrade.py:672
 msgid "Download finished."
