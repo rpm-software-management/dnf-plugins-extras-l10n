@@ -3,13 +3,14 @@
 # Didik Supriadi <didiksupriadi41@gmail.com>, 2020.
 # Anonymous <noreply@weblate.org>, 2020.
 # Aditya Rahman <adityarahman032@gmail.com>, 2021.
+# Arman Arisman <arman.wu@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-02 09:18-0400\n"
-"PO-Revision-Date: 2021-05-14 09:02+0000\n"
-"Last-Translator: Aditya Rahman <adityarahman032@gmail.com>\n"
+"PO-Revision-Date: 2021-06-07 04:04+0000\n"
+"Last-Translator: Arman Arisman <arman.wu@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-extras/id/>\n"
 "Language: id\n"
@@ -115,11 +116,11 @@ msgstr ""
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
 msgstr ""
 "Maaf, Anda perlu memakai 'download --releasever' sebagai pengganti '--"
-"network'."
+"network'"
 
 #: plugins/system_upgrade.py:71
 msgid "Reboot turned off, not rebooting."
-msgstr ""
+msgstr "Reboot dimatikan, tidak me-reboot."
 
 #: plugins/system_upgrade.py:120
 #, python-format
