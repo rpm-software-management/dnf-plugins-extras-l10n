@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 09:18-0400\n"
+"POT-Creation-Date: 2021-06-06 09:18-0400\n"
 "PO-Revision-Date: 2020-11-28 23:35+0000\n"
 "Last-Translator: Henrique Roberto Gattermann Mittelstaedt <henrique."
 "roberto97@gmail.com>\n"
@@ -237,27 +237,32 @@ msgstr "Iniciando a atualização do sistema. Isso vai levar algum tempo."
 msgid "Cleaning up downloaded data..."
 msgstr "Limpando os dados descarregados..."
 
-#: plugins/system_upgrade.py:647
+#: plugins/system_upgrade.py:644
+msgid ""
+"The system-upgrade transaction is empty, your system is already up-to-date."
+msgstr ""
+
+#: plugins/system_upgrade.py:653
 msgid "Transaction saved to {}."
 msgstr "Transação salva em {}."
 
-#: plugins/system_upgrade.py:650
+#: plugins/system_upgrade.py:656
 msgid "Error storing transaction: {}"
 msgstr "Erro ao armazenar transação: {}"
 
-#: plugins/system_upgrade.py:672
+#: plugins/system_upgrade.py:678
 msgid "Download finished."
 msgstr "Download concluído."
 
-#: plugins/system_upgrade.py:675 plugins/system_upgrade.py:676
+#: plugins/system_upgrade.py:681 plugins/system_upgrade.py:682
 msgid "Upgrade complete! Cleaning up and rebooting..."
 msgstr "Atualização completa! Limpando e reiniciando..."
 
-#: plugins/system_upgrade.py:685
+#: plugins/system_upgrade.py:691
 msgid "Prepare offline upgrade of the system"
 msgstr ""
 
-#: plugins/system_upgrade.py:690
+#: plugins/system_upgrade.py:696
 msgid "Prepare offline distrosync of the system"
 msgstr ""
 

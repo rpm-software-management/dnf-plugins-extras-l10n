@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 09:18-0400\n"
+"POT-Creation-Date: 2021-06-06 09:18-0400\n"
 "PO-Revision-Date: 2021-02-11 20:40+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -239,27 +239,32 @@ msgstr "Запуск обновления системы. На это потре
 msgid "Cleaning up downloaded data..."
 msgstr "Очистка загруженных данных..."
 
-#: plugins/system_upgrade.py:647
+#: plugins/system_upgrade.py:644
+msgid ""
+"The system-upgrade transaction is empty, your system is already up-to-date."
+msgstr ""
+
+#: plugins/system_upgrade.py:653
 msgid "Transaction saved to {}."
 msgstr "Транзакция сохранена в {}."
 
-#: plugins/system_upgrade.py:650
+#: plugins/system_upgrade.py:656
 msgid "Error storing transaction: {}"
 msgstr "Ошибка при сохранении транзакции: {}"
 
-#: plugins/system_upgrade.py:672
+#: plugins/system_upgrade.py:678
 msgid "Download finished."
 msgstr "Загрузка закончена."
 
-#: plugins/system_upgrade.py:675 plugins/system_upgrade.py:676
+#: plugins/system_upgrade.py:681 plugins/system_upgrade.py:682
 msgid "Upgrade complete! Cleaning up and rebooting..."
 msgstr "Обновление завершилось! Очистка и перезагрузка..."
 
-#: plugins/system_upgrade.py:685
+#: plugins/system_upgrade.py:691
 msgid "Prepare offline upgrade of the system"
 msgstr "Подготовить автономное обновление системы"
 
-#: plugins/system_upgrade.py:690
+#: plugins/system_upgrade.py:696
 msgid "Prepare offline distrosync of the system"
 msgstr "Подготовить автономную синхронизацию дистрибутива системы"
 

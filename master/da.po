@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 09:18-0400\n"
+"POT-Creation-Date: 2021-06-06 09:18-0400\n"
 "PO-Revision-Date: 2021-06-03 00:03+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -231,27 +231,32 @@ msgstr "Starter systemopgradering - det kan tage noget tid."
 msgid "Cleaning up downloaded data..."
 msgstr "Rydder op i downloadet data..."
 
-#: plugins/system_upgrade.py:647
+#: plugins/system_upgrade.py:644
+msgid ""
+"The system-upgrade transaction is empty, your system is already up-to-date."
+msgstr ""
+
+#: plugins/system_upgrade.py:653
 msgid "Transaction saved to {}."
 msgstr "Transaktion gemt til {}."
 
-#: plugins/system_upgrade.py:650
+#: plugins/system_upgrade.py:656
 msgid "Error storing transaction: {}"
 msgstr "Fejl ved gemning af transaktion: {}"
 
-#: plugins/system_upgrade.py:672
+#: plugins/system_upgrade.py:678
 msgid "Download finished."
 msgstr "Download færdig."
 
-#: plugins/system_upgrade.py:675 plugins/system_upgrade.py:676
+#: plugins/system_upgrade.py:681 plugins/system_upgrade.py:682
 msgid "Upgrade complete! Cleaning up and rebooting..."
 msgstr "Opgradering gennemført! Rydder op og genstarter..."
 
-#: plugins/system_upgrade.py:685
+#: plugins/system_upgrade.py:691
 msgid "Prepare offline upgrade of the system"
 msgstr "Forbered offlineopgradering af systemet"
 
-#: plugins/system_upgrade.py:690
+#: plugins/system_upgrade.py:696
 msgid "Prepare offline distrosync of the system"
 msgstr "Forbered offlinedistrosync af systemet"
 

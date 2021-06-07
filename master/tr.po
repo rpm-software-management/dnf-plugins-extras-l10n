@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 09:18-0400\n"
+"POT-Creation-Date: 2021-06-06 09:18-0400\n"
 "PO-Revision-Date: 2020-11-19 14:35+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -234,27 +234,32 @@ msgstr "Sistem yükseltme başlatılıyor. Bu biraz zaman alacak."
 msgid "Cleaning up downloaded data..."
 msgstr "İndirilen veriler temizleniyor..."
 
-#: plugins/system_upgrade.py:647
+#: plugins/system_upgrade.py:644
+msgid ""
+"The system-upgrade transaction is empty, your system is already up-to-date."
+msgstr ""
+
+#: plugins/system_upgrade.py:653
 msgid "Transaction saved to {}."
 msgstr "İşlem {} dosyasına kaydedildi."
 
-#: plugins/system_upgrade.py:650
+#: plugins/system_upgrade.py:656
 msgid "Error storing transaction: {}"
 msgstr "İşlem kaydedilirken hata oluştu: {}"
 
-#: plugins/system_upgrade.py:672
+#: plugins/system_upgrade.py:678
 msgid "Download finished."
 msgstr "İndirme tamamlandı."
 
-#: plugins/system_upgrade.py:675 plugins/system_upgrade.py:676
+#: plugins/system_upgrade.py:681 plugins/system_upgrade.py:682
 msgid "Upgrade complete! Cleaning up and rebooting..."
 msgstr "Yükseltme tamamlandı! Temizlik yapılıyor ve yeniden başlatılıyor..."
 
-#: plugins/system_upgrade.py:685
+#: plugins/system_upgrade.py:691
 msgid "Prepare offline upgrade of the system"
 msgstr "Sistemi çevrim dışı yükseltmeye hazırla"
 
-#: plugins/system_upgrade.py:690
+#: plugins/system_upgrade.py:696
 msgid "Prepare offline distrosync of the system"
 msgstr "Sistemi çevrim dışı dağıtım eşzamanlamasına hazırla"
 

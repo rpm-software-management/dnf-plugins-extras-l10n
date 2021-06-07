@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 09:18-0400\n"
+"POT-Creation-Date: 2021-06-06 09:18-0400\n"
 "PO-Revision-Date: 2018-05-18 09:06+0000\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan\n"
@@ -230,28 +230,33 @@ msgstr "S'inicia l'actualització de versió. Això pot trigar una estona."
 msgid "Cleaning up downloaded data..."
 msgstr "Neteja de les dades baixades..."
 
-#: plugins/system_upgrade.py:647
+#: plugins/system_upgrade.py:644
+msgid ""
+"The system-upgrade transaction is empty, your system is already up-to-date."
+msgstr ""
+
+#: plugins/system_upgrade.py:653
 msgid "Transaction saved to {}."
 msgstr ""
 
-#: plugins/system_upgrade.py:650
+#: plugins/system_upgrade.py:656
 msgid "Error storing transaction: {}"
 msgstr ""
 
-#: plugins/system_upgrade.py:672
+#: plugins/system_upgrade.py:678
 msgid "Download finished."
 msgstr "S'ha finalitzat la baixada."
 
-#: plugins/system_upgrade.py:675 plugins/system_upgrade.py:676
+#: plugins/system_upgrade.py:681 plugins/system_upgrade.py:682
 msgid "Upgrade complete! Cleaning up and rebooting..."
 msgstr ""
 "S'ha completat l'actualització de la versió. Es neteja i es reinicia..."
 
-#: plugins/system_upgrade.py:685
+#: plugins/system_upgrade.py:691
 msgid "Prepare offline upgrade of the system"
 msgstr ""
 
-#: plugins/system_upgrade.py:690
+#: plugins/system_upgrade.py:696
 msgid "Prepare offline distrosync of the system"
 msgstr ""
 
