@@ -1,19 +1,19 @@
-# Geert Warrink <geert.warrink@onsnet.nu>, 2019. #zanata, 2020.
+# Geert Warrink <geert.warrink@onsnet.nu>, 2019. #zanata, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-06 09:18-0400\n"
-"PO-Revision-Date: 2020-11-19 14:35+0000\n"
+"PO-Revision-Date: 2021-06-07 17:12+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
-"Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-extras/nl/>\n"
+"Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.2\n"
+"X-Generator: Weblate 4.6.2\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -238,7 +238,7 @@ msgstr "Gedownloade data opschonen ..."
 #: plugins/system_upgrade.py:644
 msgid ""
 "The system-upgrade transaction is empty, your system is already up-to-date."
-msgstr ""
+msgstr "De systeem-upgrade transactie is leeg, jouw systeem is al up-to-date."
 
 #: plugins/system_upgrade.py:653
 msgid "Transaction saved to {}."
