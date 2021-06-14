@@ -3,13 +3,14 @@
 # Meskó Balázs <meskobalazs@gmail.com>, 2019. #zanata
 # Balázs Meskó <meskobalazs@mailbox.org>, 2020, 2021.
 # Anonymous <noreply@weblate.org>, 2020.
+# Dankaházi (ifj.) István <dankahazi.istvan@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-13 09:18-0400\n"
-"PO-Revision-Date: 2021-02-10 13:41+0000\n"
-"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
+"PO-Revision-Date: 2021-06-15 19:04+0000\n"
+"Last-Translator: Dankaházi (ifj.) István <dankahazi.istvan@gmail.com>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-extras/hu/>\n"
 "Language: hu\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.6.2\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -245,11 +246,11 @@ msgstr ""
 
 #: plugins/system_upgrade.py:653
 msgid "Transaction saved to {}."
-msgstr "Tranzakció ide mentve: {}."
+msgstr "Tranzakció mentve {}."
 
 #: plugins/system_upgrade.py:656
 msgid "Error storing transaction: {}"
-msgstr "Hiba történt a tranzakció tárolásakor: {}"
+msgstr "Hiba a tranzakció tárolásában: {}"
 
 #: plugins/system_upgrade.py:678
 msgid "Download finished."
