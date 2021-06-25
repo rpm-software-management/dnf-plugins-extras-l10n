@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2021-03-26 15:01+0000\n"
+"PO-Revision-Date: 2021-06-26 14:04+0000\n"
 "Last-Translator: Charles Lee <lchopn@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-extras/zh_CN/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.7\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -113,7 +113,7 @@ msgstr "很抱歉，您需要使用 'download --releasever' 代替 '--network' �
 
 #: plugins/system_upgrade.py:71
 msgid "Reboot turned off, not rebooting."
-msgstr ""
+msgstr "已关闭重启选项，将不会重启。"
 
 #: plugins/system_upgrade.py:120
 #, python-format
@@ -231,7 +231,7 @@ msgstr "正在清理已下载的数据…"
 #: plugins/system_upgrade.py:644
 msgid ""
 "The system-upgrade transaction is empty, your system is already up-to-date."
-msgstr ""
+msgstr "system-upgrade 事务为空，您的系统已经更新至最新。"
 
 #: plugins/system_upgrade.py:653
 msgid "Transaction saved to {}."
