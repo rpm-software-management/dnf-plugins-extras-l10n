@@ -5,14 +5,14 @@
 # Cássio Rodrigo Honorato Rodrigues <cassiorhr@outlook.com>, 2019. #zanata
 # Gustavo Costa <gusta@null.net>, 2020.
 # Henrique Roberto Gattermann Mittelstaedt <henrique.roberto97@gmail.com>, 2020.
+# Gustavo Costa <xfgusta@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2020-11-28 23:35+0000\n"
-"Last-Translator: Henrique Roberto Gattermann Mittelstaedt <henrique."
-"roberto97@gmail.com>\n"
+"PO-Revision-Date: 2021-07-17 21:04+0000\n"
+"Last-Translator: Gustavo Costa <xfgusta@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-extras/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.3.2\n"
+"X-Generator: Weblate 4.7.1\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -125,7 +125,7 @@ msgstr "Reinicialização desativada, não reinicializando."
 #: plugins/system_upgrade.py:120
 #, python-format
 msgid "Screen blanking can't be disabled: %s"
-msgstr ""
+msgstr "A tela em branco não pode ser desativada: %s"
 
 #: plugins/system_upgrade.py:140
 #, python-format
@@ -165,6 +165,8 @@ msgstr "quais logs exibir"
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
 msgstr ""
+"Versão de dados incompatível. Execute novamente 'dnf {command} download "
+"[OPÇÕES]'"
 
 #: plugins/system_upgrade.py:432
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
@@ -227,7 +229,7 @@ msgstr "Iniciando a atualização do sistema. Isso vai levar algum tempo."
 
 #: plugins/system_upgrade.py:597
 msgid "Starting offline distrosync. This will take a while."
-msgstr ""
+msgstr "Iniciando distrosync offline. Isso vai demorar um pouco."
 
 #: plugins/system_upgrade.py:599
 msgid "Starting system upgrade. This will take a while."
@@ -241,6 +243,8 @@ msgstr "Limpando os dados descarregados..."
 msgid ""
 "The system-upgrade transaction is empty, your system is already up-to-date."
 msgstr ""
+"A transação de atualização do sistema está vazia, seu sistema já está "
+"atualizado."
 
 #: plugins/system_upgrade.py:653
 msgid "Transaction saved to {}."
@@ -260,11 +264,11 @@ msgstr "Atualização completa! Limpando e reiniciando..."
 
 #: plugins/system_upgrade.py:691
 msgid "Prepare offline upgrade of the system"
-msgstr ""
+msgstr "Prepara a atualização offline do sistema"
 
 #: plugins/system_upgrade.py:696
 msgid "Prepare offline distrosync of the system"
-msgstr ""
+msgstr "Prepara o distrosync offline do sistema"
 
 #: plugins/torproxy.py:31
 msgid "Disabling torproxy plugin: cannot connect to the Tor network"
