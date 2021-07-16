@@ -7,92 +7,103 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-07-17 21:04+0000\n"
+"Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
+"Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/fur/>\n"
 "Language: fur\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.7.1\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
-msgstr ""
+msgstr "Instale i pachets definîts intun file kickstart sul to sisteme"
 
 #: plugins/kickstart.py:62
 msgid "kickstart file"
-msgstr ""
+msgstr "File di kickstart"
 
 #: plugins/kickstart.py:80
 #, python-format
 msgid "file cannot be parsed: %s"
-msgstr ""
+msgstr "nol è pussibil analizâ il file: %s"
 
 #: plugins/rpm_conf.py:65
 msgid "Adding '{}' to list of handling packages for rpmconf"
-msgstr ""
+msgstr "Zonte di '{}' ae liste di pachets di fâ gjestî a rpmconf"
 
 #: plugins/rpm_conf.py:71
 msgid "rpmconf plugin will not run in non-interactive mode"
-msgstr ""
+msgstr "il plugin rpmconf nol vignarà eseguît in modalitât no-interative"
 
 #: plugins/rpm_conf.py:84
 msgid "ignoring sys.exit from rpmconf due to missing MERGE variable"
 msgstr ""
+"si ignore la clamade sys.exit che e rive di rpmconf par vie che e mancje la "
+"variabile MERGE"
 
 #: plugins/rpm_conf.py:88
 msgid "ignoring sys.exit from rpmconf due to missing file"
 msgstr ""
+"si ignore la clamade sys.exit che e rive di rpmconf par vie che al mancje un "
+"file"
 
 #: plugins/showvars.py:46
 msgid "show all active dnf variables"
-msgstr ""
+msgstr "mostre dutis lis variabilis dnf ativis"
 
 #: plugins/snapper.py:49
 #, python-format
 msgid "connect to snapperd failed: %s"
-msgstr ""
+msgstr "conession a snapperd falide: %s"
 
 #: plugins/snapper.py:55
 msgid "creating pre_snapshot"
-msgstr ""
+msgstr "creazion di une pre-istantanie"
 
 #: plugins/snapper.py:61
 #, python-format
 msgid "created pre_snapshot %d"
-msgstr ""
+msgstr "creade pre-istantanie %d"
 
 #: plugins/snapper.py:65
 #, python-format
 msgid "creating pre_snapshot failed: %s"
-msgstr ""
+msgstr "faliment de creazion de pre-istantanie: %s"
 
 #: plugins/snapper.py:74
 msgid "skipping post_snapshot because creation of pre_snapshot failed"
 msgstr ""
+"si salte la post-istantanie parcè che nol è stât pussibil creâ la pre-"
+"istantanie"
 
 #: plugins/snapper.py:80
 msgid "creating post_snapshot"
-msgstr ""
+msgstr "creazion de post-istantanie"
 
 #: plugins/snapper.py:85
 #, python-format
 msgid "created post_snapshot %d"
-msgstr ""
+msgstr "creade post-istantanie %d"
 
 #: plugins/snapper.py:89
 #, python-format
 msgid "creating post_snapshot failed: %s"
-msgstr ""
+msgstr "faliment tal creâ la post-istantanie: %s"
 
 #. Translators: This string is only used in unit tests.
 #: plugins/system_upgrade.py:45
 msgid "the color of the sky"
-msgstr ""
+msgstr "il colôr dal cîl"
 
 #: plugins/system_upgrade.py:57
 msgid "Need a --releasever greater than the current system version."
 msgstr ""
+"Al covente un valôr di --releasever plui grant de version curinte dal "
+"sisteme."
 
 #. Translators: do not change "reboot" here
 #: plugins/system_upgrade.py:59
@@ -101,79 +112,92 @@ msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
 "To remove cached metadata and transaction use 'dnf {command} clean'"
 msgstr ""
+"Discjariament completât! Dopre 'dnf {command} reboot' par scomençâ "
+"l'inzornament.\n"
+"Par gjavâ i metadâts e la transazion in cache dopre 'dnf {command} clean'"
 
 #: plugins/system_upgrade.py:62
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
-msgstr ""
+msgstr "Tu scugnis doprâ 'download --releasever' invezit di '--network'"
 
 #: plugins/system_upgrade.py:71
 msgid "Reboot turned off, not rebooting."
 msgstr ""
+"E je stade disativade la pussibilitât di tornâ a inviâ, duncje no si tornarà "
+"a inviâ."
 
 #: plugins/system_upgrade.py:120
 #, python-format
 msgid "Screen blanking can't be disabled: %s"
-msgstr ""
+msgstr "Nol è pussibil disativâ il scuriment dal visôr: %s"
 
 #: plugins/system_upgrade.py:140
 #, python-format
 msgid "Failed loading state file: %s, continuing with empty state."
 msgstr ""
+"Nol è stât pussibil cjariâ il file di stât: %s, si continue cul stât vueit."
 
 #: plugins/system_upgrade.py:286
 msgid "The following boots appear to contain upgrade logs:"
-msgstr ""
+msgstr "Chescj inviaments a somein contignî regjistris di inzornaments:"
 
 #: plugins/system_upgrade.py:296
 msgid "-- no logs were found --"
-msgstr ""
+msgstr "-- nol è stât cjatât nissun regjistri --"
 
 #: plugins/system_upgrade.py:311
 msgid "Cannot find logs with this index."
-msgstr ""
+msgstr "Impussibil cjatâ regjistris cun chest indiç."
 
 #: plugins/system_upgrade.py:320
 msgid "Unable to match systemd journal entry"
-msgstr ""
+msgstr "Impussibil fâ corispuindi la vôs dal gjornâl di systemd"
 
 #: plugins/system_upgrade.py:341
 msgid "Prepare system for upgrade to a new release"
-msgstr ""
+msgstr "Prepare il sisteme pal inzornament a une gnove version"
 
 #: plugins/system_upgrade.py:357
 msgid "keep installed packages if the new release's version is older"
 msgstr ""
+"ten instalât i pachets se lis versions de gnove publicazion a son plui vecjis"
 
 #: plugins/system_upgrade.py:361
 msgid "which logs to show"
-msgstr ""
+msgstr "cuâi regjistris mostrâ"
 
 #: plugins/system_upgrade.py:395
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
 msgstr ""
+"Version dai dâts incompatibile. Torne eseguìs 'dnf {command} download "
+"[OPZIONS]'"
 
 #: plugins/system_upgrade.py:432
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
 msgstr ""
+"Nol è pussibil doprâ il comant 'offline-distrosync' cu la opzion --no-"
+"downgrade"
 
 #: plugins/system_upgrade.py:454
 msgid "Additional information for System Upgrade: {}"
-msgstr ""
+msgstr "Informazions adizionâls pal inzornament dal sisteme: {}"
 
 #: plugins/system_upgrade.py:457
 msgid ""
 "Before you continue ensure that your system is fully upgraded by running "
 "\"dnf --refresh upgrade\". Do you want to continue"
 msgstr ""
+"Prime di continuâ siguriti che il sisteme al sedi dal dut inzornât eseguint "
+"\"dnf --refresh upgrade\". Continuâ"
 
 #: plugins/system_upgrade.py:461
 msgid "Operation aborted."
-msgstr ""
+msgstr "Operazion anulade."
 
 #: plugins/system_upgrade.py:519
 msgid "system is not ready for upgrade"
-msgstr ""
+msgstr "il sisteme nol è pront pal inzornament"
 
 #: plugins/system_upgrade.py:522
 #, python-brace-format
@@ -181,91 +205,96 @@ msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
 "download [OPTIONS]'"
 msgstr ""
+"la transazion no je stade preparade par '{command}'. Torne eseguìs 'dnf "
+"{command} download [OPZIONS]'"
 
 #: plugins/system_upgrade.py:526
 msgid "upgrade is already scheduled"
-msgstr ""
+msgstr "l'inzornament al è za planificât"
 
 #: plugins/system_upgrade.py:532
 msgid "trigger file does not exist. exiting quietly."
-msgstr ""
+msgstr "il file ativadôr nol esist, jessude cidine."
 
 #: plugins/system_upgrade.py:535
 msgid "another upgrade tool is running. exiting quietly."
-msgstr ""
+msgstr "un altri strument di inzornament al è in esecuzion, jessude cidine."
 
 #: plugins/system_upgrade.py:544
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
-msgstr ""
+msgstr "dopre 'dnf {command} reboot'par scomençâ l'inzornament"
 
 #: plugins/system_upgrade.py:562
 msgid "Rebooting to perform upgrade."
-msgstr ""
+msgstr "Si torne a inviâ par eseguî l'inzornament."
 
 #: plugins/system_upgrade.py:595
 msgid "Starting offline upgrade. This will take a while."
-msgstr ""
+msgstr "Daûr a scomençâ l'inzornament fûr rêt. Chest al durarà un pôc."
 
 #: plugins/system_upgrade.py:597
 msgid "Starting offline distrosync. This will take a while."
-msgstr ""
+msgstr "Daûr a scomençâ il distrosync fûr rêt. Chest al durarà un pôc."
 
 #: plugins/system_upgrade.py:599
 msgid "Starting system upgrade. This will take a while."
-msgstr ""
+msgstr "Daûr a scomençâ l'inzornament dal sisteme. Chest al durarà un pôc."
 
 #: plugins/system_upgrade.py:615
 msgid "Cleaning up downloaded data..."
-msgstr ""
+msgstr "Daûr a netâ fûr i dâts discjariâts..."
 
 #: plugins/system_upgrade.py:644
 msgid ""
 "The system-upgrade transaction is empty, your system is already up-to-date."
 msgstr ""
+"La transazion di system-upgrade e je vueide, il to sisteme al è za inzornât."
 
 #: plugins/system_upgrade.py:653
 msgid "Transaction saved to {}."
-msgstr ""
+msgstr "Transazion salvade su {}."
 
 #: plugins/system_upgrade.py:656
 msgid "Error storing transaction: {}"
-msgstr ""
+msgstr "Erôr tal archiviâ la transazion: {}"
 
 #: plugins/system_upgrade.py:678
 msgid "Download finished."
-msgstr ""
+msgstr "Discjariament finît."
 
 #: plugins/system_upgrade.py:681 plugins/system_upgrade.py:682
 msgid "Upgrade complete! Cleaning up and rebooting..."
-msgstr ""
+msgstr "Inzornament completât! Daûr a netâ e a tornâ a inviâ..."
 
 #: plugins/system_upgrade.py:691
 msgid "Prepare offline upgrade of the system"
-msgstr ""
+msgstr "Preparazion dal inzornament fûr rêt dal sisteme"
 
 #: plugins/system_upgrade.py:696
 msgid "Prepare offline distrosync of the system"
-msgstr ""
+msgstr "Preparazion dal distrosync fûr rêt dal sisteme"
 
 #: plugins/torproxy.py:31
 msgid "Disabling torproxy plugin: cannot connect to the Tor network"
-msgstr ""
+msgstr "Disabilitazion dal plugin torproxy: impussibil coneti ae rêt Tor"
 
 #: plugins/tracer.py:69
 msgid "For more information run:"
-msgstr ""
+msgstr "Par vê plui informazions eseguìs:"
 
 #: plugins/tracer.py:96
 msgid "Call to Tracer API ended unexpectedly:"
-msgstr ""
+msgstr "La clamade ae API Tracer e je terminade in mût inspietât:"
 
 #: plugins/tracer.py:98
 msgid ""
 "Please visit https://github.com/FrostyX/tracer/issues and submit the issue. "
 "Thank you"
 msgstr ""
+"Par plasê visite https://github.com/FrostyX/tracer/issues e segnale il "
+"probleme. Graciis"
 
 #: plugins/tracer.py:100
 msgid "We apologize for any inconvenience"
-msgstr ""
+msgstr "O domandìn scuse par ogni fastidi"
