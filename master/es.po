@@ -6,21 +6,22 @@
 # Máximo Castañeda Riloba <mcrcctm@gmail.com>, 2018. #zanata
 # Máximo Castañeda Riloba <mcrcctm@gmail.com>, 2019. #zanata
 # Emilio Herrera <ehespinosa57@gmail.com>, 2020.
+# Pedro Luis Valades Viera <perikiyoxd@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 01:43+0000\n"
-"PO-Revision-Date: 2020-09-02 15:29+0000\n"
-"Last-Translator: Emilio Herrera <ehespinosa57@gmail.com>\n"
-"Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-extras/es/>\n"
+"PO-Revision-Date: 2021-10-09 02:05+0000\n"
+"Last-Translator: Pedro Luis Valades Viera <perikiyoxd@gmail.com>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2.1\n"
+"X-Generator: Weblate 4.8\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -37,7 +38,7 @@ msgstr "no se puede procesar el archivo: %s"
 
 #: plugins/rpm_conf.py:65
 msgid "Adding '{}' to list of handling packages for rpmconf"
-msgstr "Agregando '{}'  a la lista de paquetes manejados por rpmconf"
+msgstr "Agregando '{}' a la lista de paquetes manejados por rpmconf"
 
 #: plugins/rpm_conf.py:71
 msgid "rpmconf plugin will not run in non-interactive mode"
@@ -109,6 +110,10 @@ msgid ""
 "Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
 "To remove cached metadata and transaction use 'dnf {command} clean'"
 msgstr ""
+"Descarga completa. Utilice 'dnf {command} reboot' para iniciar la "
+"actualización.\n"
+"Para eliminar los metadatos en caché y la transacción utilice 'dnf {command} "
+"clean'"
 
 #: plugins/system_upgrade.py:62
 msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
@@ -116,12 +121,12 @@ msgstr "Use 'download --releasever' en lugar de '--network'"
 
 #: plugins/system_upgrade.py:71
 msgid "Reboot turned off, not rebooting."
-msgstr ""
+msgstr "Reinicio desactivado, no se reiniciará."
 
 #: plugins/system_upgrade.py:120
 #, python-format
 msgid "Screen blanking can't be disabled: %s"
-msgstr ""
+msgstr "No se puede desactivar el borrado de pantalla: %s"
 
 #: plugins/system_upgrade.py:140
 #, python-format
@@ -163,14 +168,18 @@ msgstr "qué registros mostrar"
 #, python-brace-format
 msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
 msgstr ""
+"Versión de datos incompatible. Vuelva a ejecutar 'dnf {command} download "
+"[OPTIONS]'"
 
 #: plugins/system_upgrade.py:432
 msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
 msgstr ""
+"El comando 'offline-distrosync' no puede utilizarse con la opción '--no-"
+"downgrade'"
 
 #: plugins/system_upgrade.py:454
 msgid "Additional information for System Upgrade: {}"
-msgstr ""
+msgstr "Información adicional para la actualización del sistema: {}"
 
 #: plugins/system_upgrade.py:457
 msgid ""
@@ -194,6 +203,8 @@ msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
 "download [OPTIONS]'"
 msgstr ""
+"la transacción no estaba preparada para '{command}'. Vuelva a ejecutar 'dnf "
+"{command} download [OPTIONS]'"
 
 #: plugins/system_upgrade.py:526
 msgid "upgrade is already scheduled"
@@ -206,13 +217,13 @@ msgstr "el archivo disparador no existe. Saliendo silenciosamente."
 #: plugins/system_upgrade.py:535
 msgid "another upgrade tool is running. exiting quietly."
 msgstr ""
-"existe otra herramienta de actualización en ejecución. Saliendo "
-"silenciosamente. "
+"otra herramienta de actualización se está ejecutando. saliendo de forma "
+"silenciosa."
 
 #: plugins/system_upgrade.py:544
 #, python-brace-format
 msgid "use 'dnf {command} reboot' to begin the upgrade"
-msgstr ""
+msgstr "utilice 'dnf {command} reboot' para iniciar la actualización"
 
 #: plugins/system_upgrade.py:562
 msgid "Rebooting to perform upgrade."
@@ -220,11 +231,13 @@ msgstr "Reiniciando para proceder a la actualización."
 
 #: plugins/system_upgrade.py:595
 msgid "Starting offline upgrade. This will take a while."
-msgstr ""
+msgstr "Iniciando la actualización fuera de línea. Esto tomará un tiempo."
 
 #: plugins/system_upgrade.py:597
 msgid "Starting offline distrosync. This will take a while."
 msgstr ""
+"Iniciando sincronización de la distribución fuera de línea. Esto tomará un "
+"tiempo."
 
 #: plugins/system_upgrade.py:599
 msgid "Starting system upgrade. This will take a while."
@@ -238,14 +251,16 @@ msgstr "Limpiando los datos descargados..."
 msgid ""
 "The system-upgrade transaction is empty, your system is already up-to-date."
 msgstr ""
+"La transacción de actualización del sistema está vacía, su sistema ya está "
+"actualizado."
 
 #: plugins/system_upgrade.py:653
 msgid "Transaction saved to {}."
-msgstr ""
+msgstr "Transacción guardada en {}."
 
 #: plugins/system_upgrade.py:656
 msgid "Error storing transaction: {}"
-msgstr ""
+msgstr "Error al almacenar la transacción: {}"
 
 #: plugins/system_upgrade.py:678
 msgid "Download finished."
@@ -257,11 +272,11 @@ msgstr "¡Actualización completa! Limpiando y reiniciando..."
 
 #: plugins/system_upgrade.py:691
 msgid "Prepare offline upgrade of the system"
-msgstr ""
+msgstr "Preparar la actualización fuera de línea del sistema"
 
 #: plugins/system_upgrade.py:696
 msgid "Prepare offline distrosync of the system"
-msgstr ""
+msgstr "Preparar sincronización de la distribución del sistema fuera de línea"
 
 #: plugins/torproxy.py:31
 msgid "Disabling torproxy plugin: cannot connect to the Tor network"
@@ -281,7 +296,8 @@ msgid ""
 "Please visit https://github.com/FrostyX/tracer/issues and submit the issue. "
 "Thank you"
 msgstr ""
-"Vaya a https://github.com/FrostyX/tracer/issues y envíe un informe de error."
+"Por favor, visite https://github.com/FrostyX/tracer/issues y envíe la "
+"incidencia. Gracias"
 
 #: plugins/tracer.py:100
 msgid "We apologize for any inconvenience"
