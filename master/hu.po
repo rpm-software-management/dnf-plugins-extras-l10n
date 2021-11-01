@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-09 01:42+0000\n"
-"PO-Revision-Date: 2021-06-15 19:04+0000\n"
-"Last-Translator: Dankaházi (ifj.) István <dankahazi.istvan@gmail.com>\n"
+"PO-Revision-Date: 2021-11-02 09:05+0000\n"
+"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-extras/hu/>\n"
 "Language: hu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.8\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -246,11 +246,11 @@ msgstr ""
 
 #: plugins/system_upgrade.py:653
 msgid "Transaction saved to {}."
-msgstr "Tranzakció mentve {}."
+msgstr "Tranzakció ide mentve: {}."
 
 #: plugins/system_upgrade.py:656
 msgid "Error storing transaction: {}"
-msgstr "Hiba a tranzakció tárolásában: {}"
+msgstr "Hiba történt a tranzakció tárolásakor: {}"
 
 #: plugins/system_upgrade.py:678
 msgid "Download finished."
