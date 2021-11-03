@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-02 01:47+0000\n"
-"PO-Revision-Date: 2021-11-02 09:05+0000\n"
+"PO-Revision-Date: 2021-11-05 09:05+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-extras/hu/>\n"
@@ -121,7 +121,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:71
 msgid "Reboot turned off, not rebooting."
-msgstr ""
+msgstr "Újraindítás kikapcsolva, nem lesz újraindítva."
 
 #: plugins/system_upgrade.py:120
 #, python-format
@@ -242,7 +242,7 @@ msgstr "Letöltött adatok tisztítása…"
 #: plugins/system_upgrade.py:644
 msgid ""
 "The system-upgrade transaction is empty, your system is already up-to-date."
-msgstr ""
+msgstr "A rendszerfrissítés tranzakció üres, a rendszere már naprakész."
 
 #: plugins/system_upgrade.py:653
 msgid "Transaction saved to {}."
