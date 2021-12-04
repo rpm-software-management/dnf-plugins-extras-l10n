@@ -10,16 +10,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-07 01:46+0000\n"
-"PO-Revision-Date: 2021-11-07 21:05+0000\n"
+"PO-Revision-Date: 2021-12-05 20:16+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
-"Language-Team: German <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-extras/de/>\n"
+"Language-Team: German <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -55,7 +55,7 @@ msgstr ""
 
 #: plugins/showvars.py:46
 msgid "show all active dnf variables"
-msgstr ""
+msgstr "alle aktiven dnf-Variablen anzeigen"
 
 #: plugins/snapper.py:49
 #, python-format
@@ -152,10 +152,11 @@ msgstr ""
 #: plugins/system_upgrade.py:357
 msgid "keep installed packages if the new release's version is older"
 msgstr ""
+"installierte Pakete beibehalten, wenn die Fassung der neuen Version älter ist"
 
 #: plugins/system_upgrade.py:361
 msgid "which logs to show"
-msgstr ""
+msgstr "welche Protokolle angezeigt werden sollen"
 
 #: plugins/system_upgrade.py:395
 #, python-brace-format
@@ -229,7 +230,7 @@ msgstr ""
 
 #: plugins/system_upgrade.py:615
 msgid "Cleaning up downloaded data..."
-msgstr ""
+msgstr "Heruntergeladene Daten werden bereinigt ..."
 
 #: plugins/system_upgrade.py:644
 msgid ""
@@ -246,7 +247,7 @@ msgstr "Fehler beim Speichern der Transaktion: {}"
 
 #: plugins/system_upgrade.py:678
 msgid "Download finished."
-msgstr ""
+msgstr "Herunterladen abgeschlossen."
 
 #: plugins/system_upgrade.py:681 plugins/system_upgrade.py:682
 msgid "Upgrade complete! Cleaning up and rebooting..."
