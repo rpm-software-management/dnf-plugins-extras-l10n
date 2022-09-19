@@ -4,20 +4,22 @@
 # Zdenek <chmelarz@gmail.com>, 2018. #zanata
 # Daniel Rusek <mail@asciiwolf.com>, 2019. #zanata
 # Zdenek <chmelarz@gmail.com>, 2019. #zanata
+# Marek Blaha <mblaha@redhat.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-14 03:26+0000\n"
-"PO-Revision-Date: 2019-04-02 03:20+0000\n"
-"Last-Translator: Daniel Rusek <mail@asciiwolf.com>\n"
-"Language-Team: Czech\n"
+"PO-Revision-Date: 2022-09-19 15:03+0000\n"
+"Last-Translator: Marek Blaha <mblaha@redhat.com>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -235,11 +237,11 @@ msgstr ""
 
 #: plugins/system_upgrade.py:656
 msgid "Transaction saved to {}."
-msgstr ""
+msgstr "Transakce uložena do {}."
 
 #: plugins/system_upgrade.py:659
 msgid "Error storing transaction: {}"
-msgstr ""
+msgstr "Chyba při ukládání transakce: {}"
 
 #: plugins/system_upgrade.py:681
 msgid "Download finished."
