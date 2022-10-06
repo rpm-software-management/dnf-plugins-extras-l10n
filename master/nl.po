@@ -1,19 +1,19 @@
-# Geert Warrink <geert.warrink@onsnet.nu>, 2019. #zanata, 2020, 2021.
+# Geert Warrink <geert.warrink@onsnet.nu>, 2019. #zanata, 2020, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-19 03:35+0000\n"
-"PO-Revision-Date: 2021-06-07 17:12+0000\n"
+"PO-Revision-Date: 2022-10-07 19:19+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
-"Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-extras/nl/>\n"
+"Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -195,7 +195,7 @@ msgid ""
 "the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
 "download [OPTIONS]'"
 msgstr ""
-"de transactiie was niet voorbereid op '{command}'. Voer 'dnf {command} "
+"de transactie was niet voorbereid op '{command}'. Voer 'dnf {command} "
 "download [OPTIES]' opnieuw uit"
 
 #: plugins/system_upgrade.py:528
