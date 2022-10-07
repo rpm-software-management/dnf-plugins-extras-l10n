@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-19 03:35+0000\n"
+"POT-Creation-Date: 2022-10-07 03:08+0000\n"
 "PO-Revision-Date: 2022-09-19 15:03+0000\n"
 "Last-Translator: Marek Blaha <mblaha@redhat.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -93,172 +93,6 @@ msgstr "obraz %d vytvořen"
 msgid "creating post_snapshot failed: %s"
 msgstr "selhalo vytvoření obrazu: %s"
 
-#. Translators: This string is only used in unit tests.
-#: plugins/system_upgrade.py:45
-msgid "the color of the sky"
-msgstr "barva oblohy"
-
-#: plugins/system_upgrade.py:57
-msgid "Need a --releasever greater than the current system version."
-msgstr "Verze --releasever musí být vyšší než verze aktuálního systému."
-
-#. Translators: do not change "reboot" here
-#: plugins/system_upgrade.py:59
-#, python-brace-format
-msgid ""
-"Download complete! Use 'dnf {command} reboot' to start the upgrade.\n"
-"To remove cached metadata and transaction use 'dnf {command} clean'"
-msgstr ""
-
-#: plugins/system_upgrade.py:62
-msgid "Sorry, you need to use 'download --releasever' instead of '--network'"
-msgstr "Promiňte, místo '--network' musíte použít 'download --releasever'"
-
-#: plugins/system_upgrade.py:71
-msgid "Reboot turned off, not rebooting."
-msgstr ""
-
-#: plugins/system_upgrade.py:122
-#, python-format
-msgid "Screen blanking can't be disabled: %s"
-msgstr "Zatmívání obrazovky nemůže být zakázáno: %s"
-
-#: plugins/system_upgrade.py:142
-#, python-format
-msgid "Failed loading state file: %s, continuing with empty state."
-msgstr "Nepodařilo se načíst stavový soubor: %s, pokračuje prázdným stavem."
-
-#: plugins/system_upgrade.py:288
-msgid "The following boots appear to contain upgrade logs:"
-msgstr "Následující boot obsahuje záznamy aktualizace systému:"
-
-#: plugins/system_upgrade.py:298
-msgid "-- no logs were found --"
-msgstr "-- nenalezeny žádné záznamy --"
-
-#: plugins/system_upgrade.py:313
-msgid "Cannot find logs with this index."
-msgstr "Nenalezeny žádné záznamy s tímto indexem."
-
-#: plugins/system_upgrade.py:322
-msgid "Unable to match systemd journal entry"
-msgstr "Nepodařilo se získat požadovaný záznam systemd žurnálu"
-
-#: plugins/system_upgrade.py:343
-msgid "Prepare system for upgrade to a new release"
-msgstr "Připravit systém k aktualizaci na novou verzi"
-
-#: plugins/system_upgrade.py:359
-msgid "keep installed packages if the new release's version is older"
-msgstr ""
-"ponechat nainstalované balíčky, pokud se v novém vydání nachází starší verze"
-
-#: plugins/system_upgrade.py:363
-msgid "which logs to show"
-msgstr "které záznamy zobrazit"
-
-#: plugins/system_upgrade.py:397
-#, python-brace-format
-msgid "Incompatible version of data. Rerun 'dnf {command} download [OPTIONS]'"
-msgstr ""
-
-#: plugins/system_upgrade.py:434
-msgid "Command 'offline-distrosync' cannot be used with --no-downgrade option"
-msgstr ""
-
-#: plugins/system_upgrade.py:456
-msgid "Additional information for System Upgrade: {}"
-msgstr ""
-
-#: plugins/system_upgrade.py:459
-msgid ""
-"Before you continue ensure that your system is fully upgraded by running "
-"\"dnf --refresh upgrade\". Do you want to continue"
-msgstr ""
-"Předtím než budete pokračovat, ujistěte se, že váš systém je aktuální pomocí "
-"příkazu \"dnf --refresh upgrade\". Přejete si pokračovat?"
-
-#: plugins/system_upgrade.py:463
-msgid "Operation aborted."
-msgstr "Operace přerušena."
-
-#: plugins/system_upgrade.py:521
-msgid "system is not ready for upgrade"
-msgstr "systém není na aktualizaci připraven"
-
-#: plugins/system_upgrade.py:524
-#, python-brace-format
-msgid ""
-"the transaction was not prepared for '{command}'. Rerun 'dnf {command} "
-"download [OPTIONS]'"
-msgstr ""
-
-#: plugins/system_upgrade.py:528
-msgid "upgrade is already scheduled"
-msgstr "aktualizace je už naplánována"
-
-#: plugins/system_upgrade.py:534
-msgid "trigger file does not exist. exiting quietly."
-msgstr "Spouštěcí soubor neexistuje. Tiché ukončení."
-
-#: plugins/system_upgrade.py:537
-msgid "another upgrade tool is running. exiting quietly."
-msgstr "už běží jiný aktualizační nástroj, končím."
-
-#: plugins/system_upgrade.py:546
-#, python-brace-format
-msgid "use 'dnf {command} reboot' to begin the upgrade"
-msgstr ""
-
-#: plugins/system_upgrade.py:564
-msgid "Rebooting to perform upgrade."
-msgstr "Restartuji, aby se provedla aktualizace."
-
-#: plugins/system_upgrade.py:597
-msgid "Starting offline upgrade. This will take a while."
-msgstr ""
-
-#: plugins/system_upgrade.py:599
-msgid "Starting offline distrosync. This will take a while."
-msgstr ""
-
-#: plugins/system_upgrade.py:601
-msgid "Starting system upgrade. This will take a while."
-msgstr "Spouští se aktualizace systému. To může nějakou dobu trvat."
-
-#: plugins/system_upgrade.py:617
-msgid "Cleaning up downloaded data..."
-msgstr "Mazání stažených dat…"
-
-#: plugins/system_upgrade.py:647
-msgid ""
-"The system-upgrade transaction is empty, your system is already up-to-date."
-msgstr ""
-
-#: plugins/system_upgrade.py:656
-msgid "Transaction saved to {}."
-msgstr "Transakce uložena do {}."
-
-#: plugins/system_upgrade.py:659
-msgid "Error storing transaction: {}"
-msgstr "Chyba při ukládání transakce: {}"
-
-#: plugins/system_upgrade.py:681
-msgid "Download finished."
-msgstr "Stahování dokončeno."
-
-#: plugins/system_upgrade.py:684 plugins/system_upgrade.py:685
-msgid "Upgrade complete! Cleaning up and rebooting..."
-msgstr "Aktualizace dokončena! Čištění a restart systému…"
-
-#: plugins/system_upgrade.py:694
-msgid "Prepare offline upgrade of the system"
-msgstr ""
-
-#: plugins/system_upgrade.py:699
-msgid "Prepare offline distrosync of the system"
-msgstr ""
-
 #: plugins/torproxy.py:31
 msgid "Disabling torproxy plugin: cannot connect to the Tor network"
 msgstr "Zakázání zásuvného modulu torproxy: nelze se připojit do sítě Tor"
@@ -282,6 +116,88 @@ msgstr ""
 #: plugins/tracer.py:100
 msgid "We apologize for any inconvenience"
 msgstr "Omlouváme se za způsobené nepříjemnosti"
+
+#~ msgid "the color of the sky"
+#~ msgstr "barva oblohy"
+
+#~ msgid "Need a --releasever greater than the current system version."
+#~ msgstr "Verze --releasever musí být vyšší než verze aktuálního systému."
+
+#~ msgid ""
+#~ "Sorry, you need to use 'download --releasever' instead of '--network'"
+#~ msgstr "Promiňte, místo '--network' musíte použít 'download --releasever'"
+
+#~ msgid "Screen blanking can't be disabled: %s"
+#~ msgstr "Zatmívání obrazovky nemůže být zakázáno: %s"
+
+#~ msgid "Failed loading state file: %s, continuing with empty state."
+#~ msgstr "Nepodařilo se načíst stavový soubor: %s, pokračuje prázdným stavem."
+
+#~ msgid "The following boots appear to contain upgrade logs:"
+#~ msgstr "Následující boot obsahuje záznamy aktualizace systému:"
+
+#~ msgid "-- no logs were found --"
+#~ msgstr "-- nenalezeny žádné záznamy --"
+
+#~ msgid "Cannot find logs with this index."
+#~ msgstr "Nenalezeny žádné záznamy s tímto indexem."
+
+#~ msgid "Unable to match systemd journal entry"
+#~ msgstr "Nepodařilo se získat požadovaný záznam systemd žurnálu"
+
+#~ msgid "Prepare system for upgrade to a new release"
+#~ msgstr "Připravit systém k aktualizaci na novou verzi"
+
+#~ msgid "keep installed packages if the new release's version is older"
+#~ msgstr ""
+#~ "ponechat nainstalované balíčky, pokud se v novém vydání nachází starší "
+#~ "verze"
+
+#~ msgid "which logs to show"
+#~ msgstr "které záznamy zobrazit"
+
+#~ msgid ""
+#~ "Before you continue ensure that your system is fully upgraded by running "
+#~ "\"dnf --refresh upgrade\". Do you want to continue"
+#~ msgstr ""
+#~ "Předtím než budete pokračovat, ujistěte se, že váš systém je aktuální "
+#~ "pomocí příkazu \"dnf --refresh upgrade\". Přejete si pokračovat?"
+
+#~ msgid "Operation aborted."
+#~ msgstr "Operace přerušena."
+
+#~ msgid "system is not ready for upgrade"
+#~ msgstr "systém není na aktualizaci připraven"
+
+#~ msgid "upgrade is already scheduled"
+#~ msgstr "aktualizace je už naplánována"
+
+#~ msgid "trigger file does not exist. exiting quietly."
+#~ msgstr "Spouštěcí soubor neexistuje. Tiché ukončení."
+
+#~ msgid "another upgrade tool is running. exiting quietly."
+#~ msgstr "už běží jiný aktualizační nástroj, končím."
+
+#~ msgid "Rebooting to perform upgrade."
+#~ msgstr "Restartuji, aby se provedla aktualizace."
+
+#~ msgid "Starting system upgrade. This will take a while."
+#~ msgstr "Spouští se aktualizace systému. To může nějakou dobu trvat."
+
+#~ msgid "Cleaning up downloaded data..."
+#~ msgstr "Mazání stažených dat…"
+
+#~ msgid "Transaction saved to {}."
+#~ msgstr "Transakce uložena do {}."
+
+#~ msgid "Error storing transaction: {}"
+#~ msgstr "Chyba při ukládání transakce: {}"
+
+#~ msgid "Download finished."
+#~ msgstr "Stahování dokončeno."
+
+#~ msgid "Upgrade complete! Cleaning up and rebooting..."
+#~ msgstr "Aktualizace dokončena! Čištění a restart systému…"
 
 #~ msgid "Unable to match package: %s"
 #~ msgstr "Nepodařilo se najít balíček: %s"
