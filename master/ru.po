@@ -6,17 +6,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-02 03:09+0000\n"
-"PO-Revision-Date: 2022-08-13 20:19+0000\n"
+"PO-Revision-Date: 2022-12-05 19:19+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
-"Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-extras/ru/>\n"
+"Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -29,7 +29,7 @@ msgstr "kickstart-файл"
 #: plugins/kickstart.py:80
 #, python-format
 msgid "file cannot be parsed: %s"
-msgstr "не удается разобрать файл: %s"
+msgstr "не удается обработать файл: %s"
 
 #: plugins/rpm_conf.py:65
 msgid "Adding '{}' to list of handling packages for rpmconf"
@@ -58,37 +58,35 @@ msgstr "не удалось подключиться к snapperd: %s"
 
 #: plugins/snapper.py:55
 msgid "creating pre_snapshot"
-msgstr "создание предварительного снимка"
+msgstr "создание pre_snapshot"
 
 #: plugins/snapper.py:61
 #, python-format
 msgid "created pre_snapshot %d"
-msgstr "создан предварительный снимок %d"
+msgstr "создан pre_snapshot %d"
 
 #: plugins/snapper.py:65
 #, python-format
 msgid "creating pre_snapshot failed: %s"
-msgstr "не удалось создать предварительный снимок: %s"
+msgstr "не удалось создать pre_snapshot: %s"
 
 #: plugins/snapper.py:74
 msgid "skipping post_snapshot because creation of pre_snapshot failed"
-msgstr ""
-"пропускается последующий снимок, потому что не удалось создать "
-"предварительный снимок"
+msgstr "пропускается post_snapshot, потому что не удалось создать pre_snapshot"
 
 #: plugins/snapper.py:80
 msgid "creating post_snapshot"
-msgstr "создание последующего снимка"
+msgstr "создание post_snapshot"
 
 #: plugins/snapper.py:85
 #, python-format
 msgid "created post_snapshot %d"
-msgstr "создан последующий снимок %d"
+msgstr "создан post_snapshot %d"
 
 #: plugins/snapper.py:89
 #, python-format
 msgid "creating post_snapshot failed: %s"
-msgstr "не удалось создать последующий снимок: %s"
+msgstr "не удалось создать post_snapshot: %s"
 
 #: plugins/torproxy.py:31
 msgid "Disabling torproxy plugin: cannot connect to the Tor network"
