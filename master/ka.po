@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-02 03:09+0000\n"
-"PO-Revision-Date: 2022-10-26 06:19+0000\n"
+"PO-Revision-Date: 2022-12-05 19:19+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-extras/ka/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -58,12 +58,12 @@ msgstr ""
 
 #: plugins/snapper.py:55
 msgid "creating pre_snapshot"
-msgstr ""
+msgstr "pre_snapshot-ის შექმნა"
 
 #: plugins/snapper.py:61
 #, python-format
 msgid "created pre_snapshot %d"
-msgstr ""
+msgstr "%d pre_snapshot-ის შექმნა"
 
 #: plugins/snapper.py:65
 #, python-format
@@ -76,7 +76,7 @@ msgstr ""
 
 #: plugins/snapper.py:80
 msgid "creating post_snapshot"
-msgstr ""
+msgstr "post_snapshot-ის შექმნა"
 
 #: plugins/snapper.py:85
 #, python-format
