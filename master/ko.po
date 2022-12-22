@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-05 02:07+0000\n"
-"PO-Revision-Date: 2022-10-07 19:19+0000\n"
+"PO-Revision-Date: 2022-12-23 04:20+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-extras/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.15\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -73,8 +73,7 @@ msgstr "pre_snapshot 생성이 실패하였습니다: %s"
 
 #: plugins/snapper.py:74
 msgid "skipping post_snapshot because creation of pre_snapshot failed"
-msgstr ""
-"post_snapshot because creation of pre_snapshot 건너 띄기가 실패하였습니다"
+msgstr "post_snapshot because creation of pre_snapshot 건너 뛰기가 실패하였습니다"
 
 #: plugins/snapper.py:80
 msgid "creating post_snapshot"
