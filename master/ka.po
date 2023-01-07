@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022.
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-23 02:02+0000\n"
-"PO-Revision-Date: 2022-12-05 19:19+0000\n"
+"PO-Revision-Date: 2023-01-08 05:20+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-extras/ka/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -41,20 +41,20 @@ msgstr "დამატება rpmconf არა-ინტერაქტი�
 
 #: plugins/rpm_conf.py:84
 msgid "ignoring sys.exit from rpmconf due to missing MERGE variable"
-msgstr ""
+msgstr "sys.exit-ის იგნორირება rpmconf-დან, რადგან MERGE ცვლადი არ არსებობს"
 
 #: plugins/rpm_conf.py:88
 msgid "ignoring sys.exit from rpmconf due to missing file"
-msgstr ""
+msgstr "sys.exit-ის იგნორირება rpmconf-დან ნაკლული ფაილის გამო"
 
 #: plugins/showvars.py:46
 msgid "show all active dnf variables"
-msgstr ""
+msgstr "dnf-ის ყველა აქტიური ცვლადის ჩვენება"
 
 #: plugins/snapper.py:49
 #, python-format
 msgid "connect to snapperd failed: %s"
-msgstr ""
+msgstr "snapperd-თან მიერთების შეცდომა: %s"
 
 #: plugins/snapper.py:55
 msgid "creating pre_snapshot"
@@ -68,11 +68,13 @@ msgstr "%d pre_snapshot-ის შექმნა"
 #: plugins/snapper.py:65
 #, python-format
 msgid "creating pre_snapshot failed: %s"
-msgstr ""
+msgstr "pre_snapshot-ის შექმნის შეცდომა: %s"
 
 #: plugins/snapper.py:74
 msgid "skipping post_snapshot because creation of pre_snapshot failed"
 msgstr ""
+"post_snapshot გამოტოვებული იქნება, რადგან pre_snapshot -ის შექმნა შეცდომით "
+"დასრულდა"
 
 #: plugins/snapper.py:80
 msgid "creating post_snapshot"
@@ -81,31 +83,33 @@ msgstr "post_snapshot-ის შექმნა"
 #: plugins/snapper.py:85
 #, python-format
 msgid "created post_snapshot %d"
-msgstr ""
+msgstr "%d pre_snapshot-ის შექმნა"
 
 #: plugins/snapper.py:89
 #, python-format
 msgid "creating post_snapshot failed: %s"
-msgstr ""
+msgstr "post_snapshot -ის შექმნის შეცდომა: %s"
 
 #: plugins/torproxy.py:31
 msgid "Disabling torproxy plugin: cannot connect to the Tor network"
-msgstr ""
+msgstr "Torproxy დამატება გაითიშება: შეცდომა Tor-ის ქსელთან მიერთებისას"
 
 #: plugins/tracer.py:69
 msgid "For more information run:"
-msgstr ""
+msgstr "მეტი ინფორმაციისთვის გაუშვით:"
 
 #: plugins/tracer.py:96
 msgid "Call to Tracer API ended unexpectedly:"
-msgstr ""
+msgstr "Tracer API-ის გამოძახება მოულოდნელად დასრულდა:"
 
 #: plugins/tracer.py:98
 msgid ""
 "Please visit https://github.com/FrostyX/tracer/issues and submit the issue. "
 "Thank you"
 msgstr ""
+"ეწვიეთ ბმულს https://github.com/FrostyX/tracer/issue და მოგვწერეთ პრობლემის "
+"შესახებ. მადლობა"
 
 #: plugins/tracer.py:100
 msgid "We apologize for any inconvenience"
-msgstr ""
+msgstr "უკაცრავად უხერხულობისათვის"
