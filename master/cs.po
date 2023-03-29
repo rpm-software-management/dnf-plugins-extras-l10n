@@ -5,38 +5,39 @@
 # Daniel Rusek <mail@asciiwolf.com>, 2019. #zanata
 # Zdenek <chmelarz@gmail.com>, 2019. #zanata
 # Marek Blaha <mblaha@redhat.com>, 2022.
+# Pavel Borecki <pavel.borecki@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-16 02:16+0000\n"
-"PO-Revision-Date: 2022-09-19 15:03+0000\n"
-"Last-Translator: Marek Blaha <mblaha@redhat.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-extras/cs/>\n"
+"PO-Revision-Date: 2023-03-30 12:20+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
-msgstr "Instalovat balíčky definované v souboru kickstartu vašeho systému"
+msgstr "Nainstalovat balíčky definované v kickstart souboru"
 
 #: plugins/kickstart.py:62
 msgid "kickstart file"
-msgstr "soubor kickstart"
+msgstr "kickstart soubor"
 
 #: plugins/kickstart.py:80
 #, python-format
 msgid "file cannot be parsed: %s"
-msgstr "soubor nelze parsovat: %s"
+msgstr "obsah souboru se nedaří zpracovat: %s"
 
 #: plugins/rpm_conf.py:65
 msgid "Adding '{}' to list of handling packages for rpmconf"
-msgstr "Přidání '{}' do seznamu balíčků ovládání pro rpmconf"
+msgstr "Přidává se „{}“ do seznamu ovládání balíčků pro rpmconf"
 
 #: plugins/rpm_conf.py:71
 msgid "rpmconf plugin will not run in non-interactive mode"
@@ -44,24 +45,24 @@ msgstr "zásuvný modul rpmconf nebude v neinteraktivním režimu spuštěn"
 
 #: plugins/rpm_conf.py:84
 msgid "ignoring sys.exit from rpmconf due to missing MERGE variable"
-msgstr "ignorování sys.exit z rpmconf kvůli chybějící proměnné MERGE"
+msgstr "ignoruje se sys.exit z rpmconf kvůli chybějící proměnné MERGE"
 
 #: plugins/rpm_conf.py:88
 msgid "ignoring sys.exit from rpmconf due to missing file"
-msgstr "ignorování sys.exit z rpmconf kvůli chybějícímu souboru"
+msgstr "ignoruje se sys.exit z rpmconf kvůli chybějícímu souboru"
 
 #: plugins/showvars.py:46
 msgid "show all active dnf variables"
-msgstr ""
+msgstr "zobrazit veškeré aktivní proměnné pro dnf"
 
 #: plugins/snapper.py:49
 #, python-format
 msgid "connect to snapperd failed: %s"
-msgstr "selhalo připojení ke Snapperu: %s"
+msgstr "nepodařilo se spojit s nástrojem snapper: %s"
 
 #: plugins/snapper.py:55
 msgid "creating pre_snapshot"
-msgstr "vytváření obrazu před transakcí"
+msgstr "vytváří se zachycený stav před transakcí"
 
 #: plugins/snapper.py:61
 #, python-format
@@ -103,7 +104,7 @@ msgstr "Pro více informací spustit:"
 
 #: plugins/tracer.py:96
 msgid "Call to Tracer API ended unexpectedly:"
-msgstr "Volání Tracer API neočekávaně skončilo"
+msgstr "Volání Tracer API neočekávaně skončilo:"
 
 #: plugins/tracer.py:98
 msgid ""
