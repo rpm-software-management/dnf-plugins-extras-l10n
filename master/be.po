@@ -1,20 +1,22 @@
 # Viktar Siarheichyk <veq@fedoraproject.org>, 2018. #zanata
 # Viktar Siarheichyk <veq@fedoraproject.org>, 2019. #zanata
+# Maksim Kliazovich <maxklezovich@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-30 02:01+0000\n"
-"PO-Revision-Date: 2019-08-02 03:15+0000\n"
-"Last-Translator: Viktar Siarheichyk <veq@fedoraproject.org>\n"
-"Language-Team: Belarusian\n"
+"PO-Revision-Date: 2023-05-13 20:20+0000\n"
+"Last-Translator: Maksim Kliazovich <maxklezovich@gmail.com>\n"
+"Language-Team: Belarusian <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/be/>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -66,7 +68,7 @@ msgstr "pre_snapshot %d створаны"
 #: plugins/snapper.py:65
 #, python-format
 msgid "creating pre_snapshot failed: %s"
-msgstr "стварэнне pre_snapshot не атрымалася: %s "
+msgstr "стварэнне pre_snapshot не атрымалася: %s"
 
 #: plugins/snapper.py:74
 msgid "skipping post_snapshot because creation of pre_snapshot failed"
@@ -84,7 +86,7 @@ msgstr "post_snapshot %d створаны"
 #: plugins/snapper.py:89
 #, python-format
 msgid "creating post_snapshot failed: %s"
-msgstr "стварэнне post_snapshot не атрымалася: %s "
+msgstr "стварэнне post_snapshot не атрымалася: %s"
 
 #: plugins/torproxy.py:31
 msgid "Disabling torproxy plugin: cannot connect to the Tor network"
@@ -103,8 +105,8 @@ msgid ""
 "Please visit https://github.com/FrostyX/tracer/issues and submit the issue. "
 "Thank you"
 msgstr ""
-"Калі ласка, паведаміце аб памылцы на https://github.com/FrostyX/tracer/"
-"issues . Дзякуй!"
+"Наведайце https://github.com/FrostyX/tracer/issues і паведаміце аб гэтай "
+"памылцы. Дзякуй!"
 
 #: plugins/tracer.py:100
 msgid "We apologize for any inconvenience"
