@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-04 01:42+0000\n"
+"POT-Creation-Date: 2024-01-09 01:44+0000\n"
 "PO-Revision-Date: 2023-12-06 11:44+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -37,19 +37,22 @@ msgstr "soubor kickstartu"
 msgid "file cannot be parsed: %s"
 msgstr "soubor nelze parsovat: %s"
 
-#: plugins/rpm_conf.py:65
+#: plugins/rpm_conf.py:71
 msgid "Adding '{}' to list of handling packages for rpmconf"
 msgstr "Přidává „{}“ do seznamu manipulace balíčků pro rpmconf"
 
-#: plugins/rpm_conf.py:71
-msgid "rpmconf plugin will not run in non-interactive mode"
+#: plugins/rpm_conf.py:77
+#, fuzzy
+#| msgid "rpmconf plugin will not run in non-interactive mode"
+msgid ""
+"rpmconf plugin will not run in non-interactive modewithout unattended mode"
 msgstr "zásuvný modul rpmconf bude spuštěn v interaktivním režimu"
 
-#: plugins/rpm_conf.py:84
+#: plugins/rpm_conf.py:92
 msgid "ignoring sys.exit from rpmconf due to missing MERGE variable"
 msgstr "ignoruje se sys.exit z rpmconf kvůli chybějící proměnné MERGE"
 
-#: plugins/rpm_conf.py:88
+#: plugins/rpm_conf.py:96
 msgid "ignoring sys.exit from rpmconf due to missing file"
 msgstr "ignoruje se sys.exit z rpmconf kvůli chybějícímu souboru"
 
@@ -57,41 +60,41 @@ msgstr "ignoruje se sys.exit z rpmconf kvůli chybějícímu souboru"
 msgid "show all active dnf variables"
 msgstr "zobrazit veškeré aktivní proměnné pro dnf"
 
-#: plugins/snapper.py:49
+#: plugins/snapper.py:56
 #, python-format
 msgid "connect to snapperd failed: %s"
 msgstr "nepodařilo se spojit s nástrojem snapperd: %s"
 
-#: plugins/snapper.py:55
+#: plugins/snapper.py:62
 msgid "creating pre_snapshot"
 msgstr "vytváří se snímek stavu před transakcí"
 
-#: plugins/snapper.py:61
+#: plugins/snapper.py:69
 #, python-format
 msgid "created pre_snapshot %d"
 msgstr "Vytvořen snímek před transakcí %d"
 
-#: plugins/snapper.py:65
+#: plugins/snapper.py:73
 #, python-format
 msgid "creating pre_snapshot failed: %s"
 msgstr "selhalo vytvoření snímku před transakcí: %s"
 
-#: plugins/snapper.py:74
+#: plugins/snapper.py:82
 msgid "skipping post_snapshot because creation of pre_snapshot failed"
 msgstr ""
 "Přeskakuji vytváření obrazu po transakci, protože selhalo vytváření obrazu "
 "před transakcí"
 
-#: plugins/snapper.py:80
+#: plugins/snapper.py:88
 msgid "creating post_snapshot"
 msgstr "vytváření obrazu po transakci"
 
-#: plugins/snapper.py:85
+#: plugins/snapper.py:94
 #, python-format
 msgid "created post_snapshot %d"
 msgstr "vytvořen snímek_po %d"
 
-#: plugins/snapper.py:89
+#: plugins/snapper.py:98
 #, python-format
 msgid "creating post_snapshot failed: %s"
 msgstr "selhalo vytvoření obrazu: %s"

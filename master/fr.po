@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-04 01:42+0000\n"
+"POT-Creation-Date: 2024-01-09 01:44+0000\n"
 "PO-Revision-Date: 2021-10-10 00:45+0000\n"
 "Last-Translator: Titouan Bénard <itotutona@evta.fr>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -34,20 +34,23 @@ msgstr "Fichier kickstart"
 msgid "file cannot be parsed: %s"
 msgstr "le fichier ne peut être analysé : %s"
 
-#: plugins/rpm_conf.py:65
+#: plugins/rpm_conf.py:71
 msgid "Adding '{}' to list of handling packages for rpmconf"
 msgstr "Ajout de « {} » à la liste de paquets s’occupant de rpmconf"
 
-#: plugins/rpm_conf.py:71
-msgid "rpmconf plugin will not run in non-interactive mode"
+#: plugins/rpm_conf.py:77
+#, fuzzy
+#| msgid "rpmconf plugin will not run in non-interactive mode"
+msgid ""
+"rpmconf plugin will not run in non-interactive modewithout unattended mode"
 msgstr "le greffon rpmconf ne sera pas lancé en mode non-interactif"
 
-#: plugins/rpm_conf.py:84
+#: plugins/rpm_conf.py:92
 msgid "ignoring sys.exit from rpmconf due to missing MERGE variable"
 msgstr ""
 "sys.exit de rpmconf a été ignoré, du fait de l’absence de variable MERGE"
 
-#: plugins/rpm_conf.py:88
+#: plugins/rpm_conf.py:96
 msgid "ignoring sys.exit from rpmconf due to missing file"
 msgstr "sys.exit de rpmconf a été ignoré, du fait de l’absence d’un fichier"
 
@@ -55,40 +58,40 @@ msgstr "sys.exit de rpmconf a été ignoré, du fait de l’absence d’un fichi
 msgid "show all active dnf variables"
 msgstr "affiche toutes les variables actives de dnf"
 
-#: plugins/snapper.py:49
+#: plugins/snapper.py:56
 #, python-format
 msgid "connect to snapperd failed: %s"
 msgstr "erreur de connexion à snapperd : %s"
 
-#: plugins/snapper.py:55
+#: plugins/snapper.py:62
 msgid "creating pre_snapshot"
 msgstr "création d’un pré-instantané"
 
-#: plugins/snapper.py:61
+#: plugins/snapper.py:69
 #, python-format
 msgid "created pre_snapshot %d"
 msgstr "pré-instantané %d créé"
 
-#: plugins/snapper.py:65
+#: plugins/snapper.py:73
 #, python-format
 msgid "creating pre_snapshot failed: %s"
 msgstr "erreur de création du pré-instantané : %s"
 
-#: plugins/snapper.py:74
+#: plugins/snapper.py:82
 msgid "skipping post_snapshot because creation of pre_snapshot failed"
 msgstr ""
 "le post-instantané a été ignoré car la création du pré-instantané a échoué"
 
-#: plugins/snapper.py:80
+#: plugins/snapper.py:88
 msgid "creating post_snapshot"
 msgstr "création d’un post-instantané"
 
-#: plugins/snapper.py:85
+#: plugins/snapper.py:94
 #, python-format
 msgid "created post_snapshot %d"
 msgstr "post-instantané %d créé"
 
-#: plugins/snapper.py:89
+#: plugins/snapper.py:98
 #, python-format
 msgid "creating post_snapshot failed: %s"
 msgstr "erreur de création du post-instantané : %s"

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-04 01:42+0000\n"
+"POT-Creation-Date: 2024-01-09 01:44+0000\n"
 "PO-Revision-Date: 2021-06-03 00:03+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -30,19 +30,22 @@ msgstr "kickstart-fil"
 msgid "file cannot be parsed: %s"
 msgstr "filen kan ikke fortolkes: %s"
 
-#: plugins/rpm_conf.py:65
+#: plugins/rpm_conf.py:71
 msgid "Adding '{}' to list of handling packages for rpmconf"
 msgstr "Tilføjer '{}' til at liste over håndteringspakker til rpmconf"
 
-#: plugins/rpm_conf.py:71
-msgid "rpmconf plugin will not run in non-interactive mode"
+#: plugins/rpm_conf.py:77
+#, fuzzy
+#| msgid "rpmconf plugin will not run in non-interactive mode"
+msgid ""
+"rpmconf plugin will not run in non-interactive modewithout unattended mode"
 msgstr "rpmconf-plugin kan ikke køre i ikke-interaktiv-tilstand"
 
-#: plugins/rpm_conf.py:84
+#: plugins/rpm_conf.py:92
 msgid "ignoring sys.exit from rpmconf due to missing MERGE variable"
 msgstr "ignorerer sys.exit fra rpmconf pga. manglende MERGE-variabel"
 
-#: plugins/rpm_conf.py:88
+#: plugins/rpm_conf.py:96
 msgid "ignoring sys.exit from rpmconf due to missing file"
 msgstr "ignorerer sys.exit fra rpmconf pga. manglende fil"
 
@@ -50,39 +53,39 @@ msgstr "ignorerer sys.exit fra rpmconf pga. manglende fil"
 msgid "show all active dnf variables"
 msgstr "Vis alle aktive dnf-variabler"
 
-#: plugins/snapper.py:49
+#: plugins/snapper.py:56
 #, python-format
 msgid "connect to snapperd failed: %s"
 msgstr "kunne ikke oprette forbindelse til snapperd: %s"
 
-#: plugins/snapper.py:55
+#: plugins/snapper.py:62
 msgid "creating pre_snapshot"
 msgstr "opretter pre_snapshot"
 
-#: plugins/snapper.py:61
+#: plugins/snapper.py:69
 #, python-format
 msgid "created pre_snapshot %d"
 msgstr "oprettede pre_snapshot %d"
 
-#: plugins/snapper.py:65
+#: plugins/snapper.py:73
 #, python-format
 msgid "creating pre_snapshot failed: %s"
 msgstr "kunne ikke oprette pre_snapshot: %s"
 
-#: plugins/snapper.py:74
+#: plugins/snapper.py:82
 msgid "skipping post_snapshot because creation of pre_snapshot failed"
 msgstr "springer post_snapshot over fordi pre_snapshot ikke kunne oprettes"
 
-#: plugins/snapper.py:80
+#: plugins/snapper.py:88
 msgid "creating post_snapshot"
 msgstr "opretter post_snapshot"
 
-#: plugins/snapper.py:85
+#: plugins/snapper.py:94
 #, python-format
 msgid "created post_snapshot %d"
 msgstr "oprettede post_snapshot %d"
 
-#: plugins/snapper.py:89
+#: plugins/snapper.py:98
 #, python-format
 msgid "creating post_snapshot failed: %s"
 msgstr "kunne ikke oprette post_snapshot: %s"

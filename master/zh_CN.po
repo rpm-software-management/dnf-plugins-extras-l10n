@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-04 01:42+0000\n"
+"POT-Creation-Date: 2024-01-09 01:44+0000\n"
 "PO-Revision-Date: 2021-06-26 14:04+0000\n"
 "Last-Translator: Charles Lee <lchopn@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -31,19 +31,22 @@ msgstr "Kickstart 文件"
 msgid "file cannot be parsed: %s"
 msgstr "文件不能被解析： %s"
 
-#: plugins/rpm_conf.py:65
+#: plugins/rpm_conf.py:71
 msgid "Adding '{}' to list of handling packages for rpmconf"
 msgstr "正在添加 '{}' 至需要 rpmconf 处理的软件包列表"
 
-#: plugins/rpm_conf.py:71
-msgid "rpmconf plugin will not run in non-interactive mode"
+#: plugins/rpm_conf.py:77
+#, fuzzy
+#| msgid "rpmconf plugin will not run in non-interactive mode"
+msgid ""
+"rpmconf plugin will not run in non-interactive modewithout unattended mode"
 msgstr "rpmconf 插件不在非交互模式下运行"
 
-#: plugins/rpm_conf.py:84
+#: plugins/rpm_conf.py:92
 msgid "ignoring sys.exit from rpmconf due to missing MERGE variable"
 msgstr "由于缺失 MERGE 变量， 忽略来自 rpmconf 的 sys.exit"
 
-#: plugins/rpm_conf.py:88
+#: plugins/rpm_conf.py:96
 msgid "ignoring sys.exit from rpmconf due to missing file"
 msgstr "由于缺失文件， 忽略来自 rpmconf 的 sys.exit"
 
@@ -51,39 +54,39 @@ msgstr "由于缺失文件， 忽略来自 rpmconf 的 sys.exit"
 msgid "show all active dnf variables"
 msgstr "显示所有已激活的 dnf 变量"
 
-#: plugins/snapper.py:49
+#: plugins/snapper.py:56
 #, python-format
 msgid "connect to snapperd failed: %s"
 msgstr "连接到 snapperd 失败：%s"
 
-#: plugins/snapper.py:55
+#: plugins/snapper.py:62
 msgid "creating pre_snapshot"
 msgstr "正在创建 pre_snapshot"
 
-#: plugins/snapper.py:61
+#: plugins/snapper.py:69
 #, python-format
 msgid "created pre_snapshot %d"
 msgstr "已创建 pre_snapshot %d"
 
-#: plugins/snapper.py:65
+#: plugins/snapper.py:73
 #, python-format
 msgid "creating pre_snapshot failed: %s"
 msgstr "创建 pre_snapshot 时出错：%s"
 
-#: plugins/snapper.py:74
+#: plugins/snapper.py:82
 msgid "skipping post_snapshot because creation of pre_snapshot failed"
 msgstr "正在跳过 post_snapshot，因为 pre_snapshot 的创建失败"
 
-#: plugins/snapper.py:80
+#: plugins/snapper.py:88
 msgid "creating post_snapshot"
 msgstr "正在创建 post_snapshot"
 
-#: plugins/snapper.py:85
+#: plugins/snapper.py:94
 #, python-format
 msgid "created post_snapshot %d"
 msgstr "已创建 post_snapshot %d"
 
-#: plugins/snapper.py:89
+#: plugins/snapper.py:98
 #, python-format
 msgid "creating post_snapshot failed: %s"
 msgstr "创建 post_snapshot 时出错：%s"

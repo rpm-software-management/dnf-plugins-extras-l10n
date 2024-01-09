@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-04 01:42+0000\n"
+"POT-Creation-Date: 2024-01-09 01:44+0000\n"
 "PO-Revision-Date: 2023-05-13 20:20+0000\n"
 "Last-Translator: Maksim Kliazovich <maxklezovich@gmail.com>\n"
 "Language-Team: Belarusian <https://translate.fedoraproject.org/projects/dnf/"
@@ -31,19 +31,22 @@ msgstr "файл kickstart"
 msgid "file cannot be parsed: %s"
 msgstr "не атрымалася разабраць файл: %s"
 
-#: plugins/rpm_conf.py:65
+#: plugins/rpm_conf.py:71
 msgid "Adding '{}' to list of handling packages for rpmconf"
 msgstr "'{}' даданы да спісу пакетаў для апрацоўкі rpmconf"
 
-#: plugins/rpm_conf.py:71
-msgid "rpmconf plugin will not run in non-interactive mode"
+#: plugins/rpm_conf.py:77
+#, fuzzy
+#| msgid "rpmconf plugin will not run in non-interactive mode"
+msgid ""
+"rpmconf plugin will not run in non-interactive modewithout unattended mode"
 msgstr "плагін rpmconf не працуе ў неінтэрактыўным рэжыме"
 
-#: plugins/rpm_conf.py:84
+#: plugins/rpm_conf.py:92
 msgid "ignoring sys.exit from rpmconf due to missing MERGE variable"
 msgstr "sys.exit з rpmconf ігнаруецца, бо пераменная MERGE адсутнічае"
 
-#: plugins/rpm_conf.py:88
+#: plugins/rpm_conf.py:96
 msgid "ignoring sys.exit from rpmconf due to missing file"
 msgstr "sys.exit з rpmconf ігнаруецца, бо файл адсутнічае"
 
@@ -51,39 +54,39 @@ msgstr "sys.exit з rpmconf ігнаруецца, бо файл адсутніч
 msgid "show all active dnf variables"
 msgstr "паказаць усе актыўныя зменныя dnf"
 
-#: plugins/snapper.py:49
+#: plugins/snapper.py:56
 #, python-format
 msgid "connect to snapperd failed: %s"
 msgstr "не атрымалася далучыцца да snapperd: %s"
 
-#: plugins/snapper.py:55
+#: plugins/snapper.py:62
 msgid "creating pre_snapshot"
 msgstr "стварэнне pre_snapshot"
 
-#: plugins/snapper.py:61
+#: plugins/snapper.py:69
 #, python-format
 msgid "created pre_snapshot %d"
 msgstr "pre_snapshot %d створаны"
 
-#: plugins/snapper.py:65
+#: plugins/snapper.py:73
 #, python-format
 msgid "creating pre_snapshot failed: %s"
 msgstr "стварэнне pre_snapshot не атрымалася: %s"
 
-#: plugins/snapper.py:74
+#: plugins/snapper.py:82
 msgid "skipping post_snapshot because creation of pre_snapshot failed"
 msgstr "post_snapshot прапускаецца, бо стварэнне pre_snapshot не атрымалася"
 
-#: plugins/snapper.py:80
+#: plugins/snapper.py:88
 msgid "creating post_snapshot"
 msgstr "стварэнне post_snapshot"
 
-#: plugins/snapper.py:85
+#: plugins/snapper.py:94
 #, python-format
 msgid "created post_snapshot %d"
 msgstr "post_snapshot %d створаны"
 
-#: plugins/snapper.py:89
+#: plugins/snapper.py:98
 #, python-format
 msgid "creating post_snapshot failed: %s"
 msgstr "стварэнне post_snapshot не атрымалася: %s"
