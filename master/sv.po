@@ -2,22 +2,22 @@
 # Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020.
 # Göran Uddeborg <goeran@uddeborg.se>, 2019. #zanata, 2020.
 # Göran Uddeborg <goeran@uddeborg.se>, 2020. #zanata
-# Luna Jernberg <bittin@reimu.nl>, 2021.
+# Luna Jernberg <bittin@reimu.nl>, 2021, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-09 01:44+0000\n"
-"PO-Revision-Date: 2021-06-09 15:04+0000\n"
+"PO-Revision-Date: 2024-01-11 17:37+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-extras/sv/>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -37,11 +37,11 @@ msgid "Adding '{}' to list of handling packages for rpmconf"
 msgstr "Lägger till ”{}” till listan av hanterade paket för rpmconf"
 
 #: plugins/rpm_conf.py:77
-#, fuzzy
-#| msgid "rpmconf plugin will not run in non-interactive mode"
 msgid ""
 "rpmconf plugin will not run in non-interactive modewithout unattended mode"
-msgstr "insticksmodulen rpmconf kommer inte köra i icke-interaktivt läge"
+msgstr ""
+"insticksmodulen rpmconf kommer inte köra i icke-interaktivt läge utan "
+"oövervakad läge"
 
 #: plugins/rpm_conf.py:92
 msgid "ignoring sys.exit from rpmconf due to missing MERGE variable"
