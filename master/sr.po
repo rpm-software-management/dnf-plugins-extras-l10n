@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 01:44+0000\n"
+"POT-Creation-Date: 2024-01-14 01:48+0000\n"
 "PO-Revision-Date: 2021-03-28 06:01+0000\n"
 "Last-Translator: Марко Костић (Marko Kostić) <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -38,7 +38,7 @@ msgstr "Додајем '{}' на списак пакета за управљањ
 #, fuzzy
 #| msgid "rpmconf plugin will not run in non-interactive mode"
 msgid ""
-"rpmconf plugin will not run in non-interactive modewithout unattended mode"
+"rpmconf plugin will not run in non-interactive mode without unattended mode"
 msgstr "rpmconf прикључак неће радити у неинтерактивном режиму"
 
 #: plugins/rpm_conf.py:92

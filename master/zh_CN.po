@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 01:44+0000\n"
+"POT-Creation-Date: 2024-01-14 01:48+0000\n"
 "PO-Revision-Date: 2021-06-26 14:04+0000\n"
 "Last-Translator: Charles Lee <lchopn@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -39,7 +39,7 @@ msgstr "正在添加 '{}' 至需要 rpmconf 处理的软件包列表"
 #, fuzzy
 #| msgid "rpmconf plugin will not run in non-interactive mode"
 msgid ""
-"rpmconf plugin will not run in non-interactive modewithout unattended mode"
+"rpmconf plugin will not run in non-interactive mode without unattended mode"
 msgstr "rpmconf 插件不在非交互模式下运行"
 
 #: plugins/rpm_conf.py:92

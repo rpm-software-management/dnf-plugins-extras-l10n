@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 01:44+0000\n"
+"POT-Creation-Date: 2024-01-14 01:48+0000\n"
 "PO-Revision-Date: 2023-06-20 05:20+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
@@ -39,7 +39,7 @@ msgstr "'{}'-ის rpmconf-ისთვის დასამუშავებ
 #, fuzzy
 #| msgid "rpmconf plugin will not run in non-interactive mode"
 msgid ""
-"rpmconf plugin will not run in non-interactive modewithout unattended mode"
+"rpmconf plugin will not run in non-interactive mode without unattended mode"
 msgstr "დამატება rpmconf არა-ინტერაქტიურ რეჟიმში არ გაეშვება"
 
 #: plugins/rpm_conf.py:92

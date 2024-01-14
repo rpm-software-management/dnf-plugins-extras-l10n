@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 01:44+0000\n"
+"POT-Creation-Date: 2024-01-14 01:48+0000\n"
 "PO-Revision-Date: 2021-06-03 00:03+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -38,7 +38,7 @@ msgstr "Tilføjer '{}' til at liste over håndteringspakker til rpmconf"
 #, fuzzy
 #| msgid "rpmconf plugin will not run in non-interactive mode"
 msgid ""
-"rpmconf plugin will not run in non-interactive modewithout unattended mode"
+"rpmconf plugin will not run in non-interactive mode without unattended mode"
 msgstr "rpmconf-plugin kan ikke køre i ikke-interaktiv-tilstand"
 
 #: plugins/rpm_conf.py:92

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 01:44+0000\n"
+"POT-Creation-Date: 2024-01-14 01:48+0000\n"
 "PO-Revision-Date: 2019-09-13 04:04+0000\n"
 "Last-Translator: Manuela Silva <mmsrs@sky.com>\n"
 "Language-Team: Portuguese\n"
@@ -35,7 +35,7 @@ msgstr "A adicionar '{}' à lista de pacotes de manipulação de rpmconf"
 #, fuzzy
 #| msgid "rpmconf plugin will not run in non-interactive mode"
 msgid ""
-"rpmconf plugin will not run in non-interactive modewithout unattended mode"
+"rpmconf plugin will not run in non-interactive mode without unattended mode"
 msgstr "o extra rpmconf não será executado no modo não interativo"
 
 #: plugins/rpm_conf.py:92

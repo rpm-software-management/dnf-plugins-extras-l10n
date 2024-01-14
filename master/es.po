@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 01:44+0000\n"
+"POT-Creation-Date: 2024-01-14 01:48+0000\n"
 "PO-Revision-Date: 2021-10-09 02:05+0000\n"
 "Last-Translator: Pedro Luis Valades Viera <perikiyoxd@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -44,7 +44,7 @@ msgstr "Agregando '{}' a la lista de paquetes manejados por rpmconf"
 #, fuzzy
 #| msgid "rpmconf plugin will not run in non-interactive mode"
 msgid ""
-"rpmconf plugin will not run in non-interactive modewithout unattended mode"
+"rpmconf plugin will not run in non-interactive mode without unattended mode"
 msgstr "El complemento rpmconf sólo se ejecuta en modo interactivo"
 
 #: plugins/rpm_conf.py:92
