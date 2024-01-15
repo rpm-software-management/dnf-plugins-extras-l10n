@@ -10,10 +10,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-14 01:48+0000\n"
-"PO-Revision-Date: 2024-01-11 17:37+0000\n"
+"PO-Revision-Date: 2024-01-15 16:28+0000\n"
 "Last-Translator: Damien Pou <dampato+linux@ik.me>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-extras/fr/>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,13 +40,10 @@ msgid "Adding '{}' to list of handling packages for rpmconf"
 msgstr "Ajout de « {} » à la liste de paquets s’occupant de rpmconf"
 
 #: plugins/rpm_conf.py:77
-#, fuzzy
-#| msgid ""
-#| "rpmconf plugin will not run in non-interactive modewithout unattended mode"
 msgid ""
 "rpmconf plugin will not run in non-interactive mode without unattended mode"
 msgstr ""
-"Le greffon rpmconf ne sera pas lancé en mode non-interactif sans le mode "
+"Le plugins rpmconf ne sera pas lancé en mode non-interactif sans le mode "
 "silencieux"
 
 #: plugins/rpm_conf.py:92
