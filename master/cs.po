@@ -7,22 +7,22 @@
 # Marek Blaha <mblaha@redhat.com>, 2022.
 # Pavel Borecki <pavel.borecki@gmail.com>, 2023.
 # Jan Kalabza <jan.kalabza@gmail.com>, 2023.
-# Petr Ptacek <petr106@atlas.cz>, 2023.
+# Petr Ptacek <petr106@atlas.cz>, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-27 01:34+0000\n"
-"PO-Revision-Date: 2023-12-06 11:44+0000\n"
+"PO-Revision-Date: 2024-02-03 09:36+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-extras/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.2.1\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -42,11 +42,11 @@ msgid "Adding '{}' to list of handling packages for rpmconf"
 msgstr "Přidává „{}“ do seznamu manipulace balíčků pro rpmconf"
 
 #: plugins/rpm_conf.py:77
-#, fuzzy
-#| msgid "rpmconf plugin will not run in non-interactive mode"
 msgid ""
 "rpmconf plugin will not run in non-interactive mode without unattended mode"
-msgstr "zásuvný modul rpmconf bude spuštěn v interaktivním režimu"
+msgstr ""
+"zásuvný modul rpmconf bude spuštěn v interaktivním režimu bez bezobslužného "
+"režimu"
 
 #: plugins/rpm_conf.py:92
 msgid "ignoring sys.exit from rpmconf due to missing MERGE variable"
