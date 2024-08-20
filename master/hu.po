@@ -4,13 +4,14 @@
 # Balázs Meskó <meskobalazs@mailbox.org>, 2020, 2021.
 # Anonymous <noreply@weblate.org>, 2020.
 # Dankaházi (ifj.) István <dankahazi.istvan@gmail.com>, 2021.
+# Hoppár Zoltán <hopparz@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-28 01:47+0000\n"
-"PO-Revision-Date: 2021-11-05 09:05+0000\n"
-"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
+"PO-Revision-Date: 2024-08-21 00:38+0000\n"
+"Last-Translator: Hoppár Zoltán <hopparz@gmail.com>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-extras/hu/>\n"
 "Language: hu\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 5.7\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -38,11 +39,11 @@ msgid "Adding '{}' to list of handling packages for rpmconf"
 msgstr "A(z) „{}” hozzáadása a rpmconf kezelőcsomagjaihoz"
 
 #: plugins/rpm_conf.py:77
-#, fuzzy
-#| msgid "rpmconf plugin will not run in non-interactive mode"
 msgid ""
 "rpmconf plugin will not run in non-interactive mode without unattended mode"
-msgstr "az rpmconf bővítmény nem fog futni nem interaktív módban"
+msgstr ""
+"az rpmconf bővítmény nem fog futni nem interaktív módban felügyelet nélküli "
+"módban"
 
 #: plugins/rpm_conf.py:92
 msgid "ignoring sys.exit from rpmconf due to missing MERGE variable"
