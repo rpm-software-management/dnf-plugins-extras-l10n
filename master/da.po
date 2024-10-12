@@ -1,21 +1,22 @@
 # scootergrisen <scootergrisen@gmail.com>, 2018. #zanata, 2020, 2021.
 # scootergrisen <scootergrisen@gmail.com>, 2019. #zanata, 2020, 2021.
 # Anonymous <noreply@weblate.org>, 2020.
+# DK Guy <peter@nozen.dk>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-24 02:07+0000\n"
-"PO-Revision-Date: 2021-06-03 00:03+0000\n"
-"Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
-"Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-extras/da/>\n"
+"PO-Revision-Date: 2024-10-13 17:38+0000\n"
+"Last-Translator: DK Guy <peter@nozen.dk>\n"
+"Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -35,11 +36,11 @@ msgid "Adding '{}' to list of handling packages for rpmconf"
 msgstr "Tilføjer '{}' til at liste over håndteringspakker til rpmconf"
 
 #: plugins/rpm_conf.py:77
-#, fuzzy
-#| msgid "rpmconf plugin will not run in non-interactive mode"
 msgid ""
 "rpmconf plugin will not run in non-interactive mode without unattended mode"
-msgstr "rpmconf-plugin kan ikke køre i ikke-interaktiv-tilstand"
+msgstr ""
+"rpmconf-plugin kan ikke køre i ikke-interaktiv-tilstand uden uden-opsyn-"
+"tilstanden"
 
 #: plugins/rpm_conf.py:92
 msgid "ignoring sys.exit from rpmconf due to missing MERGE variable"
