@@ -7,13 +7,14 @@
 # Henrique Roberto Gattermann Mittelstaedt <henrique.roberto97@gmail.com>, 2020.
 # Gustavo Costa <xfgusta@gmail.com>, 2021.
 # Rafael Fontenelle <rafaelff@gnome.org>, 2024.
+# "Geraldo S. Simião Kutz" <geraldo.simiao.kutz@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-13 02:12+0000\n"
-"PO-Revision-Date: 2024-01-11 17:37+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"PO-Revision-Date: 2024-12-04 02:38+0000\n"
+"Last-Translator: \"Geraldo S. Simião Kutz\" <geraldo.simiao.kutz@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-extras/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -42,9 +43,6 @@ msgid "Adding '{}' to list of handling packages for rpmconf"
 msgstr "Adicionando '{}' para a lista de pacotes de manipulação para o rpmconf"
 
 #: plugins/rpm_conf.py:77
-#, fuzzy
-#| msgid ""
-#| "rpmconf plugin will not run in non-interactive modewithout unattended mode"
 msgid ""
 "rpmconf plugin will not run in non-interactive mode without unattended mode"
 msgstr ""
