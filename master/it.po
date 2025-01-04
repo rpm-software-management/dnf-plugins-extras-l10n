@@ -2,21 +2,22 @@
 # Luigi Toscano <luigi.toscano@tiscali.it>, 2017. #zanata
 # Giovanni Grieco <giovanni.grc96@gmail.com>, 2018. #zanata
 # Alessio <alciregi@posteo.net>, 2021.
+# Salvatore Cocuzza <info@salvatorecocuzza.it>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-21 02:04+0000\n"
-"PO-Revision-Date: 2021-08-31 17:04+0000\n"
-"Last-Translator: Alessio <alciregi@posteo.net>\n"
-"Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-extras/it/>\n"
+"PO-Revision-Date: 2025-01-04 21:16+0000\n"
+"Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
+"Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 5.9.1\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -36,11 +37,11 @@ msgid "Adding '{}' to list of handling packages for rpmconf"
 msgstr "Aggiunta di '{}' all'elenco di pacchetti da far gestire a rpmconf"
 
 #: plugins/rpm_conf.py:77
-#, fuzzy
-#| msgid "rpmconf plugin will not run in non-interactive mode"
 msgid ""
 "rpmconf plugin will not run in non-interactive mode without unattended mode"
-msgstr "il plugin rpmconf non verrà eseguito in modalità non-interattiva"
+msgstr ""
+"Il plugin rpmconf non verrà eseguito in modalità non interattiva senza la "
+"modalità automatica"
 
 #: plugins/rpm_conf.py:92
 msgid "ignoring sys.exit from rpmconf due to missing MERGE variable"
@@ -74,25 +75,26 @@ msgstr "creato il pre_snapshot %d"
 #: plugins/snapper.py:73
 #, python-format
 msgid "creating pre_snapshot failed: %s"
-msgstr ""
+msgstr "creazione pre_snapshot non riuscita: %s"
 
 #: plugins/snapper.py:82
 msgid "skipping post_snapshot because creation of pre_snapshot failed"
 msgstr ""
+"saltando post_snapshot perché la creazione di pre_snapshot non è riuscita"
 
 #: plugins/snapper.py:88
 msgid "creating post_snapshot"
-msgstr ""
+msgstr "crea un pre_snapshot"
 
 #: plugins/snapper.py:94
 #, python-format
 msgid "created post_snapshot %d"
-msgstr ""
+msgstr "creato il pre_snapshot %d"
 
 #: plugins/snapper.py:98
 #, python-format
 msgid "creating post_snapshot failed: %s"
-msgstr ""
+msgstr "creazione post_snapshot non riuscita: %s"
 
 #: plugins/torproxy.py:31
 msgid "Disabling torproxy plugin: cannot connect to the Tor network"
