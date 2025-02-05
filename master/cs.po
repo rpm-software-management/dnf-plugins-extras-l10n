@@ -8,21 +8,22 @@
 # Pavel Borecki <pavel.borecki@gmail.com>, 2023.
 # Jan Kalabza <jan.kalabza@gmail.com>, 2023.
 # Petr Ptacek <petr106@atlas.cz>, 2023, 2024.
+# Jonáš Loskot <fedoraproject.org@alius.cz>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-04 02:04+0000\n"
-"PO-Revision-Date: 2024-02-03 09:36+0000\n"
-"Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-extras/cs/>\n"
+"PO-Revision-Date: 2025-02-05 21:47+0000\n"
+"Last-Translator: Jonáš Loskot <fedoraproject.org@alius.cz>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -92,7 +93,7 @@ msgstr "vytváření obrazu po transakci"
 #: plugins/snapper.py:94
 #, python-format
 msgid "created post_snapshot %d"
-msgstr "vytvořen snímek_po %d"
+msgstr "vytvořen snímek po transakci %d"
 
 #: plugins/snapper.py:98
 #, python-format
