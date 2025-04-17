@@ -3,13 +3,14 @@
 # cheng ye <18969068329@163.com>, 2017. #zanata
 # Charles Lee <lchopn@gmail.com>, 2020, 2021.
 # z z <3397542367@qq.com>, 2025.
+# Shijun Sun <sunshijun12138@outlook.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-09 02:16+0000\n"
-"PO-Revision-Date: 2025-04-09 11:51+0000\n"
-"Last-Translator: z z <3397542367@qq.com>\n"
+"PO-Revision-Date: 2025-04-17 09:23+0000\n"
+"Last-Translator: Shijun Sun <sunshijun12138@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-extras/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.11\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -25,7 +26,7 @@ msgstr "在系统中安装 kickstart 文件中定义的软件包"
 
 #: plugins/kickstart.py:62
 msgid "kickstart file"
-msgstr "Kickstart 文件"
+msgstr "kickstart 文件"
 
 #: plugins/kickstart.py:80
 #, python-format
