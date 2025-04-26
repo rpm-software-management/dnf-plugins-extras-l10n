@@ -2,13 +2,14 @@
 # Yi-Jyun Pan <pan93412@gmail.com>, 2020.
 # Anonymous <noreply@weblate.org>, 2020.
 # Cheng-Chia Tseng <pswo10680@gmail.com>, 2020.
+# hsu zangmen <chzang55@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-17 02:18+0000\n"
-"PO-Revision-Date: 2020-05-24 14:31+0000\n"
-"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
+"PO-Revision-Date: 2025-04-26 03:22+0000\n"
+"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-extras/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.0.4\n"
+"X-Generator: Weblate 5.11\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -36,11 +37,9 @@ msgid "Adding '{}' to list of handling packages for rpmconf"
 msgstr "正在加入「{}」至 rpmconf 的處理套件列表"
 
 #: plugins/rpm_conf.py:77
-#, fuzzy
-#| msgid "rpmconf plugin will not run in non-interactive mode"
 msgid ""
 "rpmconf plugin will not run in non-interactive mode without unattended mode"
-msgstr "rpmconf 插件將不會在非交互型模式執行"
+msgstr "rpmconf 外掛程式將無法在非 Interactive 模式下執行，而無需 unattended 模式"
 
 #: plugins/rpm_conf.py:92
 msgid "ignoring sys.exit from rpmconf due to missing MERGE variable"
@@ -75,7 +74,7 @@ msgstr "建立 pre_snapshot 失敗：%s"
 
 #: plugins/snapper.py:82
 msgid "skipping post_snapshot because creation of pre_snapshot failed"
-msgstr "跳過 post_snapshot，因為建立 pre_snapshot 時失敗。"
+msgstr "跳過 post_snapshot，因為建立 pre_snapshot 時失敗"
 
 #: plugins/snapper.py:88
 msgid "creating post_snapshot"
@@ -107,7 +106,7 @@ msgstr "意外的終止呼叫 Tracer API："
 msgid ""
 "Please visit https://github.com/FrostyX/tracer/issues and submit the issue. "
 "Thank you"
-msgstr "請前往 https://github.com/FrostyX/tracer/issues 並提交問題。非常感謝！"
+msgstr "請前往 https://github.com/FrostyX/tracer/issues 並提交問題。非常感謝"
 
 #: plugins/tracer.py:100
 msgid "We apologize for any inconvenience"
