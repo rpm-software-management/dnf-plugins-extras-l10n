@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-17 02:18+0000\n"
+"POT-Creation-Date: 2025-04-26 02:15+0000\n"
 "PO-Revision-Date: 2025-04-26 03:22+0000\n"
 "Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -39,7 +39,8 @@ msgstr "正在加入「{}」至 rpmconf 的處理套件列表"
 #: plugins/rpm_conf.py:77
 msgid ""
 "rpmconf plugin will not run in non-interactive mode without unattended mode"
-msgstr "rpmconf 外掛程式將無法在非 Interactive 模式下執行，而無需 unattended 模式"
+msgstr ""
+"rpmconf 外掛程式將無法在非 Interactive 模式下執行，而無需 unattended 模式"
 
 #: plugins/rpm_conf.py:92
 msgid "ignoring sys.exit from rpmconf due to missing MERGE variable"
