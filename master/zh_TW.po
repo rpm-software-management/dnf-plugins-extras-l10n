@@ -1,15 +1,15 @@
 # Peter Pan <pan93412@gmail.com>, 2018. #zanata
 # Yi-Jyun Pan <pan93412@gmail.com>, 2020.
 # Anonymous <noreply@weblate.org>, 2020.
-# Cheng-Chia Tseng <pswo10680@gmail.com>, 2020.
+# Cheng-Chia Tseng <pswo10680@gmail.com>, 2020, 2025.
 # hsu zangmen <chzang55@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-26 02:15+0000\n"
-"PO-Revision-Date: 2025-04-26 03:22+0000\n"
-"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
+"PO-Revision-Date: 2025-05-05 13:20+0000\n"
+"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf/dnf-plugins-extras/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11\n"
+"X-Generator: Weblate 5.11.3\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -34,7 +34,7 @@ msgstr "檔案無法解析：%s"
 
 #: plugins/rpm_conf.py:71
 msgid "Adding '{}' to list of handling packages for rpmconf"
-msgstr "正在加入「{}」至 rpmconf 的處理套件列表"
+msgstr "正在加入「{}」至 rpmconf 的處理軟體包列表"
 
 #: plugins/rpm_conf.py:77
 msgid ""
