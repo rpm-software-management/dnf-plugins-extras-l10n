@@ -3,21 +3,22 @@
 # Giovanni Grieco <giovanni.grc96@gmail.com>, 2018. #zanata
 # Alessio <alciregi@posteo.net>, 2021.
 # Salvatore Cocuzza <info@salvatorecocuzza.it>, 2025.
+# Nathan <nathan95@live.it>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-05 02:25+0000\n"
-"PO-Revision-Date: 2025-01-04 21:16+0000\n"
-"Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
-"Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf/dnf-"
-"plugins-extras/it/>\n"
+"PO-Revision-Date: 2025-08-09 08:53+0000\n"
+"Last-Translator: Nathan <nathan95@live.it>\n"
+"Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.1\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -84,12 +85,12 @@ msgstr ""
 
 #: plugins/snapper.py:88
 msgid "creating post_snapshot"
-msgstr "crea un pre_snapshot"
+msgstr "crea un post_snapshot"
 
 #: plugins/snapper.py:94
 #, python-format
 msgid "created post_snapshot %d"
-msgstr "creato il pre_snapshot %d"
+msgstr "creato il post_snapshot %d"
 
 #: plugins/snapper.py:98
 #, python-format
@@ -115,7 +116,7 @@ msgid ""
 "Please visit https://github.com/FrostyX/tracer/issues and submit the issue. "
 "Thank you"
 msgstr ""
-"Visitare https://github.com/FrostyX/tracer/issues e segnalare il problema.\n"
+"Visitare https://github.com/FrostyX/tracer/issues e segnalare il problema. "
 "Grazie"
 
 #: plugins/tracer.py:100
