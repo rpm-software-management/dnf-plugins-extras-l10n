@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-21 13:00+0000\n"
-"PO-Revision-Date: 2025-12-17 18:58+0000\n"
+"PO-Revision-Date: 2025-12-25 15:53+0000\n"
 "Last-Translator: naly zzwd <xeanhort007@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-extras/ca/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -37,11 +37,11 @@ msgid "Adding '{}' to list of handling packages for rpmconf"
 msgstr "S'afegeix '{}' a la llista dels paquets tractats pel rpmconf"
 
 #: plugins/rpm_conf.py:77
-#, fuzzy
-#| msgid "rpmconf plugin will not run in non-interactive mode"
 msgid ""
 "rpmconf plugin will not run in non-interactive mode without unattended mode"
-msgstr "ara s'executarà el connector rpmconf en mode no interactiu"
+msgstr ""
+"El connector rpmconf no s'executarà en mode no interactiu sense el mode "
+"desatès"
 
 #: plugins/rpm_conf.py:92
 msgid "ignoring sys.exit from rpmconf due to missing MERGE variable"
