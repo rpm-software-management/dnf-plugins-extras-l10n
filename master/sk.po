@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Languages add-on <noreply-addon-languages@weblate.org>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-21 13:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: plugins/kickstart.py:57
+msgid "Install packages defined in a kickstart file on your system"
+msgstr ""
+
+#: plugins/kickstart.py:62
+msgid "kickstart file"
+msgstr ""
+
+#: plugins/kickstart.py:80
+#, python-format
+msgid "file cannot be parsed: %s"
+msgstr ""
+
+#: plugins/rpm_conf.py:71
+msgid "Adding '{}' to list of handling packages for rpmconf"
+msgstr ""
+
+#: plugins/rpm_conf.py:77
+msgid ""
+"rpmconf plugin will not run in non-interactive mode without unattended mode"
+msgstr ""
+
+#: plugins/rpm_conf.py:92
+msgid "ignoring sys.exit from rpmconf due to missing MERGE variable"
+msgstr ""
+
+#: plugins/rpm_conf.py:96
+msgid "ignoring sys.exit from rpmconf due to missing file"
+msgstr ""
+
+#: plugins/showvars.py:46
+msgid "show all active dnf variables"
+msgstr ""
+
+#: plugins/snapper.py:56
+#, python-format
+msgid "connect to snapperd failed: %s"
+msgstr ""
+
+#: plugins/snapper.py:62
+msgid "creating pre_snapshot"
+msgstr ""
+
+#: plugins/snapper.py:69
+#, python-format
+msgid "created pre_snapshot %d"
+msgstr ""
+
+#: plugins/snapper.py:73
+#, python-format
+msgid "creating pre_snapshot failed: %s"
+msgstr ""
+
+#: plugins/snapper.py:82
+msgid "skipping post_snapshot because creation of pre_snapshot failed"
+msgstr ""
+
+#: plugins/snapper.py:88
+msgid "creating post_snapshot"
+msgstr ""
+
+#: plugins/snapper.py:94
+#, python-format
+msgid "created post_snapshot %d"
+msgstr ""
+
+#: plugins/snapper.py:98
+#, python-format
+msgid "creating post_snapshot failed: %s"
+msgstr ""
+
+#: plugins/torproxy.py:31
+msgid "Disabling torproxy plugin: cannot connect to the Tor network"
+msgstr ""
+
+#: plugins/tracer.py:69
+msgid "For more information run:"
+msgstr ""
+
+#: plugins/tracer.py:96
+msgid "Call to Tracer API ended unexpectedly:"
+msgstr ""
+
+#: plugins/tracer.py:98
+msgid ""
+"Please visit https://github.com/FrostyX/tracer/issues and submit the issue. "
+"Thank you"
+msgstr ""
+
+#: plugins/tracer.py:100
+msgid "We apologize for any inconvenience"
+msgstr ""
