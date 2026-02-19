@@ -2,19 +2,22 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Languages add-on <noreply-addon-languages@weblate.org>, 2026.
+# Jim Spentzos <jimspentzos2000@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-21 13:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-02-20 12:58+0000\n"
+"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
+"Language-Team: Greek <https://translate.fedoraproject.org/projects/dnf/dnf-"
+"plugins-extras/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.16\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -22,7 +25,7 @@ msgstr ""
 
 #: plugins/kickstart.py:62
 msgid "kickstart file"
-msgstr ""
+msgstr "αρχείο kickstart"
 
 #: plugins/kickstart.py:80
 #, python-format
@@ -57,17 +60,17 @@ msgstr ""
 
 #: plugins/snapper.py:62
 msgid "creating pre_snapshot"
-msgstr ""
+msgstr "δημιουργία pre_snapshot"
 
 #: plugins/snapper.py:69
 #, python-format
 msgid "created pre_snapshot %d"
-msgstr ""
+msgstr "δημιουργήθηκε pre_snapshot %d"
 
 #: plugins/snapper.py:73
 #, python-format
 msgid "creating pre_snapshot failed: %s"
-msgstr ""
+msgstr "αποτυχία δημιουργίας pre_snapshot: %s"
 
 #: plugins/snapper.py:82
 msgid "skipping post_snapshot because creation of pre_snapshot failed"
