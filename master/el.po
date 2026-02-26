@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Languages add-on <noreply-addon-languages@weblate.org>, 2026.
 # Jim Spentzos <jimspentzos2000@gmail.com>, 2026.
+# Efstathios Iosifidis <eiosifidis@yandex.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-21 13:00+0000\n"
-"PO-Revision-Date: 2026-02-20 12:58+0000\n"
-"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
+"PO-Revision-Date: 2026-02-27 00:58+0000\n"
+"Last-Translator: Efstathios Iosifidis <eiosifidis@yandex.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-extras/el/>\n"
 "Language: el\n"
@@ -17,11 +18,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16\n"
+"X-Generator: Weblate 5.16.1\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
 msgstr ""
+"Εγκατάσταση πακέτων που ορίζονται σε ένα αρχείο kickstart στο σύστημά σας"
 
 #: plugins/kickstart.py:62
 msgid "kickstart file"
@@ -30,33 +32,36 @@ msgstr "αρχείο kickstart"
 #: plugins/kickstart.py:80
 #, python-format
 msgid "file cannot be parsed: %s"
-msgstr ""
+msgstr "αδυναμία ανάλυσης του αρχείου: %s"
 
 #: plugins/rpm_conf.py:71
 msgid "Adding '{}' to list of handling packages for rpmconf"
-msgstr ""
+msgstr "Προσθήκη του «{}» στη λίστα πακέτων χειρισμού για το rpmconf"
 
 #: plugins/rpm_conf.py:77
 msgid ""
 "rpmconf plugin will not run in non-interactive mode without unattended mode"
 msgstr ""
+"το πρόσθετο rpmconf δεν θα εκτελεστεί σε μη διαδραστική λειτουργία χωρίς τη "
+"λειτουργία «unattended»"
 
 #: plugins/rpm_conf.py:92
 msgid "ignoring sys.exit from rpmconf due to missing MERGE variable"
 msgstr ""
+"παράβλεψη του sys.exit από το rpmconf λόγω έλλειψης της μεταβλητής MERGE"
 
 #: plugins/rpm_conf.py:96
 msgid "ignoring sys.exit from rpmconf due to missing file"
-msgstr ""
+msgstr "παράβλεψη του sys.exit από το rpmconf λόγω έλλειψης αρχείου"
 
 #: plugins/showvars.py:46
 msgid "show all active dnf variables"
-msgstr ""
+msgstr "εμφάνιση όλων των ενεργών μεταβλητών του dnf"
 
 #: plugins/snapper.py:56
 #, python-format
 msgid "connect to snapperd failed: %s"
-msgstr ""
+msgstr "αποτυχία σύνδεσης στο snapperd: %s"
 
 #: plugins/snapper.py:62
 msgid "creating pre_snapshot"
@@ -75,39 +80,42 @@ msgstr "αποτυχία δημιουργίας pre_snapshot: %s"
 #: plugins/snapper.py:82
 msgid "skipping post_snapshot because creation of pre_snapshot failed"
 msgstr ""
+"παράλειψη του post_snapshot επειδή η δημιουργία του pre_snapshot απέτυχε"
 
 #: plugins/snapper.py:88
 msgid "creating post_snapshot"
-msgstr ""
+msgstr "δημιουργία post_snapshot"
 
 #: plugins/snapper.py:94
 #, python-format
 msgid "created post_snapshot %d"
-msgstr ""
+msgstr "δημιουργήθηκε post_snapshot %d"
 
 #: plugins/snapper.py:98
 #, python-format
 msgid "creating post_snapshot failed: %s"
-msgstr ""
+msgstr "αποτυχία δημιουργίας post_snapshot: %s"
 
 #: plugins/torproxy.py:31
 msgid "Disabling torproxy plugin: cannot connect to the Tor network"
-msgstr ""
+msgstr "Απενεργοποίηση του πρόσθετου torproxy: αδυναμία σύνδεσης στο δίκτυο Tor"
 
 #: plugins/tracer.py:69
 msgid "For more information run:"
-msgstr ""
+msgstr "Για περισσότερες πληροφορίες εκτελέστε:"
 
 #: plugins/tracer.py:96
 msgid "Call to Tracer API ended unexpectedly:"
-msgstr ""
+msgstr "Η κλήση στο API του Tracer τερματίστηκε απροσδόκητα:"
 
 #: plugins/tracer.py:98
 msgid ""
 "Please visit https://github.com/FrostyX/tracer/issues and submit the issue. "
 "Thank you"
 msgstr ""
+"Παρακαλούμε επισκεφθείτε τη διεύθυνση https://github.com/FrostyX/tracer/"
+"issues και υποβάλετε το ζήτημα. Ευχαριστούμε"
 
 #: plugins/tracer.py:100
 msgid "We apologize for any inconvenience"
-msgstr ""
+msgstr "Ζητούμε συγγνώμη για την οποιαδήποτε ταλαιπωρία"
