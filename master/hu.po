@@ -1,7 +1,7 @@
 # Meskó Balázs <meskobalazs@gmail.com>, 2016. #zanata
 # Meskó Balázs <meskobalazs@gmail.com>, 2018. #zanata
 # Meskó Balázs <meskobalazs@gmail.com>, 2019. #zanata
-# Balázs Meskó <meskobalazs@mailbox.org>, 2020, 2021.
+# Balázs Meskó <meskobalazs@mailbox.org>, 2020, 2021, 2026.
 # Anonymous <noreply@weblate.org>, 2020.
 # Dankaházi (ifj.) István <dankahazi.istvan@gmail.com>, 2021.
 # Hoppár Zoltán <hopparz@gmail.com>, 2024.
@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-21 13:00+0000\n"
-"PO-Revision-Date: 2024-08-21 00:38+0000\n"
-"Last-Translator: Hoppár Zoltán <hopparz@gmail.com>\n"
+"PO-Revision-Date: 2026-04-04 10:58+0000\n"
+"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-extras/hu/>\n"
 "Language: hu\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -64,36 +64,35 @@ msgstr "a snapperdhez kapcsolódás sikertelen: %s"
 
 #: plugins/snapper.py:62
 msgid "creating pre_snapshot"
-msgstr "művelet előtti pillanatfelvétel készítése"
+msgstr "pre_snapshot készítése"
 
 #: plugins/snapper.py:69
 #, python-format
 msgid "created pre_snapshot %d"
-msgstr "%d. művelet előtti pillanatfelvétel elkészült"
+msgstr "%d. pre_snapshot elkészült"
 
 #: plugins/snapper.py:73
 #, python-format
 msgid "creating pre_snapshot failed: %s"
-msgstr "A művelet előtti pillanatfelvétel készítése meghiúsult: %s"
+msgstr "nem sikerült a pre_snapshot létrehozása: %s"
 
 #: plugins/snapper.py:82
 msgid "skipping post_snapshot because creation of pre_snapshot failed"
-msgstr ""
-"művelet utáni pillanatfelvétel kihagyása, mert az előtti készítése meghiúsult"
+msgstr "a post_snapshot kihagyása, mert nem sikerült a pre_snapshot létrehozása"
 
 #: plugins/snapper.py:88
 msgid "creating post_snapshot"
-msgstr "művelet utáni pillanatfelvétel készítése"
+msgstr "post_snapshot létrehozása"
 
 #: plugins/snapper.py:94
 #, python-format
 msgid "created post_snapshot %d"
-msgstr "%d. művelet utáni pillanatfelvétel elkészült"
+msgstr "%d. post_snapshot elkészült"
 
 #: plugins/snapper.py:98
 #, python-format
 msgid "creating post_snapshot failed: %s"
-msgstr "A művelet utáni pillanatfelvétel készítése meghiúsult: %s"
+msgstr "nem sikerült a post_snapshot létrehozása: %s"
 
 #: plugins/torproxy.py:31
 msgid "Disabling torproxy plugin: cannot connect to the Tor network"
