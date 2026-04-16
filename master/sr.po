@@ -1,12 +1,12 @@
 # Marko Kostic <marko.m.kostic@gmail.com>, 2019. #zanata
 # Марко Костић (Marko Kostić) <marko.m.kostic@gmail.com>, 2021.
-# "Марко Костић (Marko Kostić)" <marko.m.kostic@gmail.com>, 2025.
+# "Марко Костић (Marko Kostić)" <marko.m.kostic@gmail.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-21 13:00+0000\n"
-"PO-Revision-Date: 2025-04-09 11:51+0000\n"
+"PO-Revision-Date: 2026-04-17 07:58+0000\n"
 "Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/dnf/dnf-"
 "plugins-extras/sr/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.17\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -36,11 +36,11 @@ msgid "Adding '{}' to list of handling packages for rpmconf"
 msgstr "Додајем '{}' на списак пакета за управљање за rpmconf"
 
 #: plugins/rpm_conf.py:77
-#, fuzzy
-#| msgid "rpmconf plugin will not run in non-interactive mode"
 msgid ""
 "rpmconf plugin will not run in non-interactive mode without unattended mode"
-msgstr "rpmconf прикључак неће радити у неинтерактивном режиму"
+msgstr ""
+"rpmconf прикључак неће радити у не-интерактивном режиму без режима без "
+"надзора"
 
 #: plugins/rpm_conf.py:92
 msgid "ignoring sys.exit from rpmconf due to missing MERGE variable"
@@ -53,7 +53,7 @@ msgstr "занемарујем sys.exit из rpmconf-а зато што недо
 
 #: plugins/showvars.py:46
 msgid "show all active dnf variables"
-msgstr ""
+msgstr "прикажи све активне dnf променљиве"
 
 #: plugins/snapper.py:56
 #, python-format
