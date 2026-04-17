@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-21 13:00+0000\n"
+"POT-Creation-Date: 2026-04-15 09:11+0000\n"
 "PO-Revision-Date: 2026-02-27 00:58+0000\n"
 "Last-Translator: Efstathios Iosifidis <eiosifidis@yandex.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/dnf/dnf-"
@@ -98,7 +98,8 @@ msgstr "αποτυχία δημιουργίας post_snapshot: %s"
 
 #: plugins/torproxy.py:31
 msgid "Disabling torproxy plugin: cannot connect to the Tor network"
-msgstr "Απενεργοποίηση του πρόσθετου torproxy: αδυναμία σύνδεσης στο δίκτυο Tor"
+msgstr ""
+"Απενεργοποίηση του πρόσθετου torproxy: αδυναμία σύνδεσης στο δίκτυο Tor"
 
 #: plugins/tracer.py:69
 msgid "For more information run:"
