@@ -41,6 +41,7 @@ msgid "file cannot be parsed: %s"
 msgstr "nie można przetworzyć pliku: %s"
 
 #: plugins/rpm_conf.py:71
+#, python-brace-format
 msgid "Adding '{}' to list of handling packages for rpmconf"
 msgstr "Dodawanie „{}” do listy obsługiwanych pakietów dla rpmconf"
 

@@ -33,6 +33,7 @@ msgid "file cannot be parsed: %s"
 msgstr "파일을 구문분석 할 수 없습니다: %s"
 
 #: plugins/rpm_conf.py:71
+#, python-brace-format
 msgid "Adding '{}' to list of handling packages for rpmconf"
 msgstr "rpmconf를 위해 관리하는 꾸러미 목록에 '{}' 추가하기"
 

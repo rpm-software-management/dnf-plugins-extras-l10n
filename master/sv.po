@@ -33,6 +33,7 @@ msgid "file cannot be parsed: %s"
 msgstr "filen kan inte tolkas: %s"
 
 #: plugins/rpm_conf.py:71
+#, python-brace-format
 msgid "Adding '{}' to list of handling packages for rpmconf"
 msgstr "Lägger till ”{}” till listan av hanterade paket för rpmconf"
 

@@ -33,6 +33,7 @@ msgid "file cannot be parsed: %s"
 msgstr "no es pot analitzar sintàcticament el fitxer: %s"
 
 #: plugins/rpm_conf.py:71
+#, python-brace-format
 msgid "Adding '{}' to list of handling packages for rpmconf"
 msgstr "S'afegeix '{}' a la llista dels paquets tractats pel rpmconf"
 

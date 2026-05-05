@@ -39,6 +39,7 @@ msgid "file cannot be parsed: %s"
 msgstr "arquivo não pode ser analisado: %s"
 
 #: plugins/rpm_conf.py:71
+#, python-brace-format
 msgid "Adding '{}' to list of handling packages for rpmconf"
 msgstr "Adicionando '{}' para a lista de pacotes de manipulação para o rpmconf"
 

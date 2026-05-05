@@ -32,6 +32,7 @@ msgid "file cannot be parsed: %s"
 msgstr "dosya ayrıştırılamıyor: %s"
 
 #: plugins/rpm_conf.py:71
+#, python-brace-format
 msgid "Adding '{}' to list of handling packages for rpmconf"
 msgstr "rpmconf için paket işleme listesine '{}' ekleniyor"
 

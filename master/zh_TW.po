@@ -33,6 +33,7 @@ msgid "file cannot be parsed: %s"
 msgstr "檔案無法解析：%s"
 
 #: plugins/rpm_conf.py:71
+#, python-brace-format
 msgid "Adding '{}' to list of handling packages for rpmconf"
 msgstr "正在加入「{}」至 rpmconf 的處理軟體包列表"
 
