@@ -7,105 +7,110 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-15 09:11+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-05-07 02:59+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.fedoraproject.org/projects/dnf/dnf-"
+"plugins-extras/lo/>\n"
 "Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
-msgstr ""
+msgstr "ຕິດຕັ້ງແພັກເກດທີ່ລະບຸໄວ້ໃນໄຟລ໌ kickstart ໃນລະບົບຂອງທ່ານ"
 
 #: plugins/kickstart.py:62
 msgid "kickstart file"
-msgstr ""
+msgstr "ໄຟລ໌ kickstart"
 
 #: plugins/kickstart.py:80
 #, python-format
 msgid "file cannot be parsed: %s"
-msgstr ""
+msgstr "ບໍ່ສາມາດວິເຄາະໄຟລ໌ໄດ້: %s"
 
 #: plugins/rpm_conf.py:71
 #, python-brace-format
 msgid "Adding '{}' to list of handling packages for rpmconf"
-msgstr ""
+msgstr "ກຳລັງເພີ່ມ '{}' ເຂົ້າໃນລາຍການແພັກເກດທີ່ຈັດການສຳລັບ rpmconf"
 
 #: plugins/rpm_conf.py:77
 msgid ""
 "rpmconf plugin will not run in non-interactive mode without unattended mode"
 msgstr ""
+"ປັກອິນ rpmconf ຈະບໍ່ເຮັດວຽກໃນໂໝດແບບບໍ່ມີການໂຕ້ຕອບ ຫາກບໍ່ມີໂໝດແບບອັດຕະໂນມັດ (unattended "
+"mode)"
 
 #: plugins/rpm_conf.py:92
 msgid "ignoring sys.exit from rpmconf due to missing MERGE variable"
-msgstr ""
+msgstr "ກຳລັງລະເລີຍ sys.exit ຈາກ rpmconf ເນື່ອງຈາກບໍ່ມີຕົວປ່ຽນ MERGE"
 
 #: plugins/rpm_conf.py:96
 msgid "ignoring sys.exit from rpmconf due to missing file"
-msgstr ""
+msgstr "ກຳລັງລະເລີຍ sys.exit ຈາກ rpmconf ເນື່ອງຈາກບໍ່ມີໄຟລ໌"
 
 #: plugins/showvars.py:46
 msgid "show all active dnf variables"
-msgstr ""
+msgstr "ສະແດງຕົວປ່ຽນ dnf ທັງໝົດທີ່ກຳລັງເຮັດວຽກ"
 
 #: plugins/snapper.py:56
 #, python-format
 msgid "connect to snapperd failed: %s"
-msgstr ""
+msgstr "ການເຊື່ອມຕໍ່ຫາ snapperd ຫຼົ້ມເຫຼວ: %s"
 
 #: plugins/snapper.py:62
 msgid "creating pre_snapshot"
-msgstr ""
+msgstr "ກຳລັງສ້າງ pre_snapshot"
 
 #: plugins/snapper.py:69
 #, python-format
 msgid "created pre_snapshot %d"
-msgstr ""
+msgstr "ສ້າງ pre_snapshot %d ສຳເລັດແລ້ວ"
 
 #: plugins/snapper.py:73
 #, python-format
 msgid "creating pre_snapshot failed: %s"
-msgstr ""
+msgstr "ການສ້າງ pre_snapshot ຫຼົ້ມເຫຼວ: %s"
 
 #: plugins/snapper.py:82
 msgid "skipping post_snapshot because creation of pre_snapshot failed"
-msgstr ""
+msgstr "ກຳລັງຂ້າມ post_snapshot ເນື່ອງຈາກການສ້າງ pre_snapshot ຫຼົ້ມເຫຼວ"
 
 #: plugins/snapper.py:88
 msgid "creating post_snapshot"
-msgstr ""
+msgstr "ກຳລັງສ້າງ post_snapshot"
 
 #: plugins/snapper.py:94
 #, python-format
 msgid "created post_snapshot %d"
-msgstr ""
+msgstr "ສ້າງ post_snapshot %d ສຳເລັດແລ້ວ"
 
 #: plugins/snapper.py:98
 #, python-format
 msgid "creating post_snapshot failed: %s"
-msgstr ""
+msgstr "ການສ້າງ post_snapshot ຫຼົ້ມເຫຼວ: %s"
 
 #: plugins/torproxy.py:31
 msgid "Disabling torproxy plugin: cannot connect to the Tor network"
-msgstr ""
+msgstr "ກຳລັງປິດການໃຊ້ງານປັກອິນ torproxy: ບໍ່ສາມາດເຊື່ອມຕໍ່ຫາເຄືອຂ່າຍ Tor ໄດ້"
 
 #: plugins/tracer.py:69
 msgid "For more information run:"
-msgstr ""
+msgstr "ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ ໃຫ້ເອີ້ນໃຊ້ຄຳສັ່ງ:"
 
 #: plugins/tracer.py:96
 msgid "Call to Tracer API ended unexpectedly:"
-msgstr ""
+msgstr "ການເອີ້ນໃຊ້ Tracer API ສິ້ນສຸດລົງໂດຍບໍ່ຄາດຄິດ:"
 
 #: plugins/tracer.py:98
 msgid ""
 "Please visit https://github.com/FrostyX/tracer/issues and submit the issue. "
 "Thank you"
 msgstr ""
+"ກະລຸນາເຂົ້າໄປທີ່ https://github.com/FrostyX/tracer/issues ແລະ ສົ່ງບັນຫາທີ່ພົບ. ຂອບໃຈ"
 
 #: plugins/tracer.py:100
 msgid "We apologize for any inconvenience"
-msgstr ""
+msgstr "ພວກເຮົາຂໍອະໄພໃນຄວາມບໍ່ສະດວກມານະທີ່ນີ້ດ້ວຍ"
