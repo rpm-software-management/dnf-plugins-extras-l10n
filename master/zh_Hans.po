@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Languages add-on <noreply-addon-languages@weblate.org>, 2026.
 # 耗子 <haozi@loli.email>, 2026.
+# Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-15 09:11+0000\n"
-"PO-Revision-Date: 2026-04-02 23:59+0000\n"
-"Last-Translator: 耗子 <haozi@loli.email>\n"
+"PO-Revision-Date: 2026-06-20 10:10+0000\n"
+"Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
 "translate.fedoraproject.org/projects/dnf/dnf-plugins-extras/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -17,20 +18,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
-msgstr "在系统中安装 kickstart 文件中定义的软件包"
+msgstr ""
 
 #: plugins/kickstart.py:62
 msgid "kickstart file"
-msgstr "kickstart 文件"
+msgstr ""
 
 #: plugins/kickstart.py:80
 #, python-format
 msgid "file cannot be parsed: %s"
-msgstr "文件不能被解析： %s"
+msgstr ""
 
 #: plugins/rpm_conf.py:71
 #, python-brace-format
@@ -40,75 +41,75 @@ msgstr "正在添加 '{}' 至需要 rpmconf 处理的软件包列表"
 #: plugins/rpm_conf.py:77
 msgid ""
 "rpmconf plugin will not run in non-interactive mode without unattended mode"
-msgstr "如果没有无人值守模式，rpmconf 插件将无法在非交互模式下运行"
+msgstr ""
 
 #: plugins/rpm_conf.py:92
 msgid "ignoring sys.exit from rpmconf due to missing MERGE variable"
-msgstr "由于缺失 MERGE 变量， 忽略来自 rpmconf 的 sys.exit"
+msgstr ""
 
 #: plugins/rpm_conf.py:96
 msgid "ignoring sys.exit from rpmconf due to missing file"
-msgstr "由于缺失文件， 忽略来自 rpmconf 的 sys.exit"
+msgstr ""
 
 #: plugins/showvars.py:46
 msgid "show all active dnf variables"
-msgstr "显示所有已激活的 dnf 变量"
+msgstr ""
 
 #: plugins/snapper.py:56
 #, python-format
 msgid "connect to snapperd failed: %s"
-msgstr "连接到 snapperd 失败：%s"
+msgstr ""
 
 #: plugins/snapper.py:62
 msgid "creating pre_snapshot"
-msgstr "正在创建 pre_snapshot"
+msgstr ""
 
 #: plugins/snapper.py:69
 #, python-format
 msgid "created pre_snapshot %d"
-msgstr "已创建 pre_snapshot %d"
+msgstr ""
 
 #: plugins/snapper.py:73
 #, python-format
 msgid "creating pre_snapshot failed: %s"
-msgstr "创建 pre_snapshot 时出错：%s"
+msgstr ""
 
 #: plugins/snapper.py:82
 msgid "skipping post_snapshot because creation of pre_snapshot failed"
-msgstr "正在跳过 post_snapshot，因为 pre_snapshot 的创建失败"
+msgstr ""
 
 #: plugins/snapper.py:88
 msgid "creating post_snapshot"
-msgstr "正在创建 post_snapshot"
+msgstr ""
 
 #: plugins/snapper.py:94
 #, python-format
 msgid "created post_snapshot %d"
-msgstr "已创建 post_snapshot %d"
+msgstr ""
 
 #: plugins/snapper.py:98
 #, python-format
 msgid "creating post_snapshot failed: %s"
-msgstr "创建 post_snapshot 时出错：%s"
+msgstr ""
 
 #: plugins/torproxy.py:31
 msgid "Disabling torproxy plugin: cannot connect to the Tor network"
-msgstr "正在禁用 torproxy 插件：无法连接到Tor 网络"
+msgstr ""
 
 #: plugins/tracer.py:69
 msgid "For more information run:"
-msgstr "要获取更多信息，请运行："
+msgstr ""
 
 #: plugins/tracer.py:96
 msgid "Call to Tracer API ended unexpectedly:"
-msgstr "Tracer API 的调用非正常结束："
+msgstr ""
 
 #: plugins/tracer.py:98
 msgid ""
 "Please visit https://github.com/FrostyX/tracer/issues and submit the issue. "
 "Thank you"
-msgstr "请访问 https://github.com/FrostyX/tracer/issues 并提交此错误。谢谢"
+msgstr ""
 
 #: plugins/tracer.py:100
 msgid "We apologize for any inconvenience"
-msgstr "我们为给您带来的不便感到抱歉"
+msgstr ""
