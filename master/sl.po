@@ -2,20 +2,23 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Languages add-on <noreply-addon-languages@weblate.org>, 2026.
+# Martin Srebotnjak <miles@filmsi.net>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-15 09:11+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-08-03 18:18+0000\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"Language-Team: Slovenian <https://translate.fedoraproject.org/projects/dnf/"
+"dnf-plugins-extras/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 2026.8\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
@@ -28,7 +31,7 @@ msgstr ""
 #: plugins/kickstart.py:80
 #, python-format
 msgid "file cannot be parsed: %s"
-msgstr ""
+msgstr "datoteke ni možno razčleniti :%s"
 
 #: plugins/rpm_conf.py:71
 #, python-brace-format
@@ -50,7 +53,7 @@ msgstr ""
 
 #: plugins/showvars.py:46
 msgid "show all active dnf variables"
-msgstr ""
+msgstr "pokaži vse aktivne spremenljivke dnf"
 
 #: plugins/snapper.py:56
 #, python-format
@@ -59,12 +62,12 @@ msgstr ""
 
 #: plugins/snapper.py:62
 msgid "creating pre_snapshot"
-msgstr ""
+msgstr "ustvarjanje pre_snapshot"
 
 #: plugins/snapper.py:69
 #, python-format
 msgid "created pre_snapshot %d"
-msgstr ""
+msgstr "ustvarjeno: pre_snapshot %d"
 
 #: plugins/snapper.py:73
 #, python-format
