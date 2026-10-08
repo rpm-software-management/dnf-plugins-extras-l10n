@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Languages add-on <noreply-addon-languages@weblate.org>, 2026.
 # Martin Srebotnjak <miles@filmsi.net>, 2026.
+# Matjaž Jeran <matjaz.jeran@amis.net>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-15 09:11+0000\n"
-"PO-Revision-Date: 2026-08-03 18:18+0000\n"
-"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"PO-Revision-Date: 2026-10-08 09:02+0000\n"
+"Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <https://translate.fedoraproject.org/projects/dnf/"
 "dnf-plugins-extras/sl/>\n"
 "Language: sl\n"
@@ -18,15 +19,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 2026.8\n"
+"X-Generator: Weblate 2026.10\n"
 
 #: plugins/kickstart.py:57
 msgid "Install packages defined in a kickstart file on your system"
-msgstr ""
+msgstr "Namesti pakete določene v datoteki kickstart na vašem sistemu"
 
 #: plugins/kickstart.py:62
 msgid "kickstart file"
-msgstr ""
+msgstr "datoteka kickstart"
 
 #: plugins/kickstart.py:80
 #, python-format
@@ -36,20 +37,23 @@ msgstr "datoteke ni možno razčleniti :%s"
 #: plugins/rpm_conf.py:71
 #, python-brace-format
 msgid "Adding '{}' to list of handling packages for rpmconf"
-msgstr ""
+msgstr "Dodajanje '{}' na seznam paketov za obdelavo za rpmconf"
 
 #: plugins/rpm_conf.py:77
 msgid ""
 "rpmconf plugin will not run in non-interactive mode without unattended mode"
 msgstr ""
+"Vtičnik rpmconf se ne bo izvedel v neinteraktivnem načinu brez načina brez "
+"nadzora"
 
 #: plugins/rpm_conf.py:92
 msgid "ignoring sys.exit from rpmconf due to missing MERGE variable"
 msgstr ""
+"ignoriranje klica sys.exit iz rpmconf zaradi manjkajoče spremenljivke MERGE"
 
 #: plugins/rpm_conf.py:96
 msgid "ignoring sys.exit from rpmconf due to missing file"
-msgstr ""
+msgstr "ignoriranje sys.exit iz rpmconf zaradi manjkajoče datoteke"
 
 #: plugins/showvars.py:46
 msgid "show all active dnf variables"
@@ -58,7 +62,7 @@ msgstr "pokaži vse aktivne spremenljivke dnf"
 #: plugins/snapper.py:56
 #, python-format
 msgid "connect to snapperd failed: %s"
-msgstr ""
+msgstr "neuspela povezava na snapperd: %s"
 
 #: plugins/snapper.py:62
 msgid "creating pre_snapshot"
@@ -72,44 +76,46 @@ msgstr "ustvarjeno: pre_snapshot %d"
 #: plugins/snapper.py:73
 #, python-format
 msgid "creating pre_snapshot failed: %s"
-msgstr ""
+msgstr "neuspelo ustvarjanje pre_snapshot: %s"
 
 #: plugins/snapper.py:82
 msgid "skipping post_snapshot because creation of pre_snapshot failed"
-msgstr ""
+msgstr "preskakujem post_snapshot, ker izdelava pre_snapshot ni uspela"
 
 #: plugins/snapper.py:88
 msgid "creating post_snapshot"
-msgstr ""
+msgstr "ustvarjanje post_snapshot"
 
 #: plugins/snapper.py:94
 #, python-format
 msgid "created post_snapshot %d"
-msgstr ""
+msgstr "ustvarjen post_snapshot %d"
 
 #: plugins/snapper.py:98
 #, python-format
 msgid "creating post_snapshot failed: %s"
-msgstr ""
+msgstr "neuspelo ustvarjanje post_snapshot: %s"
 
 #: plugins/torproxy.py:31
 msgid "Disabling torproxy plugin: cannot connect to the Tor network"
-msgstr ""
+msgstr "Onemogočanje vtičnika torproxy: povezava z omrežjem Tor ni mogoča"
 
 #: plugins/tracer.py:69
 msgid "For more information run:"
-msgstr ""
+msgstr "Za več informacij zaženite:"
 
 #: plugins/tracer.py:96
 msgid "Call to Tracer API ended unexpectedly:"
-msgstr ""
+msgstr "Klic vmesnika Tracer API se je nepričakovano končal:"
 
 #: plugins/tracer.py:98
 msgid ""
 "Please visit https://github.com/FrostyX/tracer/issues and submit the issue. "
 "Thank you"
 msgstr ""
+"Obiščite https://github.com/FrostyX/tracer/issues in prijavite težavo. Hvala "
+"lepa"
 
 #: plugins/tracer.py:100
 msgid "We apologize for any inconvenience"
-msgstr ""
+msgstr "Opravičujemo se za morebitne nevšečnosti"
